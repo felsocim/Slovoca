@@ -1,6 +1,6 @@
 ﻿namespace Slovoca
 {
-    partial class Browser
+    partial class Interface
     {
         /// <summary>
         /// Required designer variable.

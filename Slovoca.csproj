@@ -45,11 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Browser.cs">
+    <Compile Include="Interface.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Browser.Designer.cs">
-      <DependentUpon>Browser.cs</DependentUpon>
+    <Compile Include="Interface.Designer.cs">
+      <DependentUpon>Interface.cs</DependentUpon>
     </Compile>
     <Compile Include="main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

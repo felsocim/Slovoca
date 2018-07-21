@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Slovoca
 {
-    public partial class Browser : Form
+    public partial class Interface : Form
     {
-        public Browser()
+        public Interface()
         {
             InitializeComponent();
         }
