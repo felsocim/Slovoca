@@ -53,6 +53,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainWindow.en.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -74,6 +81,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newFile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NewFile_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Exit_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ExportData_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OpenFolder_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Print_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Save_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SaveAs_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Copy_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Cut_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Paste_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Settings_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Add_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Edit_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FindResults_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Question_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Remove_color_16x_24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Web_16x_24.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
