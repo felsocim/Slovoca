@@ -46,7 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entry.cs" />
+    <Compile Include="EntrySet.cs" />
     <Compile Include="NotFoundException.cs" />
+    <Compile Include="Project.cs" />
     <Compile Include="Word.cs" />
     <Compile Include="WordComparer.cs" />
     <Compile Include="WordSet.cs" />

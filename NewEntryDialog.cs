@@ -12,9 +12,15 @@ namespace Slovoca
 {
   public partial class frmNewEntry : Form
   {
+    public delegate void handleAddConfirm(string meaning);
+    public event handleAddConfirm OnAddConfirm;
     public frmNewEntry()
     {
       InitializeComponent();
+    }
+
+    private void btnNewEntryAdd_Click(object sender, EventArgs e) {
+      this.OnAddConfirm(this.txbNewEntryEntry.Text);
     }
   }
 }

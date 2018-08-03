@@ -117,6 +117,7 @@
       resources.ApplyResources(this.btnNewEntryAdd, "btnNewEntryAdd");
       this.btnNewEntryAdd.Name = "btnNewEntryAdd";
       this.btnNewEntryAdd.UseVisualStyleBackColor = true;
+      this.btnNewEntryAdd.Click += new System.EventHandler(this.btnNewEntryAdd_Click);
       // 
       // frmNewEntry
       // 
