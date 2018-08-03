@@ -1,33 +1,16 @@
 ﻿namespace Slovoca {
   class Word {
-    private string meaning,
-      pronounciation;
-    
     public Word(string meaning, string pronounciation = null) {
-      this.meaning = meaning;
-      this.pronounciation = pronounciation;
+      this.Meaning = meaning;
+      this.Pronounciation = pronounciation;
     }
 
-    public string Meaning {
-      get {
-        return this.meaning;
-      }
-      set {
-        this.meaning = value;
-      }
-    }
+    public string Meaning { get; set; }
 
-    public string Pronounciation {
-      get {
-        return this.pronounciation;
-      }
-      set {
-        this.pronounciation = value;
-      }
-    }
+    public string Pronounciation { get; set; }
 
     public bool HasPronounciation() {
-      return this.pronounciation != null;
+      return this.Pronounciation != null;
     }
   }
 }
