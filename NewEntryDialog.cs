@@ -8,18 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Slovoca
-{
-  public partial class frmNewEntry : Form
-  {
+namespace Slovoca {
+  public partial class NewEntryDialog : Form {
     public delegate void handleAddConfirm(string meaning);
     public event handleAddConfirm OnAddConfirm;
-    public frmNewEntry()
-    {
+    public NewEntryDialog() {
       InitializeComponent();
     }
 
-    private void btnNewEntryAdd_Click(object sender, EventArgs e) {
+    private void TriggerNewEntryAdd(object sender, EventArgs e) {
       this.OnAddConfirm(this.txbNewEntryEntry.Text);
     }
   }

@@ -77,28 +77,25 @@
       this.tsbExit = new System.Windows.Forms.ToolStripButton();
       this.stsStatusBar = new System.Windows.Forms.StatusStrip();
       this.tslCurrentStatusOrInformation = new System.Windows.Forms.ToolStripStatusLabel();
-      this.spcWordlistsContainer = new System.Windows.Forms.SplitContainer();
       this.pnlForeignToNativePanel = new System.Windows.Forms.Panel();
       this.lblForeignToNativePanelTitle = new System.Windows.Forms.Label();
-      this.lsvForeignToNative = new System.Windows.Forms.ListView();
-      this.colFtNEntry = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-      this.colFtNTranslation = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-      this.colFtNNotes = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
       this.pnlNativeToForeignPanel = new System.Windows.Forms.Panel();
       this.lblNativeToForeignPanelTitle = new System.Windows.Forms.Label();
-      this.lsvNativeToForeign = new System.Windows.Forms.ListView();
-      this.colNtoFEntry = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-      this.colNtoFTranslation = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-      this.colNtoFNotes = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+      this.layMainWindow = new System.Windows.Forms.TableLayoutPanel();
+      this.lsbForeignToNative = new System.Windows.Forms.ListBox();
+      this.lsbNativeToForeign = new System.Windows.Forms.ListBox();
+      this.lblSelectedItemColumnTitle = new System.Windows.Forms.Label();
+      this.laySelectedItemColumn = new System.Windows.Forms.TableLayoutPanel();
+      this.lblSelectedItemWord = new System.Windows.Forms.Label();
+      this.lblSelectedItemNotes = new System.Windows.Forms.Label();
+      this.lsbSelectedItemTranslations = new System.Windows.Forms.ListBox();
       this.menuStrip1.SuspendLayout();
       this.tsToolbar.SuspendLayout();
       this.stsStatusBar.SuspendLayout();
-      ((System.ComponentModel.ISupportInitialize)(this.spcWordlistsContainer)).BeginInit();
-      this.spcWordlistsContainer.Panel1.SuspendLayout();
-      this.spcWordlistsContainer.Panel2.SuspendLayout();
-      this.spcWordlistsContainer.SuspendLayout();
       this.pnlForeignToNativePanel.SuspendLayout();
       this.pnlNativeToForeignPanel.SuspendLayout();
+      this.layMainWindow.SuspendLayout();
+      this.laySelectedItemColumn.SuspendLayout();
       this.SuspendLayout();
       // 
       // menuStrip1
@@ -421,21 +418,6 @@
       this.tslCurrentStatusOrInformation.Name = "tslCurrentStatusOrInformation";
       resources.ApplyResources(this.tslCurrentStatusOrInformation, "tslCurrentStatusOrInformation");
       // 
-      // spcWordlistsContainer
-      // 
-      resources.ApplyResources(this.spcWordlistsContainer, "spcWordlistsContainer");
-      this.spcWordlistsContainer.Name = "spcWordlistsContainer";
-      // 
-      // spcWordlistsContainer.Panel1
-      // 
-      this.spcWordlistsContainer.Panel1.Controls.Add(this.pnlForeignToNativePanel);
-      this.spcWordlistsContainer.Panel1.Controls.Add(this.lsvForeignToNative);
-      // 
-      // spcWordlistsContainer.Panel2
-      // 
-      this.spcWordlistsContainer.Panel2.Controls.Add(this.pnlNativeToForeignPanel);
-      this.spcWordlistsContainer.Panel2.Controls.Add(this.lsvNativeToForeign);
-      // 
       // pnlForeignToNativePanel
       // 
       resources.ApplyResources(this.pnlForeignToNativePanel, "pnlForeignToNativePanel");
@@ -448,33 +430,6 @@
       // 
       resources.ApplyResources(this.lblForeignToNativePanelTitle, "lblForeignToNativePanelTitle");
       this.lblForeignToNativePanelTitle.Name = "lblForeignToNativePanelTitle";
-      // 
-      // lsvForeignToNative
-      // 
-      resources.ApplyResources(this.lsvForeignToNative, "lsvForeignToNative");
-      this.lsvForeignToNative.CheckBoxes = true;
-      this.lsvForeignToNative.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.colFtNEntry,
-            this.colFtNTranslation,
-            this.colFtNNotes});
-      this.lsvForeignToNative.GridLines = true;
-      this.lsvForeignToNative.MultiSelect = false;
-      this.lsvForeignToNative.Name = "lsvForeignToNative";
-      this.lsvForeignToNative.ShowGroups = false;
-      this.lsvForeignToNative.UseCompatibleStateImageBehavior = false;
-      this.lsvForeignToNative.View = System.Windows.Forms.View.Details;
-      // 
-      // colFtNEntry
-      // 
-      resources.ApplyResources(this.colFtNEntry, "colFtNEntry");
-      // 
-      // colFtNTranslation
-      // 
-      resources.ApplyResources(this.colFtNTranslation, "colFtNTranslation");
-      // 
-      // colFtNNotes
-      // 
-      resources.ApplyResources(this.colFtNNotes, "colFtNNotes");
       // 
       // pnlNativeToForeignPanel
       // 
@@ -489,38 +444,63 @@
       resources.ApplyResources(this.lblNativeToForeignPanelTitle, "lblNativeToForeignPanelTitle");
       this.lblNativeToForeignPanelTitle.Name = "lblNativeToForeignPanelTitle";
       // 
-      // lsvNativeToForeign
+      // layMainWindow
       // 
-      resources.ApplyResources(this.lsvNativeToForeign, "lsvNativeToForeign");
-      this.lsvNativeToForeign.CheckBoxes = true;
-      this.lsvNativeToForeign.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.colNtoFEntry,
-            this.colNtoFTranslation,
-            this.colNtoFNotes});
-      this.lsvNativeToForeign.GridLines = true;
-      this.lsvNativeToForeign.MultiSelect = false;
-      this.lsvNativeToForeign.Name = "lsvNativeToForeign";
-      this.lsvNativeToForeign.ShowGroups = false;
-      this.lsvNativeToForeign.UseCompatibleStateImageBehavior = false;
-      this.lsvNativeToForeign.View = System.Windows.Forms.View.Details;
+      resources.ApplyResources(this.layMainWindow, "layMainWindow");
+      this.layMainWindow.Controls.Add(this.pnlNativeToForeignPanel, 2, 0);
+      this.layMainWindow.Controls.Add(this.pnlForeignToNativePanel, 0, 0);
+      this.layMainWindow.Controls.Add(this.lsbForeignToNative, 0, 1);
+      this.layMainWindow.Controls.Add(this.lsbNativeToForeign, 2, 1);
+      this.layMainWindow.Controls.Add(this.lblSelectedItemColumnTitle, 1, 0);
+      this.layMainWindow.Controls.Add(this.laySelectedItemColumn, 1, 1);
+      this.layMainWindow.Name = "layMainWindow";
       // 
-      // colNtoFEntry
+      // lsbForeignToNative
       // 
-      resources.ApplyResources(this.colNtoFEntry, "colNtoFEntry");
+      resources.ApplyResources(this.lsbForeignToNative, "lsbForeignToNative");
+      this.lsbForeignToNative.FormattingEnabled = true;
+      this.lsbForeignToNative.Name = "lsbForeignToNative";
       // 
-      // colNtoFTranslation
+      // lsbNativeToForeign
       // 
-      resources.ApplyResources(this.colNtoFTranslation, "colNtoFTranslation");
+      resources.ApplyResources(this.lsbNativeToForeign, "lsbNativeToForeign");
+      this.lsbNativeToForeign.FormattingEnabled = true;
+      this.lsbNativeToForeign.Name = "lsbNativeToForeign";
       // 
-      // colNtoFNotes
+      // lblSelectedItemColumnTitle
       // 
-      resources.ApplyResources(this.colNtoFNotes, "colNtoFNotes");
+      resources.ApplyResources(this.lblSelectedItemColumnTitle, "lblSelectedItemColumnTitle");
+      this.lblSelectedItemColumnTitle.Name = "lblSelectedItemColumnTitle";
+      // 
+      // laySelectedItemColumn
+      // 
+      resources.ApplyResources(this.laySelectedItemColumn, "laySelectedItemColumn");
+      this.laySelectedItemColumn.Controls.Add(this.lblSelectedItemWord, 0, 0);
+      this.laySelectedItemColumn.Controls.Add(this.lblSelectedItemNotes, 0, 2);
+      this.laySelectedItemColumn.Controls.Add(this.lsbSelectedItemTranslations, 0, 1);
+      this.laySelectedItemColumn.Name = "laySelectedItemColumn";
+      // 
+      // lblSelectedItemWord
+      // 
+      resources.ApplyResources(this.lblSelectedItemWord, "lblSelectedItemWord");
+      this.lblSelectedItemWord.Name = "lblSelectedItemWord";
+      // 
+      // lblSelectedItemNotes
+      // 
+      resources.ApplyResources(this.lblSelectedItemNotes, "lblSelectedItemNotes");
+      this.lblSelectedItemNotes.Name = "lblSelectedItemNotes";
+      // 
+      // lsbSelectedItemTranslations
+      // 
+      resources.ApplyResources(this.lsbSelectedItemTranslations, "lsbSelectedItemTranslations");
+      this.lsbSelectedItemTranslations.FormattingEnabled = true;
+      this.lsbSelectedItemTranslations.Name = "lsbSelectedItemTranslations";
       // 
       // MainWindow
       // 
       resources.ApplyResources(this, "$this");
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.Controls.Add(this.spcWordlistsContainer);
+      this.Controls.Add(this.layMainWindow);
       this.Controls.Add(this.stsStatusBar);
       this.Controls.Add(this.tsToolbar);
       this.Controls.Add(this.menuStrip1);
@@ -532,12 +512,12 @@
       this.tsToolbar.PerformLayout();
       this.stsStatusBar.ResumeLayout(false);
       this.stsStatusBar.PerformLayout();
-      this.spcWordlistsContainer.Panel1.ResumeLayout(false);
-      this.spcWordlistsContainer.Panel2.ResumeLayout(false);
-      ((System.ComponentModel.ISupportInitialize)(this.spcWordlistsContainer)).EndInit();
-      this.spcWordlistsContainer.ResumeLayout(false);
       this.pnlForeignToNativePanel.ResumeLayout(false);
       this.pnlNativeToForeignPanel.ResumeLayout(false);
+      this.layMainWindow.ResumeLayout(false);
+      this.layMainWindow.PerformLayout();
+      this.laySelectedItemColumn.ResumeLayout(false);
+      this.laySelectedItemColumn.PerformLayout();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -592,20 +572,19 @@
     private System.Windows.Forms.ToolStripButton tsbHelp;
     private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
     private System.Windows.Forms.StatusStrip stsStatusBar;
-    private System.Windows.Forms.SplitContainer spcWordlistsContainer;
     private System.Windows.Forms.Label lblForeignToNativePanelTitle;
     private System.Windows.Forms.Panel pnlForeignToNativePanel;
-    private System.Windows.Forms.ListView lsvForeignToNative;
-    private System.Windows.Forms.ListView lsvNativeToForeign;
     private System.Windows.Forms.Panel pnlNativeToForeignPanel;
     private System.Windows.Forms.Label lblNativeToForeignPanelTitle;
-    private System.Windows.Forms.ColumnHeader colFtNEntry;
-    private System.Windows.Forms.ColumnHeader colFtNTranslation;
-    private System.Windows.Forms.ColumnHeader colFtNNotes;
-    private System.Windows.Forms.ColumnHeader colNtoFEntry;
-    private System.Windows.Forms.ColumnHeader colNtoFTranslation;
-    private System.Windows.Forms.ColumnHeader colNtoFNotes;
     private System.Windows.Forms.ToolStripStatusLabel tslCurrentStatusOrInformation;
+    private System.Windows.Forms.TableLayoutPanel layMainWindow;
+    private System.Windows.Forms.ListBox lsbForeignToNative;
+    private System.Windows.Forms.ListBox lsbNativeToForeign;
+    private System.Windows.Forms.Label lblSelectedItemColumnTitle;
+    private System.Windows.Forms.TableLayoutPanel laySelectedItemColumn;
+    private System.Windows.Forms.Label lblSelectedItemWord;
+    private System.Windows.Forms.Label lblSelectedItemNotes;
+    private System.Windows.Forms.ListBox lsbSelectedItemTranslations;
   }
 }
 

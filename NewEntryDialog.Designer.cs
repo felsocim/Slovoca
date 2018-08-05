@@ -1,6 +1,6 @@
 ﻿namespace Slovoca
 {
-  partial class frmNewEntry
+  partial class NewEntryDialog
   {
     /// <summary>
     /// Required designer variable.
@@ -28,7 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
-      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNewEntry));
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewEntryDialog));
       this.lblNewEntryEntry = new System.Windows.Forms.Label();
       this.txbNewEntryEntry = new System.Windows.Forms.TextBox();
       this.lblNewEntryTranslations = new System.Windows.Forms.Label();
@@ -117,15 +117,15 @@
       resources.ApplyResources(this.btnNewEntryAdd, "btnNewEntryAdd");
       this.btnNewEntryAdd.Name = "btnNewEntryAdd";
       this.btnNewEntryAdd.UseVisualStyleBackColor = true;
-      this.btnNewEntryAdd.Click += new System.EventHandler(this.btnNewEntryAdd_Click);
+      this.btnNewEntryAdd.Click += new System.EventHandler(this.TriggerNewEntryAdd);
       // 
-      // frmNewEntry
+      // NewEntryDialog
       // 
       resources.ApplyResources(this, "$this");
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ControlBox = false;
       this.Controls.Add(this.layNewEntryDialogLayout);
-      this.Name = "frmNewEntry";
+      this.Name = "NewEntryDialog";
       this.layNewEntryDialogLayout.ResumeLayout(false);
       this.layNewEntryDialogLayout.PerformLayout();
       this.ResumeLayout(false);
