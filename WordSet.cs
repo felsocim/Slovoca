@@ -2,12 +2,12 @@
 using System.Globalization;
 
 namespace Slovoca {
-  class WordSet {
+  public class WordSet {
     public WordSet(CultureInfo locale) {
-      this.WholeVocabulary = new Dictionary<string, Word>(new WordComparer(locale));
+      this.WholeVocabulary = new SortedDictionary<string, Word>(new WordComparer(locale));
     }
 
-    public Dictionary<string, Word> WholeVocabulary { get; }
+    public SortedDictionary<string, Word> WholeVocabulary { get; }
 
     public void AddWord(Word word) {
       this.WholeVocabulary.Add(word.Meaning, word);

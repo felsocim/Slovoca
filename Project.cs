@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 using System.IO;
 
 namespace Slovoca {
-  class Project {
+  public class Project {
     public Project(string location, CultureInfo native, CultureInfo foreign) {
       this.Location = location;
       this.NativeEntries = new EntrySet(native, true);

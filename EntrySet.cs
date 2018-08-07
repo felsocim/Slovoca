@@ -2,18 +2,18 @@
 using System.Globalization;
 
 namespace Slovoca {
-  class EntrySet {
+  public class EntrySet {
     public EntrySet(CultureInfo language, bool isNative) {
       this.Language = language;
       this.IsNative = isNative;
-      this.AllEntries = new Dictionary<string, Entry>(new WordComparer(language));
+      this.AllEntries = new SortedDictionary<string, Entry>(new WordComparer(language));
     }
 
     public CultureInfo Language { get; }
 
     public bool IsNative { get; set; }
 
-    public Dictionary<string, Entry> AllEntries { get; }
+    public SortedDictionary<string, Entry> AllEntries { get; }
 
     public void AddEntry(Entry entry) {
       this.AllEntries.Add(entry.Meaning.Meaning, entry);

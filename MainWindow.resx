@@ -121,37 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1028, 24</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;File</value>
-  </data>
   <data name="tmiNew.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -243,11 +212,11 @@
   <data name="tmiExit.Text" xml:space="preserve">
     <value>E&amp;xit</value>
   </data>
-  <data name="tmiEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
   </data>
-  <data name="tmiEdit.Text" xml:space="preserve">
-    <value>E&amp;dit</value>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
   </data>
   <data name="tmiCut.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -297,11 +266,11 @@
   <data name="tmiSettings.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="tmiEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
+  <data name="tmiEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
   </data>
-  <data name="tmiEntry.Text" xml:space="preserve">
-    <value>&amp;Entry</value>
+  <data name="tmiEdit.Text" xml:space="preserve">
+    <value>E&amp;dit</value>
   </data>
   <data name="tmiAddEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -354,11 +323,11 @@
   <data name="tmiFindEntry.Text" xml:space="preserve">
     <value>Find</value>
   </data>
-  <data name="tmiHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+  <data name="tmiEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
   </data>
-  <data name="tmiHelp.Text" xml:space="preserve">
-    <value>&amp;Help</value>
+  <data name="tmiEntry.Text" xml:space="preserve">
+    <value>&amp;Entry</value>
   </data>
   <data name="tmiViewHelp.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -396,30 +365,40 @@
   <data name="tmiAbout.Text" xml:space="preserve">
     <value>About Slovoca</value>
   </data>
+  <data name="tmiHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="tmiHelp.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <metadata name="tsToolbar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
   </metadata>
-  <data name="tsToolbar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="tsToolbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1028, 25</value>
-  </data>
-  <data name="tsToolbar.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tsToolbar.Name" xml:space="preserve">
-    <value>tsToolbar</value>
-  </data>
-  <data name="&gt;&gt;tsToolbar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsToolbar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tsToolbar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="tsbNew.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -531,9 +510,36 @@
   <data name="tsbExit.Text" xml:space="preserve">
     <value>E&amp;xit</value>
   </data>
+  <data name="tsToolbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="tsToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 25</value>
+  </data>
+  <data name="tsToolbar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tsToolbar.Name" xml:space="preserve">
+    <value>tsToolbar</value>
+  </data>
+  <data name="&gt;&gt;tsToolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsToolbar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tsToolbar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <metadata name="stsStatusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>235, 17</value>
   </metadata>
+  <data name="tslCurrentStatusOrInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="tslCurrentStatusOrInformation.Text" xml:space="preserve">
+    <value>Ready</value>
+  </data>
   <data name="stsStatusBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 692</value>
   </data>
@@ -555,50 +561,8 @@
   <data name="&gt;&gt;stsStatusBar.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="tslCurrentStatusOrInformation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
-  </data>
-  <data name="tslCurrentStatusOrInformation.Text" xml:space="preserve">
-    <value>Ready</value>
-  </data>
   <data name="pnlForeignToNativePanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;lblForeignToNativePanelTitle.Name" xml:space="preserve">
-    <value>lblForeignToNativePanelTitle</value>
-  </data>
-  <data name="&gt;&gt;lblForeignToNativePanelTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblForeignToNativePanelTitle.Parent" xml:space="preserve">
-    <value>pnlForeignToNativePanel</value>
-  </data>
-  <data name="&gt;&gt;lblForeignToNativePanelTitle.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pnlForeignToNativePanel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="pnlForeignToNativePanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="pnlForeignToNativePanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 24</value>
-  </data>
-  <data name="pnlForeignToNativePanel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pnlForeignToNativePanel.Name" xml:space="preserve">
-    <value>pnlForeignToNativePanel</value>
-  </data>
-  <data name="&gt;&gt;pnlForeignToNativePanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlForeignToNativePanel.Parent" xml:space="preserve">
-    <value>layMainWindow</value>
-  </data>
-  <data name="&gt;&gt;pnlForeignToNativePanel.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="lblForeignToNativePanelTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -636,44 +600,32 @@
   <data name="&gt;&gt;lblForeignToNativePanelTitle.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="pnlNativeToForeignPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;lblNativeToForeignPanelTitle.Name" xml:space="preserve">
-    <value>lblNativeToForeignPanelTitle</value>
-  </data>
-  <data name="&gt;&gt;lblNativeToForeignPanelTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblNativeToForeignPanelTitle.Parent" xml:space="preserve">
-    <value>pnlNativeToForeignPanel</value>
-  </data>
-  <data name="&gt;&gt;lblNativeToForeignPanelTitle.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pnlNativeToForeignPanel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="pnlForeignToNativePanel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
-  <data name="pnlNativeToForeignPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>722, 3</value>
+  <data name="pnlForeignToNativePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
-  <data name="pnlNativeToForeignPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>303, 24</value>
+  <data name="pnlForeignToNativePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 24</value>
   </data>
-  <data name="pnlNativeToForeignPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="pnlForeignToNativePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;pnlNativeToForeignPanel.Name" xml:space="preserve">
-    <value>pnlNativeToForeignPanel</value>
+  <data name="&gt;&gt;pnlForeignToNativePanel.Name" xml:space="preserve">
+    <value>pnlForeignToNativePanel</value>
   </data>
-  <data name="&gt;&gt;pnlNativeToForeignPanel.Type" xml:space="preserve">
+  <data name="&gt;&gt;pnlForeignToNativePanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlNativeToForeignPanel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pnlForeignToNativePanel.Parent" xml:space="preserve">
     <value>layMainWindow</value>
   </data>
-  <data name="&gt;&gt;pnlNativeToForeignPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;pnlForeignToNativePanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlNativeToForeignPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="lblNativeToForeignPanelTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -709,6 +661,30 @@
     <value>pnlNativeToForeignPanel</value>
   </data>
   <data name="&gt;&gt;lblNativeToForeignPanelTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlNativeToForeignPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="pnlNativeToForeignPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 3</value>
+  </data>
+  <data name="pnlNativeToForeignPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 24</value>
+  </data>
+  <data name="pnlNativeToForeignPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlNativeToForeignPanel.Name" xml:space="preserve">
+    <value>pnlNativeToForeignPanel</value>
+  </data>
+  <data name="&gt;&gt;pnlNativeToForeignPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlNativeToForeignPanel.Parent" xml:space="preserve">
+    <value>layMainWindow</value>
+  </data>
+  <data name="&gt;&gt;pnlNativeToForeignPanel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="layMainWindow.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">

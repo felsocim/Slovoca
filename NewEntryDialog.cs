@@ -1,23 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace Slovoca {
   public partial class NewEntryDialog : Form {
-    public delegate void handleAddConfirm(string meaning);
+    public delegate void handleAddConfirm(Entry meaning);
     public event handleAddConfirm OnAddConfirm;
     public NewEntryDialog() {
       InitializeComponent();
     }
 
+    public CultureInfo ForeignLanguage { get; set; }
+
     private void TriggerNewEntryAdd(object sender, EventArgs e) {
-      this.OnAddConfirm(this.txbNewEntryEntry.Text);
+      this.OnAddConfirm(new Entry(this.txbNewEntryEntry.Lines[0], this.txbNewEntryTranslations.Lines, this.txbNewEntryPronounciations.Lines, this.txbNewEntryNotes.Lines, this.ForeignLanguage));
+      this.Close();
     }
   }
 }

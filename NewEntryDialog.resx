@@ -128,24 +128,17 @@
   <data name="layNewEntryDialogLayout.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="txbNewEntryNotes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="&gt;&gt;txbNewEntryPronounciations.Name" xml:space="preserve">
+    <value>txbNewEntryPronounciations</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="txbNewEntryNotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 182</value>
+  <data name="&gt;&gt;txbNewEntryPronounciations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txbNewEntryNotes.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;txbNewEntryPronounciations.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
   </data>
-  <data name="txbNewEntryNotes.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="txbNewEntryNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>685, 108</value>
-  </data>
-  <data name="txbNewEntryNotes.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;txbNewEntryPronounciations.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txbNewEntryNotes.Name" xml:space="preserve">
     <value>txbNewEntryNotes</value>
@@ -157,6 +150,142 @@
     <value>layNewEntryDialogLayout</value>
   </data>
   <data name="&gt;&gt;txbNewEntryNotes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txbNewEntryEntry.Name" xml:space="preserve">
+    <value>txbNewEntryEntry</value>
+  </data>
+  <data name="&gt;&gt;txbNewEntryEntry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbNewEntryEntry.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;txbNewEntryEntry.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryNotes.Name" xml:space="preserve">
+    <value>lblNewEntryNotes</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryNotes.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryNotes.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryTranslations.Name" xml:space="preserve">
+    <value>lblNewEntryTranslations</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryTranslations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryTranslations.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryTranslations.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txbNewEntryTranslations.Name" xml:space="preserve">
+    <value>txbNewEntryTranslations</value>
+  </data>
+  <data name="&gt;&gt;txbNewEntryTranslations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbNewEntryTranslations.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;txbNewEntryTranslations.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnNewEntryCancel.Name" xml:space="preserve">
+    <value>btnNewEntryCancel</value>
+  </data>
+  <data name="&gt;&gt;btnNewEntryCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNewEntryCancel.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;btnNewEntryCancel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnNewEntryAdd.Name" xml:space="preserve">
+    <value>btnNewEntryAdd</value>
+  </data>
+  <data name="&gt;&gt;btnNewEntryAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNewEntryAdd.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;btnNewEntryAdd.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryPronounciations.Name" xml:space="preserve">
+    <value>lblNewEntryPronounciations</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryPronounciations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryPronounciations.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryPronounciations.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="layNewEntryDialogLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="layNewEntryDialogLayout.RowCount" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="layNewEntryDialogLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 345</value>
+  </data>
+  <data name="layNewEntryDialogLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;layNewEntryDialogLayout.Name" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;layNewEntryDialogLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layNewEntryDialogLayout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layNewEntryDialogLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layNewEntryDialogLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txbNewEntryPronounciations" Row="5" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="lblNewEntryEntry" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="txbNewEntryNotes" Row="7" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="txbNewEntryEntry" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="lblNewEntryNotes" Row="6" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="lblNewEntryTranslations" Row="2" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="txbNewEntryTranslations" Row="3" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="btnNewEntryCancel" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnNewEntryAdd" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblNewEntryPronounciations" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,Percent,33,33333,AutoSize,0,Percent,33,33333,AutoSize,0,Percent,33,33333,AutoSize,0,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lblNewEntryEntry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblNewEntryEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblNewEntryEntry.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblNewEntryEntry.Text" xml:space="preserve">
+    <value>Entry:</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryEntry.Name" xml:space="preserve">
+    <value>lblNewEntryEntry</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryEntry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryEntry.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryEntry.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="txbNewEntryEntry.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -181,33 +310,6 @@
     <value>layNewEntryDialogLayout</value>
   </data>
   <data name="&gt;&gt;txbNewEntryEntry.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lblNewEntryNotes.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblNewEntryNotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 166</value>
-  </data>
-  <data name="lblNewEntryNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 13</value>
-  </data>
-  <data name="lblNewEntryNotes.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblNewEntryNotes.Text" xml:space="preserve">
-    <value>Notes:</value>
-  </data>
-  <data name="&gt;&gt;lblNewEntryNotes.Name" xml:space="preserve">
-    <value>lblNewEntryNotes</value>
-  </data>
-  <data name="&gt;&gt;lblNewEntryNotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblNewEntryNotes.Parent" xml:space="preserve">
-    <value>layNewEntryDialogLayout</value>
-  </data>
-  <data name="&gt;&gt;lblNewEntryNotes.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="lblNewEntryTranslations.AutoSize" type="System.Boolean, mscorlib">
@@ -235,7 +337,7 @@
     <value>layNewEntryDialogLayout</value>
   </data>
   <data name="&gt;&gt;lblNewEntryTranslations.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="txbNewEntryTranslations.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -250,7 +352,7 @@
     <value>Vertical</value>
   </data>
   <data name="txbNewEntryTranslations.Size" type="System.Drawing.Size, System.Drawing">
-    <value>685, 108</value>
+    <value>685, 73</value>
   </data>
   <data name="txbNewEntryTranslations.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -265,64 +367,97 @@
     <value>layNewEntryDialogLayout</value>
   </data>
   <data name="&gt;&gt;txbNewEntryTranslations.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNewEntryNotes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNewEntryNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 223</value>
+  </data>
+  <data name="lblNewEntryNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="lblNewEntryNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblNewEntryNotes.Text" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryNotes.Name" xml:space="preserve">
+    <value>lblNewEntryNotes</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryNotes.Parent" xml:space="preserve">
+    <value>layNewEntryDialogLayout</value>
+  </data>
+  <data name="&gt;&gt;lblNewEntryNotes.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txbNewEntryNotes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txbNewEntryNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 239</value>
+  </data>
+  <data name="txbNewEntryNotes.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txbNewEntryNotes.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txbNewEntryNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>685, 73</value>
+  </data>
+  <data name="txbNewEntryNotes.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="chkNewEntryAddToFtoN.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;txbNewEntryNotes.Name" xml:space="preserve">
+    <value>txbNewEntryNotes</value>
   </data>
-  <data name="chkNewEntryAddToFtoN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 296</value>
+  <data name="&gt;&gt;txbNewEntryNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="chkNewEntryAddToFtoN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 17</value>
-  </data>
-  <data name="chkNewEntryAddToFtoN.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="chkNewEntryAddToFtoN.Text" xml:space="preserve">
-    <value>Add to Foreign-Native vocabulary</value>
-  </data>
-  <data name="&gt;&gt;chkNewEntryAddToFtoN.Name" xml:space="preserve">
-    <value>chkNewEntryAddToFtoN</value>
-  </data>
-  <data name="&gt;&gt;chkNewEntryAddToFtoN.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkNewEntryAddToFtoN.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txbNewEntryNotes.Parent" xml:space="preserve">
     <value>layNewEntryDialogLayout</value>
   </data>
-  <data name="&gt;&gt;chkNewEntryAddToFtoN.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;txbNewEntryNotes.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="chkNewEntryAddToNtoF.AutoSize" type="System.Boolean, mscorlib">
+  <data name="txbNewEntryPronounciations.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txbNewEntryPronounciations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 147</value>
+  </data>
+  <data name="txbNewEntryPronounciations.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="chkNewEntryAddToNtoF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>348, 296</value>
+  <data name="txbNewEntryPronounciations.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
   </data>
-  <data name="chkNewEntryAddToNtoF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 17</value>
+  <data name="txbNewEntryPronounciations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>685, 73</value>
   </data>
-  <data name="chkNewEntryAddToNtoF.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="txbNewEntryPronounciations.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="chkNewEntryAddToNtoF.Text" xml:space="preserve">
-    <value>Add to Native-Foreign vocabulary</value>
+  <data name="&gt;&gt;txbNewEntryPronounciations.Name" xml:space="preserve">
+    <value>txbNewEntryPronounciations</value>
   </data>
-  <data name="&gt;&gt;chkNewEntryAddToNtoF.Name" xml:space="preserve">
-    <value>chkNewEntryAddToNtoF</value>
+  <data name="&gt;&gt;txbNewEntryPronounciations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;chkNewEntryAddToNtoF.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkNewEntryAddToNtoF.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txbNewEntryPronounciations.Parent" xml:space="preserve">
     <value>layNewEntryDialogLayout</value>
   </data>
-  <data name="&gt;&gt;chkNewEntryAddToNtoF.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;txbNewEntryPronounciations.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnNewEntryCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 319</value>
+    <value>3, 318</value>
   </data>
   <data name="btnNewEntryCancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -343,7 +478,7 @@
     <value>layNewEntryDialogLayout</value>
   </data>
   <data name="&gt;&gt;btnNewEntryCancel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="btnNewEntryAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -352,7 +487,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnNewEntryAdd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>613, 319</value>
+    <value>613, 318</value>
   </data>
   <data name="btnNewEntryAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -373,58 +508,34 @@
     <value>layNewEntryDialogLayout</value>
   </data>
   <data name="&gt;&gt;btnNewEntryAdd.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="layNewEntryDialogLayout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 10</value>
-  </data>
-  <data name="layNewEntryDialogLayout.RowCount" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="layNewEntryDialogLayout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>691, 345</value>
+  <data name="lblNewEntryPronounciations.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="layNewEntryDialogLayout.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="lblNewEntryPronounciations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 131</value>
   </data>
-  <data name="&gt;&gt;layNewEntryDialogLayout.Name" xml:space="preserve">
-    <value>layNewEntryDialogLayout</value>
+  <data name="lblNewEntryPronounciations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
   </data>
-  <data name="&gt;&gt;layNewEntryDialogLayout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblNewEntryPronounciations.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;layNewEntryDialogLayout.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="lblNewEntryPronounciations.Text" xml:space="preserve">
+    <value>Pronounciation(s):</value>
   </data>
-  <data name="&gt;&gt;layNewEntryDialogLayout.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;lblNewEntryPronounciations.Name" xml:space="preserve">
+    <value>lblNewEntryPronounciations</value>
   </data>
-  <data name="layNewEntryDialogLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblNewEntryEntry" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="txbNewEntryNotes" Row="5" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="txbNewEntryEntry" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="lblNewEntryNotes" Row="4" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="lblNewEntryTranslations" Row="2" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="txbNewEntryTranslations" Row="3" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="chkNewEntryAddToFtoN" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="chkNewEntryAddToNtoF" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnNewEntryCancel" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnNewEntryAdd" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,Percent,50,AutoSize,0,Percent,50,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="lblNewEntryEntry.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="lblNewEntryEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 13</value>
-  </data>
-  <data name="lblNewEntryEntry.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblNewEntryEntry.Text" xml:space="preserve">
-    <value>Entry:</value>
-  </data>
-  <data name="&gt;&gt;lblNewEntryEntry.Name" xml:space="preserve">
-    <value>lblNewEntryEntry</value>
-  </data>
-  <data name="&gt;&gt;lblNewEntryEntry.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblNewEntryPronounciations.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblNewEntryEntry.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblNewEntryPronounciations.Parent" xml:space="preserve">
     <value>layNewEntryDialogLayout</value>
   </data>
-  <data name="&gt;&gt;lblNewEntryEntry.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;lblNewEntryPronounciations.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -2360,7 +2471,7 @@
     <value>New entry</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frmNewEntry</value>
+    <value>NewEntryDialog</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

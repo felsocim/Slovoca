@@ -1,5 +1,5 @@
 ﻿namespace Slovoca {
-  class Word {
+  public class Word {
     public Word(string meaning, string pronounciation = null) {
       this.Meaning = meaning;
       this.Pronounciation = pronounciation;
