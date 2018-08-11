@@ -10,7 +10,11 @@ namespace Slovoca {
     static void Main() {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new MainWindow());
+
+      MainWindow window = new MainWindow();
+      window.ToggleControls(false);
+
+      Application.Run(window);
     }
   }
 }

@@ -30,7 +30,7 @@
     {
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
       this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-      this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiFile = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiNew = new System.Windows.Forms.ToolStripMenuItem();
       this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
       this.tmiOpen = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,12 +65,12 @@
       this.tsbSave = new System.Windows.Forms.ToolStripButton();
       this.tsbSaveAs = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-      this.tsbAdd = new System.Windows.Forms.ToolStripButton();
-      this.tsbEdit = new System.Windows.Forms.ToolStripButton();
-      this.tsbRemove = new System.Windows.Forms.ToolStripButton();
+      this.tsbAddEntry = new System.Windows.Forms.ToolStripButton();
+      this.tsbEditEntry = new System.Windows.Forms.ToolStripButton();
+      this.tsbRemoveEntry = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
       this.tstSearchQuery = new System.Windows.Forms.ToolStripTextBox();
-      this.tsbFind = new System.Windows.Forms.ToolStripButton();
+      this.tsbFindEntry = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
       this.tsbHelp = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
@@ -101,16 +101,16 @@
       // menuStrip1
       // 
       this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
+            this.tmiFile,
             this.tmiEdit,
             this.tmiEntry,
             this.tmiHelp});
       resources.ApplyResources(this.menuStrip1, "menuStrip1");
       this.menuStrip1.Name = "menuStrip1";
       // 
-      // fileToolStripMenuItem
+      // tmiFile
       // 
-      this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+      this.tmiFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tmiNew,
             this.toolStripMenuItem2,
             this.tmiOpen,
@@ -121,8 +121,8 @@
             this.tmiPrint,
             this.toolStripMenuItem4,
             this.tmiExit});
-      this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-      resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
+      this.tmiFile.Name = "tmiFile";
+      resources.ApplyResources(this.tmiFile, "tmiFile");
       // 
       // tmiNew
       // 
@@ -302,12 +302,12 @@
             this.tsbSave,
             this.tsbSaveAs,
             this.toolStripSeparator2,
-            this.tsbAdd,
-            this.tsbEdit,
-            this.tsbRemove,
+            this.tsbAddEntry,
+            this.tsbEditEntry,
+            this.tsbRemoveEntry,
             this.toolStripSeparator5,
             this.tstSearchQuery,
-            this.tsbFind,
+            this.tsbFindEntry,
             this.toolStripSeparator6,
             this.tsbHelp,
             this.toolStripSeparator7,
@@ -320,6 +320,7 @@
       this.tsbNew.Image = global::Slovoca.Properties.Resources.NewFile_16x_24;
       resources.ApplyResources(this.tsbNew, "tsbNew");
       this.tsbNew.Name = "tsbNew";
+      this.tsbNew.Click += new System.EventHandler(this.TriggerNewProjectDialog);
       // 
       // toolStripSeparator1
       // 
@@ -349,24 +350,24 @@
       this.toolStripSeparator2.Name = "toolStripSeparator2";
       resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
       // 
-      // tsbAdd
+      // tsbAddEntry
       // 
-      this.tsbAdd.Image = global::Slovoca.Properties.Resources.Add_16x_24;
-      resources.ApplyResources(this.tsbAdd, "tsbAdd");
-      this.tsbAdd.Name = "tsbAdd";
-      this.tsbAdd.Click += new System.EventHandler(this.tsbAdd_Click);
+      this.tsbAddEntry.Image = global::Slovoca.Properties.Resources.Add_16x_24;
+      resources.ApplyResources(this.tsbAddEntry, "tsbAddEntry");
+      this.tsbAddEntry.Name = "tsbAddEntry";
+      this.tsbAddEntry.Click += new System.EventHandler(this.tsbAdd_Click);
       // 
-      // tsbEdit
+      // tsbEditEntry
       // 
-      this.tsbEdit.Image = global::Slovoca.Properties.Resources.Edit_16x_24;
-      resources.ApplyResources(this.tsbEdit, "tsbEdit");
-      this.tsbEdit.Name = "tsbEdit";
+      this.tsbEditEntry.Image = global::Slovoca.Properties.Resources.Edit_16x_24;
+      resources.ApplyResources(this.tsbEditEntry, "tsbEditEntry");
+      this.tsbEditEntry.Name = "tsbEditEntry";
       // 
-      // tsbRemove
+      // tsbRemoveEntry
       // 
-      this.tsbRemove.Image = global::Slovoca.Properties.Resources.Remove_color_16x_24;
-      resources.ApplyResources(this.tsbRemove, "tsbRemove");
-      this.tsbRemove.Name = "tsbRemove";
+      this.tsbRemoveEntry.Image = global::Slovoca.Properties.Resources.Remove_color_16x_24;
+      resources.ApplyResources(this.tsbRemoveEntry, "tsbRemoveEntry");
+      this.tsbRemoveEntry.Name = "tsbRemoveEntry";
       // 
       // toolStripSeparator5
       // 
@@ -378,11 +379,11 @@
       this.tstSearchQuery.Name = "tstSearchQuery";
       resources.ApplyResources(this.tstSearchQuery, "tstSearchQuery");
       // 
-      // tsbFind
+      // tsbFindEntry
       // 
-      this.tsbFind.Image = global::Slovoca.Properties.Resources.FindResults_16x_24;
-      resources.ApplyResources(this.tsbFind, "tsbFind");
-      this.tsbFind.Name = "tsbFind";
+      this.tsbFindEntry.Image = global::Slovoca.Properties.Resources.FindResults_16x_24;
+      resources.ApplyResources(this.tsbFindEntry, "tsbFindEntry");
+      this.tsbFindEntry.Name = "tsbFindEntry";
       // 
       // toolStripSeparator6
       // 
@@ -430,6 +431,7 @@
       // 
       resources.ApplyResources(this.lblForeignToNativePanelTitle, "lblForeignToNativePanelTitle");
       this.lblForeignToNativePanelTitle.Name = "lblForeignToNativePanelTitle";
+      this.lblForeignToNativePanelTitle.Click += new System.EventHandler(this.SelectForeignToNativeVocabulary);
       // 
       // pnlNativeToForeignPanel
       // 
@@ -443,6 +445,7 @@
       // 
       resources.ApplyResources(this.lblNativeToForeignPanelTitle, "lblNativeToForeignPanelTitle");
       this.lblNativeToForeignPanelTitle.Name = "lblNativeToForeignPanelTitle";
+      this.lblNativeToForeignPanelTitle.Click += new System.EventHandler(this.SelectNativeToForeignVocabulary);
       // 
       // layMainWindow
       // 
@@ -460,12 +463,16 @@
       resources.ApplyResources(this.lsbForeignToNative, "lsbForeignToNative");
       this.lsbForeignToNative.FormattingEnabled = true;
       this.lsbForeignToNative.Name = "lsbForeignToNative";
+      this.lsbForeignToNative.Click += new System.EventHandler(this.SelectForeignToNativeVocabulary);
+      this.lsbForeignToNative.SelectedIndexChanged += new System.EventHandler(this.ShowDetailedEntryInformation);
       // 
       // lsbNativeToForeign
       // 
       resources.ApplyResources(this.lsbNativeToForeign, "lsbNativeToForeign");
       this.lsbNativeToForeign.FormattingEnabled = true;
       this.lsbNativeToForeign.Name = "lsbNativeToForeign";
+      this.lsbNativeToForeign.Click += new System.EventHandler(this.SelectNativeToForeignVocabulary);
+      this.lsbNativeToForeign.SelectedIndexChanged += new System.EventHandler(this.ShowDetailedEntryInformation);
       // 
       // lblSelectedItemColumnTitle
       // 
@@ -526,7 +533,7 @@
     #endregion
 
     private System.Windows.Forms.MenuStrip menuStrip1;
-    private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+    private System.Windows.Forms.ToolStripMenuItem tmiFile;
     private System.Windows.Forms.ToolStripMenuItem tmiNew;
     private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
     private System.Windows.Forms.ToolStripMenuItem tmiOpen;
@@ -562,12 +569,12 @@
     private System.Windows.Forms.ToolStripButton tsbSaveAs;
     private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
     private System.Windows.Forms.ToolStripButton tsbExit;
-    private System.Windows.Forms.ToolStripButton tsbAdd;
-    private System.Windows.Forms.ToolStripButton tsbEdit;
-    private System.Windows.Forms.ToolStripButton tsbRemove;
+    private System.Windows.Forms.ToolStripButton tsbAddEntry;
+    private System.Windows.Forms.ToolStripButton tsbEditEntry;
+    private System.Windows.Forms.ToolStripButton tsbRemoveEntry;
     private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
     private System.Windows.Forms.ToolStripTextBox tstSearchQuery;
-    private System.Windows.Forms.ToolStripButton tsbFind;
+    private System.Windows.Forms.ToolStripButton tsbFindEntry;
     private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
     private System.Windows.Forms.ToolStripButton tsbHelp;
     private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;

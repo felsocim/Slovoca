@@ -156,59 +156,56 @@
   <data name="&gt;&gt;lblNewProjectFile.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="comboBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="cmbNewProjectForeignCultures.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cmbNewProjectForeignCultures.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 72</value>
   </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cmbNewProjectForeignCultures.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 21</value>
   </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="cmbNewProjectForeignCultures.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
+  <data name="&gt;&gt;cmbNewProjectForeignCultures.Name" xml:space="preserve">
+    <value>cmbNewProjectForeignCultures</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;cmbNewProjectForeignCultures.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cmbNewProjectForeignCultures.Parent" xml:space="preserve">
     <value>layNewProjectDialog</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cmbNewProjectForeignCultures.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="comboBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="cmbNewProjectNativeCultures.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cmbNewProjectNativeCultures.Location" type="System.Drawing.Point, System.Drawing">
     <value>203, 72</value>
   </data>
-  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cmbNewProjectNativeCultures.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 21</value>
   </data>
-  <data name="comboBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="cmbNewProjectNativeCultures.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;comboBox2.Name" xml:space="preserve">
-    <value>comboBox2</value>
+  <data name="&gt;&gt;cmbNewProjectNativeCultures.Name" xml:space="preserve">
+    <value>cmbNewProjectNativeCultures</value>
   </data>
-  <data name="&gt;&gt;comboBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;cmbNewProjectNativeCultures.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cmbNewProjectNativeCultures.Parent" xml:space="preserve">
     <value>layNewProjectDialog</value>
   </data>
-  <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cmbNewProjectNativeCultures.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="txbNewProjectFile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
-  </data>
-  <data name="txbNewProjectFile.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="txbNewProjectFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 23</value>
@@ -403,7 +400,16 @@
     <value>0</value>
   </data>
   <data name="layNewProjectDialog.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblNewProjectFile" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboBox1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboBox2" Row="3" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="txbNewProjectFile" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="lblNewProjectForeign" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblNewProejctNative" Row="2" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="btnNewProjectBrowseFile" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="btnNewProjectCancel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnNewProjectCreate" Row="4" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,30,Percent,20" /&gt;&lt;Rows Styles="Absolute,20,AutoSize,0,Absolute,20,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblNewProjectFile" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbNewProjectForeignCultures" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbNewProjectNativeCultures" Row="3" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="txbNewProjectFile" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="lblNewProjectForeign" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblNewProejctNative" Row="2" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="btnNewProjectBrowseFile" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="btnNewProjectCancel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnNewProjectCreate" Row="4" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,30,Percent,20" /&gt;&lt;Rows Styles="Absolute,20,AutoSize,0,Absolute,20,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="dlgNewProjectFileSave.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="dlgNewProjectFileSave.Filter" xml:space="preserve">
+    <value>Slovoca vocabulary files (*.slovo)|*.slovo|All files (*.*)|*.*</value>
+  </data>
+  <data name="dlgNewProjectFileSave.Title" xml:space="preserve">
+    <value>Choose location and name for the new project...</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -2337,6 +2343,12 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>New project</value>
+  </data>
+  <data name="&gt;&gt;dlgNewProjectFileSave.Name" xml:space="preserve">
+    <value>dlgNewProjectFileSave</value>
+  </data>
+  <data name="&gt;&gt;dlgNewProjectFileSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>NewProjectDialog</value>

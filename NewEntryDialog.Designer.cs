@@ -40,19 +40,19 @@
       this.btnNewEntryCancel = new System.Windows.Forms.Button();
       this.btnNewEntryAdd = new System.Windows.Forms.Button();
       this.lblNewEntryPronounciations = new System.Windows.Forms.Label();
+      this.txbNewEntryEntryPronounciation = new System.Windows.Forms.TextBox();
+      this.lblNewEntryEntryPronounciation = new System.Windows.Forms.Label();
       this.layNewEntryDialogLayout.SuspendLayout();
       this.SuspendLayout();
       // 
       // lblNewEntryEntry
       // 
       resources.ApplyResources(this.lblNewEntryEntry, "lblNewEntryEntry");
-      this.layNewEntryDialogLayout.SetColumnSpan(this.lblNewEntryEntry, 2);
       this.lblNewEntryEntry.Name = "lblNewEntryEntry";
       // 
       // txbNewEntryEntry
       // 
       resources.ApplyResources(this.txbNewEntryEntry, "txbNewEntryEntry");
-      this.layNewEntryDialogLayout.SetColumnSpan(this.txbNewEntryEntry, 2);
       this.txbNewEntryEntry.Name = "txbNewEntryEntry";
       // 
       // lblNewEntryTranslations
@@ -92,6 +92,8 @@
       this.layNewEntryDialogLayout.Controls.Add(this.btnNewEntryCancel, 0, 8);
       this.layNewEntryDialogLayout.Controls.Add(this.btnNewEntryAdd, 1, 8);
       this.layNewEntryDialogLayout.Controls.Add(this.lblNewEntryPronounciations, 0, 4);
+      this.layNewEntryDialogLayout.Controls.Add(this.txbNewEntryEntryPronounciation, 1, 1);
+      this.layNewEntryDialogLayout.Controls.Add(this.lblNewEntryEntryPronounciation, 1, 0);
       this.layNewEntryDialogLayout.Name = "layNewEntryDialogLayout";
       // 
       // txbNewEntryPronounciations
@@ -105,6 +107,7 @@
       resources.ApplyResources(this.btnNewEntryCancel, "btnNewEntryCancel");
       this.btnNewEntryCancel.Name = "btnNewEntryCancel";
       this.btnNewEntryCancel.UseVisualStyleBackColor = true;
+      this.btnNewEntryCancel.Click += new System.EventHandler(this.CancelNewEntryAdd);
       // 
       // btnNewEntryAdd
       // 
@@ -117,6 +120,16 @@
       // 
       resources.ApplyResources(this.lblNewEntryPronounciations, "lblNewEntryPronounciations");
       this.lblNewEntryPronounciations.Name = "lblNewEntryPronounciations";
+      // 
+      // txbNewEntryEntryPronounciation
+      // 
+      resources.ApplyResources(this.txbNewEntryEntryPronounciation, "txbNewEntryEntryPronounciation");
+      this.txbNewEntryEntryPronounciation.Name = "txbNewEntryEntryPronounciation";
+      // 
+      // lblNewEntryEntryPronounciation
+      // 
+      resources.ApplyResources(this.lblNewEntryEntryPronounciation, "lblNewEntryEntryPronounciation");
+      this.lblNewEntryEntryPronounciation.Name = "lblNewEntryEntryPronounciation";
       // 
       // NewEntryDialog
       // 
@@ -146,5 +159,7 @@
     private System.Windows.Forms.Button btnNewEntryAdd;
     private System.Windows.Forms.TextBox txbNewEntryPronounciations;
     private System.Windows.Forms.Label lblNewEntryPronounciations;
+    private System.Windows.Forms.TextBox txbNewEntryEntryPronounciation;
+    private System.Windows.Forms.Label lblNewEntryEntryPronounciation;
   }
 }

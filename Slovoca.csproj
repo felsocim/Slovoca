@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CultureInfoItem.cs" />
     <Compile Include="Entry.cs" />
     <Compile Include="EntrySet.cs" />
     <Compile Include="NewProjectDialog.cs">
