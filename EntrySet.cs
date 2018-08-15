@@ -30,5 +30,13 @@ namespace Slovoca {
 
       throw new NotFoundException(entry.Meaning.Meaning);
     }
+
+    public Entry FindEntry(string meaning) {
+      if (this.AllEntries.TryGetValue(meaning, out Entry result)) {
+        return result;
+      }
+
+      throw new NotFoundException(meaning);
+    }
   }
 }

@@ -31,50 +31,20 @@
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
       this.menuStrip1 = new System.Windows.Forms.MenuStrip();
       this.tmiFile = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiNew = new System.Windows.Forms.ToolStripMenuItem();
       this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
-      this.tmiOpen = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiSave = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiSaveAs = new System.Windows.Forms.ToolStripMenuItem();
       this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
-      this.tmiExport = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiPrint = new System.Windows.Forms.ToolStripMenuItem();
-      this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
-      this.tmiExit = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiEdit = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiCut = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiCopy = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiPaste = new System.Windows.Forms.ToolStripMenuItem();
-      this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-      this.tmiSettings = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiEntry = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiAddEntry = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiEditEntry = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiRemoveEntry = new System.Windows.Forms.ToolStripMenuItem();
       this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
-      this.tmiFindEntry = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiHelp = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiViewHelp = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiSlovocaOnline = new System.Windows.Forms.ToolStripMenuItem();
       this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
       this.tmiAbout = new System.Windows.Forms.ToolStripMenuItem();
       this.tsToolbar = new System.Windows.Forms.ToolStrip();
-      this.tsbNew = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-      this.tsbOpen = new System.Windows.Forms.ToolStripButton();
-      this.tsbSave = new System.Windows.Forms.ToolStripButton();
-      this.tsbSaveAs = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-      this.tsbAddEntry = new System.Windows.Forms.ToolStripButton();
-      this.tsbEditEntry = new System.Windows.Forms.ToolStripButton();
-      this.tsbRemoveEntry = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
       this.tstSearchQuery = new System.Windows.Forms.ToolStripTextBox();
-      this.tsbFindEntry = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-      this.tsbHelp = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-      this.tsbExit = new System.Windows.Forms.ToolStripButton();
       this.stsStatusBar = new System.Windows.Forms.StatusStrip();
       this.tslCurrentStatusOrInformation = new System.Windows.Forms.ToolStripStatusLabel();
       this.pnlForeignToNativePanel = new System.Windows.Forms.Panel();
@@ -89,6 +59,30 @@
       this.lblSelectedItemWord = new System.Windows.Forms.Label();
       this.lblSelectedItemNotes = new System.Windows.Forms.Label();
       this.lsbSelectedItemTranslations = new System.Windows.Forms.ListBox();
+      this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+      this.tsbNew = new System.Windows.Forms.ToolStripButton();
+      this.tsbOpen = new System.Windows.Forms.ToolStripButton();
+      this.tsbSave = new System.Windows.Forms.ToolStripButton();
+      this.tsbSaveAs = new System.Windows.Forms.ToolStripButton();
+      this.tsbAddEntry = new System.Windows.Forms.ToolStripButton();
+      this.tsbEditEntry = new System.Windows.Forms.ToolStripButton();
+      this.tsbRemoveEntry = new System.Windows.Forms.ToolStripButton();
+      this.tsbFindEntry = new System.Windows.Forms.ToolStripButton();
+      this.tsbHelp = new System.Windows.Forms.ToolStripButton();
+      this.tsbExit = new System.Windows.Forms.ToolStripButton();
+      this.tmiNew = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiOpen = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiSave = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiSaveAs = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiExport = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiPrint = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiExit = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiAddEntry = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiEditEntry = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiRemoveEntry = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiFindEntry = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiViewHelp = new System.Windows.Forms.ToolStripMenuItem();
+      this.tmiSlovocaOnline = new System.Windows.Forms.ToolStripMenuItem();
       this.menuStrip1.SuspendLayout();
       this.tsToolbar.SuspendLayout();
       this.stsStatusBar.SuspendLayout();
@@ -102,7 +96,6 @@
       // 
       this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tmiFile,
-            this.tmiEdit,
             this.tmiEntry,
             this.tmiHelp});
       resources.ApplyResources(this.menuStrip1, "menuStrip1");
@@ -119,107 +112,20 @@
             this.toolStripMenuItem3,
             this.tmiExport,
             this.tmiPrint,
-            this.toolStripMenuItem4,
+            this.toolStripSeparator3,
             this.tmiExit});
       this.tmiFile.Name = "tmiFile";
       resources.ApplyResources(this.tmiFile, "tmiFile");
-      // 
-      // tmiNew
-      // 
-      this.tmiNew.Image = global::Slovoca.Properties.Resources.NewFile_16x_24;
-      resources.ApplyResources(this.tmiNew, "tmiNew");
-      this.tmiNew.Name = "tmiNew";
       // 
       // toolStripMenuItem2
       // 
       this.toolStripMenuItem2.Name = "toolStripMenuItem2";
       resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
       // 
-      // tmiOpen
-      // 
-      this.tmiOpen.Image = global::Slovoca.Properties.Resources.OpenFolder_16x_24;
-      resources.ApplyResources(this.tmiOpen, "tmiOpen");
-      this.tmiOpen.Name = "tmiOpen";
-      // 
-      // tmiSave
-      // 
-      this.tmiSave.Image = global::Slovoca.Properties.Resources.Save_16x_24;
-      resources.ApplyResources(this.tmiSave, "tmiSave");
-      this.tmiSave.Name = "tmiSave";
-      // 
-      // tmiSaveAs
-      // 
-      this.tmiSaveAs.Image = global::Slovoca.Properties.Resources.SaveAs_16x_24;
-      resources.ApplyResources(this.tmiSaveAs, "tmiSaveAs");
-      this.tmiSaveAs.Name = "tmiSaveAs";
-      // 
       // toolStripMenuItem3
       // 
       this.toolStripMenuItem3.Name = "toolStripMenuItem3";
       resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
-      // 
-      // tmiExport
-      // 
-      this.tmiExport.Image = global::Slovoca.Properties.Resources.ExportData_16x_24;
-      resources.ApplyResources(this.tmiExport, "tmiExport");
-      this.tmiExport.Name = "tmiExport";
-      // 
-      // tmiPrint
-      // 
-      this.tmiPrint.Image = global::Slovoca.Properties.Resources.Print_16x_24;
-      resources.ApplyResources(this.tmiPrint, "tmiPrint");
-      this.tmiPrint.Name = "tmiPrint";
-      // 
-      // toolStripMenuItem4
-      // 
-      this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-      resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
-      // 
-      // tmiExit
-      // 
-      this.tmiExit.Image = global::Slovoca.Properties.Resources.Exit_16x_24;
-      resources.ApplyResources(this.tmiExit, "tmiExit");
-      this.tmiExit.Name = "tmiExit";
-      // 
-      // tmiEdit
-      // 
-      this.tmiEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tmiCut,
-            this.tmiCopy,
-            this.tmiPaste,
-            this.toolStripMenuItem1,
-            this.tmiSettings});
-      this.tmiEdit.Name = "tmiEdit";
-      resources.ApplyResources(this.tmiEdit, "tmiEdit");
-      // 
-      // tmiCut
-      // 
-      this.tmiCut.Image = global::Slovoca.Properties.Resources.Cut_16x_24;
-      resources.ApplyResources(this.tmiCut, "tmiCut");
-      this.tmiCut.Name = "tmiCut";
-      // 
-      // tmiCopy
-      // 
-      this.tmiCopy.Image = global::Slovoca.Properties.Resources.Copy_16x_24;
-      resources.ApplyResources(this.tmiCopy, "tmiCopy");
-      this.tmiCopy.Name = "tmiCopy";
-      // 
-      // tmiPaste
-      // 
-      this.tmiPaste.Image = global::Slovoca.Properties.Resources.Paste_16x_24;
-      resources.ApplyResources(this.tmiPaste, "tmiPaste");
-      this.tmiPaste.Name = "tmiPaste";
-      // 
-      // toolStripMenuItem1
-      // 
-      this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-      resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
-      // 
-      // tmiSettings
-      // 
-      this.tmiSettings.Image = global::Slovoca.Properties.Resources.Settings_16x_24;
-      resources.ApplyResources(this.tmiSettings, "tmiSettings");
-      this.tmiSettings.Name = "tmiSettings";
       // 
       // tmiEntry
       // 
@@ -232,34 +138,10 @@
       this.tmiEntry.Name = "tmiEntry";
       resources.ApplyResources(this.tmiEntry, "tmiEntry");
       // 
-      // tmiAddEntry
-      // 
-      this.tmiAddEntry.Image = global::Slovoca.Properties.Resources.Add_16x_24;
-      resources.ApplyResources(this.tmiAddEntry, "tmiAddEntry");
-      this.tmiAddEntry.Name = "tmiAddEntry";
-      // 
-      // tmiEditEntry
-      // 
-      this.tmiEditEntry.Image = global::Slovoca.Properties.Resources.Edit_16x_24;
-      resources.ApplyResources(this.tmiEditEntry, "tmiEditEntry");
-      this.tmiEditEntry.Name = "tmiEditEntry";
-      // 
-      // tmiRemoveEntry
-      // 
-      this.tmiRemoveEntry.Image = global::Slovoca.Properties.Resources.Remove_color_16x_24;
-      resources.ApplyResources(this.tmiRemoveEntry, "tmiRemoveEntry");
-      this.tmiRemoveEntry.Name = "tmiRemoveEntry";
-      // 
       // toolStripMenuItem5
       // 
       this.toolStripMenuItem5.Name = "toolStripMenuItem5";
       resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
-      // 
-      // tmiFindEntry
-      // 
-      this.tmiFindEntry.Image = global::Slovoca.Properties.Resources.FindResults_16x_24;
-      resources.ApplyResources(this.tmiFindEntry, "tmiFindEntry");
-      this.tmiFindEntry.Name = "tmiFindEntry";
       // 
       // tmiHelp
       // 
@@ -271,18 +153,6 @@
       this.tmiHelp.Name = "tmiHelp";
       resources.ApplyResources(this.tmiHelp, "tmiHelp");
       // 
-      // tmiViewHelp
-      // 
-      this.tmiViewHelp.Image = global::Slovoca.Properties.Resources.Question_16x_24;
-      resources.ApplyResources(this.tmiViewHelp, "tmiViewHelp");
-      this.tmiViewHelp.Name = "tmiViewHelp";
-      // 
-      // tmiSlovocaOnline
-      // 
-      this.tmiSlovocaOnline.Image = global::Slovoca.Properties.Resources.Web_16x_24;
-      resources.ApplyResources(this.tmiSlovocaOnline, "tmiSlovocaOnline");
-      this.tmiSlovocaOnline.Name = "tmiSlovocaOnline";
-      // 
       // toolStripMenuItem6
       // 
       this.toolStripMenuItem6.Name = "toolStripMenuItem6";
@@ -292,6 +162,7 @@
       // 
       this.tmiAbout.Name = "tmiAbout";
       resources.ApplyResources(this.tmiAbout, "tmiAbout");
+      this.tmiAbout.Click += new System.EventHandler(this.TriggerAboutSlovoca);
       // 
       // tsToolbar
       // 
@@ -315,59 +186,15 @@
       resources.ApplyResources(this.tsToolbar, "tsToolbar");
       this.tsToolbar.Name = "tsToolbar";
       // 
-      // tsbNew
-      // 
-      this.tsbNew.Image = global::Slovoca.Properties.Resources.NewFile_16x_24;
-      resources.ApplyResources(this.tsbNew, "tsbNew");
-      this.tsbNew.Name = "tsbNew";
-      this.tsbNew.Click += new System.EventHandler(this.TriggerNewProjectDialog);
-      // 
       // toolStripSeparator1
       // 
       this.toolStripSeparator1.Name = "toolStripSeparator1";
       resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
       // 
-      // tsbOpen
-      // 
-      this.tsbOpen.Image = global::Slovoca.Properties.Resources.OpenFolder_16x_24;
-      resources.ApplyResources(this.tsbOpen, "tsbOpen");
-      this.tsbOpen.Name = "tsbOpen";
-      // 
-      // tsbSave
-      // 
-      this.tsbSave.Image = global::Slovoca.Properties.Resources.Save_16x_24;
-      resources.ApplyResources(this.tsbSave, "tsbSave");
-      this.tsbSave.Name = "tsbSave";
-      // 
-      // tsbSaveAs
-      // 
-      this.tsbSaveAs.Image = global::Slovoca.Properties.Resources.SaveAs_16x_24;
-      resources.ApplyResources(this.tsbSaveAs, "tsbSaveAs");
-      this.tsbSaveAs.Name = "tsbSaveAs";
-      // 
       // toolStripSeparator2
       // 
       this.toolStripSeparator2.Name = "toolStripSeparator2";
       resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
-      // 
-      // tsbAddEntry
-      // 
-      this.tsbAddEntry.Image = global::Slovoca.Properties.Resources.Add_16x_24;
-      resources.ApplyResources(this.tsbAddEntry, "tsbAddEntry");
-      this.tsbAddEntry.Name = "tsbAddEntry";
-      this.tsbAddEntry.Click += new System.EventHandler(this.tsbAdd_Click);
-      // 
-      // tsbEditEntry
-      // 
-      this.tsbEditEntry.Image = global::Slovoca.Properties.Resources.Edit_16x_24;
-      resources.ApplyResources(this.tsbEditEntry, "tsbEditEntry");
-      this.tsbEditEntry.Name = "tsbEditEntry";
-      // 
-      // tsbRemoveEntry
-      // 
-      this.tsbRemoveEntry.Image = global::Slovoca.Properties.Resources.Remove_color_16x_24;
-      resources.ApplyResources(this.tsbRemoveEntry, "tsbRemoveEntry");
-      this.tsbRemoveEntry.Name = "tsbRemoveEntry";
       // 
       // toolStripSeparator5
       // 
@@ -379,33 +206,15 @@
       this.tstSearchQuery.Name = "tstSearchQuery";
       resources.ApplyResources(this.tstSearchQuery, "tstSearchQuery");
       // 
-      // tsbFindEntry
-      // 
-      this.tsbFindEntry.Image = global::Slovoca.Properties.Resources.FindResults_16x_24;
-      resources.ApplyResources(this.tsbFindEntry, "tsbFindEntry");
-      this.tsbFindEntry.Name = "tsbFindEntry";
-      // 
       // toolStripSeparator6
       // 
       this.toolStripSeparator6.Name = "toolStripSeparator6";
       resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
       // 
-      // tsbHelp
-      // 
-      this.tsbHelp.Image = global::Slovoca.Properties.Resources.Question_16x_24;
-      resources.ApplyResources(this.tsbHelp, "tsbHelp");
-      this.tsbHelp.Name = "tsbHelp";
-      // 
       // toolStripSeparator7
       // 
       this.toolStripSeparator7.Name = "toolStripSeparator7";
       resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
-      // 
-      // tsbExit
-      // 
-      this.tsbExit.Image = global::Slovoca.Properties.Resources.Exit_16x_24;
-      resources.ApplyResources(this.tsbExit, "tsbExit");
-      this.tsbExit.Name = "tsbExit";
       // 
       // stsStatusBar
       // 
@@ -503,6 +312,162 @@
       this.lsbSelectedItemTranslations.FormattingEnabled = true;
       this.lsbSelectedItemTranslations.Name = "lsbSelectedItemTranslations";
       // 
+      // toolStripSeparator3
+      // 
+      this.toolStripSeparator3.Name = "toolStripSeparator3";
+      resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+      // 
+      // tsbNew
+      // 
+      this.tsbNew.Image = global::Slovoca.Properties.Resources.NewFile_16x_24;
+      resources.ApplyResources(this.tsbNew, "tsbNew");
+      this.tsbNew.Name = "tsbNew";
+      this.tsbNew.Click += new System.EventHandler(this.TriggerNewProjectDialog);
+      // 
+      // tsbOpen
+      // 
+      this.tsbOpen.Image = global::Slovoca.Properties.Resources.OpenFolder_16x_24;
+      resources.ApplyResources(this.tsbOpen, "tsbOpen");
+      this.tsbOpen.Name = "tsbOpen";
+      // 
+      // tsbSave
+      // 
+      this.tsbSave.Image = global::Slovoca.Properties.Resources.Save_16x_24;
+      resources.ApplyResources(this.tsbSave, "tsbSave");
+      this.tsbSave.Name = "tsbSave";
+      // 
+      // tsbSaveAs
+      // 
+      this.tsbSaveAs.Image = global::Slovoca.Properties.Resources.SaveAs_16x_24;
+      resources.ApplyResources(this.tsbSaveAs, "tsbSaveAs");
+      this.tsbSaveAs.Name = "tsbSaveAs";
+      // 
+      // tsbAddEntry
+      // 
+      this.tsbAddEntry.Image = global::Slovoca.Properties.Resources.Add_16x_24;
+      resources.ApplyResources(this.tsbAddEntry, "tsbAddEntry");
+      this.tsbAddEntry.Name = "tsbAddEntry";
+      this.tsbAddEntry.Click += new System.EventHandler(this.tsbAdd_Click);
+      // 
+      // tsbEditEntry
+      // 
+      this.tsbEditEntry.Image = global::Slovoca.Properties.Resources.Edit_16x_24;
+      resources.ApplyResources(this.tsbEditEntry, "tsbEditEntry");
+      this.tsbEditEntry.Name = "tsbEditEntry";
+      this.tsbEditEntry.Click += new System.EventHandler(this.TriggerEditEntry);
+      // 
+      // tsbRemoveEntry
+      // 
+      this.tsbRemoveEntry.Image = global::Slovoca.Properties.Resources.Remove_color_16x_24;
+      resources.ApplyResources(this.tsbRemoveEntry, "tsbRemoveEntry");
+      this.tsbRemoveEntry.Name = "tsbRemoveEntry";
+      this.tsbRemoveEntry.Click += new System.EventHandler(this.TriggerRemoveEntry);
+      // 
+      // tsbFindEntry
+      // 
+      this.tsbFindEntry.Image = global::Slovoca.Properties.Resources.FindResults_16x_24;
+      resources.ApplyResources(this.tsbFindEntry, "tsbFindEntry");
+      this.tsbFindEntry.Name = "tsbFindEntry";
+      this.tsbFindEntry.Click += new System.EventHandler(this.TriggerFindEntry);
+      // 
+      // tsbHelp
+      // 
+      this.tsbHelp.Image = global::Slovoca.Properties.Resources.Question_16x_24;
+      resources.ApplyResources(this.tsbHelp, "tsbHelp");
+      this.tsbHelp.Name = "tsbHelp";
+      // 
+      // tsbExit
+      // 
+      this.tsbExit.Image = global::Slovoca.Properties.Resources.Exit_16x_24;
+      resources.ApplyResources(this.tsbExit, "tsbExit");
+      this.tsbExit.Name = "tsbExit";
+      this.tsbExit.Click += new System.EventHandler(this.TriggerExit);
+      // 
+      // tmiNew
+      // 
+      this.tmiNew.Image = global::Slovoca.Properties.Resources.NewFile_16x_24;
+      resources.ApplyResources(this.tmiNew, "tmiNew");
+      this.tmiNew.Name = "tmiNew";
+      this.tmiNew.Click += new System.EventHandler(this.TriggerNewProjectDialog);
+      // 
+      // tmiOpen
+      // 
+      this.tmiOpen.Image = global::Slovoca.Properties.Resources.OpenFolder_16x_24;
+      resources.ApplyResources(this.tmiOpen, "tmiOpen");
+      this.tmiOpen.Name = "tmiOpen";
+      // 
+      // tmiSave
+      // 
+      this.tmiSave.Image = global::Slovoca.Properties.Resources.Save_16x_24;
+      resources.ApplyResources(this.tmiSave, "tmiSave");
+      this.tmiSave.Name = "tmiSave";
+      // 
+      // tmiSaveAs
+      // 
+      this.tmiSaveAs.Image = global::Slovoca.Properties.Resources.SaveAs_16x_24;
+      resources.ApplyResources(this.tmiSaveAs, "tmiSaveAs");
+      this.tmiSaveAs.Name = "tmiSaveAs";
+      // 
+      // tmiExport
+      // 
+      this.tmiExport.Image = global::Slovoca.Properties.Resources.ExportData_16x_24;
+      resources.ApplyResources(this.tmiExport, "tmiExport");
+      this.tmiExport.Name = "tmiExport";
+      // 
+      // tmiPrint
+      // 
+      this.tmiPrint.Image = global::Slovoca.Properties.Resources.Print_16x_24;
+      resources.ApplyResources(this.tmiPrint, "tmiPrint");
+      this.tmiPrint.Name = "tmiPrint";
+      // 
+      // tmiExit
+      // 
+      this.tmiExit.Image = global::Slovoca.Properties.Resources.Exit_16x_24;
+      resources.ApplyResources(this.tmiExit, "tmiExit");
+      this.tmiExit.Name = "tmiExit";
+      this.tmiExit.Click += new System.EventHandler(this.TriggerExit);
+      // 
+      // tmiAddEntry
+      // 
+      this.tmiAddEntry.Image = global::Slovoca.Properties.Resources.Add_16x_24;
+      resources.ApplyResources(this.tmiAddEntry, "tmiAddEntry");
+      this.tmiAddEntry.Name = "tmiAddEntry";
+      this.tmiAddEntry.Click += new System.EventHandler(this.tsbAdd_Click);
+      // 
+      // tmiEditEntry
+      // 
+      this.tmiEditEntry.Image = global::Slovoca.Properties.Resources.Edit_16x_24;
+      resources.ApplyResources(this.tmiEditEntry, "tmiEditEntry");
+      this.tmiEditEntry.Name = "tmiEditEntry";
+      this.tmiEditEntry.Click += new System.EventHandler(this.TriggerEditEntry);
+      // 
+      // tmiRemoveEntry
+      // 
+      this.tmiRemoveEntry.Image = global::Slovoca.Properties.Resources.Remove_color_16x_24;
+      resources.ApplyResources(this.tmiRemoveEntry, "tmiRemoveEntry");
+      this.tmiRemoveEntry.Name = "tmiRemoveEntry";
+      this.tmiRemoveEntry.Click += new System.EventHandler(this.TriggerRemoveEntry);
+      // 
+      // tmiFindEntry
+      // 
+      this.tmiFindEntry.Image = global::Slovoca.Properties.Resources.FindResults_16x_24;
+      resources.ApplyResources(this.tmiFindEntry, "tmiFindEntry");
+      this.tmiFindEntry.Name = "tmiFindEntry";
+      this.tmiFindEntry.Click += new System.EventHandler(this.TriggerFindEntry);
+      // 
+      // tmiViewHelp
+      // 
+      this.tmiViewHelp.Image = global::Slovoca.Properties.Resources.Question_16x_24;
+      resources.ApplyResources(this.tmiViewHelp, "tmiViewHelp");
+      this.tmiViewHelp.Name = "tmiViewHelp";
+      // 
+      // tmiSlovocaOnline
+      // 
+      this.tmiSlovocaOnline.Image = global::Slovoca.Properties.Resources.Web_16x_24;
+      resources.ApplyResources(this.tmiSlovocaOnline, "tmiSlovocaOnline");
+      this.tmiSlovocaOnline.Name = "tmiSlovocaOnline";
+      this.tmiSlovocaOnline.Click += new System.EventHandler(this.TriggerSlovocaOnline);
+      // 
       // MainWindow
       // 
       resources.ApplyResources(this, "$this");
@@ -542,14 +507,7 @@
     private System.Windows.Forms.ToolStripSeparator toolStripMenuItem3;
     private System.Windows.Forms.ToolStripMenuItem tmiExport;
     private System.Windows.Forms.ToolStripMenuItem tmiPrint;
-    private System.Windows.Forms.ToolStripSeparator toolStripMenuItem4;
     private System.Windows.Forms.ToolStripMenuItem tmiExit;
-    private System.Windows.Forms.ToolStripMenuItem tmiEdit;
-    private System.Windows.Forms.ToolStripMenuItem tmiCut;
-    private System.Windows.Forms.ToolStripMenuItem tmiCopy;
-    private System.Windows.Forms.ToolStripMenuItem tmiPaste;
-    private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
-    private System.Windows.Forms.ToolStripMenuItem tmiSettings;
     private System.Windows.Forms.ToolStripMenuItem tmiEntry;
     private System.Windows.Forms.ToolStripMenuItem tmiHelp;
     private System.Windows.Forms.ToolStripMenuItem tmiAddEntry;
@@ -592,6 +550,7 @@
     private System.Windows.Forms.Label lblSelectedItemWord;
     private System.Windows.Forms.Label lblSelectedItemNotes;
     private System.Windows.Forms.ListBox lsbSelectedItemTranslations;
+    private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
   }
 }
 
