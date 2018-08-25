@@ -86,9 +86,6 @@ namespace Slovoca {
           break;
       }
 
-      //entries = from entry in entries.Elements("Entry") select entry;
-      
-
       foreach (XElement entry in entries) {
         List<string> translations = new List<string>(),
                      pronounciations = new List<string>();
@@ -115,11 +112,12 @@ namespace Slovoca {
     }
 
     public void SaveToDisk() {
-      FileStream file = new FileStream(this.Location, FileMode.OpenOrCreate, FileAccess.Write, FileShare.Read);
-      XmlTextWriter writer = new XmlTextWriter(file, null);
-      writer.Formatting = Formatting.Indented;
-      writer.Indentation = 2;
-      writer.IndentChar = ' ';
+      FileStream file = new FileStream(this.Location, FileMode.Create, FileAccess.Write, FileShare.Read);
+      XmlTextWriter writer = new XmlTextWriter(file, null) {
+        Formatting = Formatting.Indented,
+        Indentation = 2,
+        IndentChar = ' '
+      };
 
       writer.WriteStartDocument();
 

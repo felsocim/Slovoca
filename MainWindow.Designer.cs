@@ -37,16 +37,11 @@
       this.tmiSave = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiSaveAs = new System.Windows.Forms.ToolStripMenuItem();
       this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
-      this.tmiExport = new System.Windows.Forms.ToolStripMenuItem();
-      this.tmiPrint = new System.Windows.Forms.ToolStripMenuItem();
-      this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
       this.tmiExit = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiEntry = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiAddEntry = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiEditEntry = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiRemoveEntry = new System.Windows.Forms.ToolStripMenuItem();
-      this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
-      this.tmiFindEntry = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiHelp = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiViewHelp = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiSlovocaOnline = new System.Windows.Forms.ToolStripMenuItem();
@@ -84,6 +79,7 @@
       this.lblSelectedItemNotes = new System.Windows.Forms.Label();
       this.lsbSelectedItemTranslations = new System.Windows.Forms.ListBox();
       this.dlgOpenProject = new System.Windows.Forms.OpenFileDialog();
+      this.dlgSaveProjectAs = new System.Windows.Forms.SaveFileDialog();
       this.menuStrip1.SuspendLayout();
       this.tsToolbar.SuspendLayout();
       this.stsStatusBar.SuspendLayout();
@@ -111,9 +107,6 @@
             this.tmiSave,
             this.tmiSaveAs,
             this.toolStripMenuItem3,
-            this.tmiExport,
-            this.tmiPrint,
-            this.toolStripSeparator3,
             this.tmiExit});
       this.tmiFile.Name = "tmiFile";
       resources.ApplyResources(this.tmiFile, "tmiFile");
@@ -149,28 +142,12 @@
       this.tmiSaveAs.Image = global::Slovoca.Properties.Resources.SaveAs_16x_24;
       resources.ApplyResources(this.tmiSaveAs, "tmiSaveAs");
       this.tmiSaveAs.Name = "tmiSaveAs";
+      this.tmiSaveAs.Click += new System.EventHandler(this.TriggerSaveProjectAsDialog);
       // 
       // toolStripMenuItem3
       // 
       this.toolStripMenuItem3.Name = "toolStripMenuItem3";
       resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
-      // 
-      // tmiExport
-      // 
-      this.tmiExport.Image = global::Slovoca.Properties.Resources.ExportData_16x_24;
-      resources.ApplyResources(this.tmiExport, "tmiExport");
-      this.tmiExport.Name = "tmiExport";
-      // 
-      // tmiPrint
-      // 
-      this.tmiPrint.Image = global::Slovoca.Properties.Resources.Print_16x_24;
-      resources.ApplyResources(this.tmiPrint, "tmiPrint");
-      this.tmiPrint.Name = "tmiPrint";
-      // 
-      // toolStripSeparator3
-      // 
-      this.toolStripSeparator3.Name = "toolStripSeparator3";
-      resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
       // 
       // tmiExit
       // 
@@ -184,9 +161,7 @@
       this.tmiEntry.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tmiAddEntry,
             this.tmiEditEntry,
-            this.tmiRemoveEntry,
-            this.toolStripMenuItem5,
-            this.tmiFindEntry});
+            this.tmiRemoveEntry});
       this.tmiEntry.Name = "tmiEntry";
       resources.ApplyResources(this.tmiEntry, "tmiEntry");
       // 
@@ -210,18 +185,6 @@
       resources.ApplyResources(this.tmiRemoveEntry, "tmiRemoveEntry");
       this.tmiRemoveEntry.Name = "tmiRemoveEntry";
       this.tmiRemoveEntry.Click += new System.EventHandler(this.TriggerRemoveEntry);
-      // 
-      // toolStripMenuItem5
-      // 
-      this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-      resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
-      // 
-      // tmiFindEntry
-      // 
-      this.tmiFindEntry.Image = global::Slovoca.Properties.Resources.FindResults_16x_24;
-      resources.ApplyResources(this.tmiFindEntry, "tmiFindEntry");
-      this.tmiFindEntry.Name = "tmiFindEntry";
-      this.tmiFindEntry.Click += new System.EventHandler(this.TriggerFindEntry);
       // 
       // tmiHelp
       // 
@@ -310,6 +273,7 @@
       this.tsbSaveAs.Image = global::Slovoca.Properties.Resources.SaveAs_16x_24;
       resources.ApplyResources(this.tsbSaveAs, "tsbSaveAs");
       this.tsbSaveAs.Name = "tsbSaveAs";
+      this.tsbSaveAs.Click += new System.EventHandler(this.TriggerSaveProjectAsDialog);
       // 
       // toolStripSeparator2
       // 
@@ -475,9 +439,17 @@
       // 
       // dlgOpenProject
       // 
+      this.dlgOpenProject.DefaultExt = "*.slovo";
       resources.ApplyResources(this.dlgOpenProject, "dlgOpenProject");
       this.dlgOpenProject.InitialDirectory = "%USERPROFILE%";
       this.dlgOpenProject.FileOk += new System.ComponentModel.CancelEventHandler(this.ConfirmProjectOpen);
+      // 
+      // dlgSaveProjectAs
+      // 
+      this.dlgSaveProjectAs.DefaultExt = "*.slovo";
+      resources.ApplyResources(this.dlgSaveProjectAs, "dlgSaveProjectAs");
+      this.dlgSaveProjectAs.InitialDirectory = "%USERPROFILE%";
+      this.dlgSaveProjectAs.FileOk += new System.ComponentModel.CancelEventHandler(this.ConfirmSaveProjectAs);
       // 
       // MainWindow
       // 
@@ -516,16 +488,12 @@
     private System.Windows.Forms.ToolStripMenuItem tmiSave;
     private System.Windows.Forms.ToolStripMenuItem tmiSaveAs;
     private System.Windows.Forms.ToolStripSeparator toolStripMenuItem3;
-    private System.Windows.Forms.ToolStripMenuItem tmiExport;
-    private System.Windows.Forms.ToolStripMenuItem tmiPrint;
     private System.Windows.Forms.ToolStripMenuItem tmiExit;
     private System.Windows.Forms.ToolStripMenuItem tmiEntry;
     private System.Windows.Forms.ToolStripMenuItem tmiHelp;
     private System.Windows.Forms.ToolStripMenuItem tmiAddEntry;
     private System.Windows.Forms.ToolStripMenuItem tmiEditEntry;
     private System.Windows.Forms.ToolStripMenuItem tmiRemoveEntry;
-    private System.Windows.Forms.ToolStripSeparator toolStripMenuItem5;
-    private System.Windows.Forms.ToolStripMenuItem tmiFindEntry;
     private System.Windows.Forms.ToolStripMenuItem tmiViewHelp;
     private System.Windows.Forms.ToolStripMenuItem tmiSlovocaOnline;
     private System.Windows.Forms.ToolStripSeparator toolStripMenuItem6;
@@ -561,8 +529,8 @@
     private System.Windows.Forms.Label lblSelectedItemWord;
     private System.Windows.Forms.Label lblSelectedItemNotes;
     private System.Windows.Forms.ListBox lsbSelectedItemTranslations;
-    private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
     private System.Windows.Forms.OpenFileDialog dlgOpenProject;
+    private System.Windows.Forms.SaveFileDialog dlgSaveProjectAs;
   }
 }
 

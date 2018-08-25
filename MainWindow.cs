@@ -39,8 +39,6 @@ namespace Slovoca {
       // Main menu
       this.tmiSave.Enabled = activate;
       this.tmiSaveAs.Enabled = activate;
-      this.tmiExport.Enabled = activate;
-      this.tmiPrint.Enabled = activate;
       this.tmiEntry.Enabled = activate;
 
       // Toolbar
@@ -95,6 +93,15 @@ namespace Slovoca {
       this.lblForeignToNativePanelTitle.Text = this.CurrentProject.ForeignEntries.Language.DisplayName + "-" + this.CurrentProject.NativeEntries.Language.DisplayName;
       this.lblNativeToForeignPanelTitle.Text = this.CurrentProject.NativeEntries.Language.DisplayName + "-" + this.CurrentProject.ForeignEntries.Language.DisplayName;
       this.SelectForeignToNativeVocabulary(null, null);
+    }
+
+    private void TriggerSaveProjectAsDialog(object sender, EventArgs e) {
+      this.dlgSaveProjectAs.ShowDialog(this);
+    }
+
+    private void ConfirmSaveProjectAs(object sender, CancelEventArgs e) {
+      this.CurrentProject.Location = this.dlgSaveProjectAs.FileName;
+      this.CurrentProject.SaveToDisk();
     }
 
     private void CreateNewProject(string file, CultureInfo native, CultureInfo foreign) {
