@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using System.ComponentModel;
 using System.Globalization;
 
 namespace Slovoca {
@@ -68,6 +69,32 @@ namespace Slovoca {
 
     private void TriggerNewProjectDialog(object sender, EventArgs e) {
       this.CreateProjectDialog.ShowDialog(this);
+    }
+
+    private void TriggerOpenProjectDialog(object sender, EventArgs e) {
+      this.dlgOpenProject.ShowDialog(this);
+    }
+
+    private void ConfirmProjectOpen(object sender, CancelEventArgs e) {
+      this.CurrentProject = new Project(this.dlgOpenProject.FileName);
+      this.CurrentProject.ReadFromDisk();
+
+      this.lsbForeignToNative.Items.Clear();
+      this.lsbNativeToForeign.Items.Clear();
+
+      foreach (Entry entry in this.CurrentProject.ForeignEntries.AllEntries.Values) {
+        this.lsbForeignToNative.Items.Add(entry);
+      }
+
+      foreach(Entry entry in this.CurrentProject.NativeEntries.AllEntries.Values) {
+        this.lsbNativeToForeign.Items.Add(entry);
+      }
+
+      this.ToggleControls(true);
+
+      this.lblForeignToNativePanelTitle.Text = this.CurrentProject.ForeignEntries.Language.DisplayName + "-" + this.CurrentProject.NativeEntries.Language.DisplayName;
+      this.lblNativeToForeignPanelTitle.Text = this.CurrentProject.NativeEntries.Language.DisplayName + "-" + this.CurrentProject.ForeignEntries.Language.DisplayName;
+      this.SelectForeignToNativeVocabulary(null, null);
     }
 
     private void CreateNewProject(string file, CultureInfo native, CultureInfo foreign) {
@@ -284,6 +311,10 @@ namespace Slovoca {
       }
 
       target.SelectedItem = found;
+    }
+
+    private void TriggerSave(object sender, EventArgs e) {
+      this.CurrentProject.SaveToDisk();
     }
 
     private void TriggerSlovocaOnline(object sender, EventArgs e) {
