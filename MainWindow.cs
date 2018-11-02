@@ -90,8 +90,8 @@ namespace Slovoca {
 
       this.ToggleControls(true);
 
-      this.lblForeignToNativePanelTitle.Text = this.CurrentProject.ForeignEntries.Language.DisplayName + "-" + this.CurrentProject.NativeEntries.Language.DisplayName;
-      this.lblNativeToForeignPanelTitle.Text = this.CurrentProject.NativeEntries.Language.DisplayName + "-" + this.CurrentProject.ForeignEntries.Language.DisplayName;
+      this.lblForeignToNativePanelTitle.Text = "Entries in " + this.CurrentProject.ForeignEntries.Language.DisplayName;
+      this.lblNativeToForeignPanelTitle.Text = "Entries in " + this.CurrentProject.NativeEntries.Language.DisplayName;
       this.SelectForeignToNativeVocabulary(null, null);
     }
 
@@ -107,8 +107,8 @@ namespace Slovoca {
     private void CreateNewProject(string file, CultureInfo native, CultureInfo foreign) {
       this.CurrentProject = new Project(file, native, foreign);
       this.ToggleControls(true);
-      this.lblForeignToNativePanelTitle.Text = foreign.DisplayName + "-" + native.DisplayName;
-      this.lblNativeToForeignPanelTitle.Text = native.DisplayName + "-" + foreign.DisplayName;
+      this.lblForeignToNativePanelTitle.Text = "Entries in " + foreign.DisplayName;
+      this.lblNativeToForeignPanelTitle.Text = "Entries in " + native.DisplayName;
       this.SelectForeignToNativeVocabulary(null, null);
     }
 
