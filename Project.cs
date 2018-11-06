@@ -42,28 +42,26 @@ namespace Slovoca {
         writer.WriteStartElement("Meaning");
         writer.WriteString(entry.Meaning.Meaning);
         writer.WriteEndElement();
-        if (entry.Meaning.HasPronounciation()) {
-          writer.WriteStartElement("Pronounciation");
-          writer.WriteString(entry.Meaning.Pronounciation);
-          writer.WriteEndElement();
-        }
+        writer.WriteStartElement("Pronounciation");
+        writer.WriteString(entry.Meaning.HasPronounciation() ? entry.Meaning.Pronounciation : "");
+        writer.WriteEndElement();
         writer.WriteEndElement();
         writer.WriteStartElement("Translations");
+
         foreach (Word translation in entry.Translations.WholeVocabulary.Values) {
           writer.WriteStartElement("Word");
           writer.WriteStartElement("Meaning");
           writer.WriteString(translation.Meaning);
           writer.WriteEndElement();
-          if (translation.HasPronounciation()) {
-            writer.WriteStartElement("Pronounciation");
-            writer.WriteString(translation.Pronounciation);
-            writer.WriteEndElement();
-          }
+          writer.WriteStartElement("Pronounciation");
+          writer.WriteString(translation.HasPronounciation() ? translation.Pronounciation : "");
+          writer.WriteEndElement();
           writer.WriteEndElement();
         }
+
         writer.WriteEndElement();
         writer.WriteStartElement("Notes");
-        writer.WriteString(entry.Notes);
+        writer.WriteString(entry.Notes ?? "");
         writer.WriteEndElement();
         writer.WriteEndElement();
       }

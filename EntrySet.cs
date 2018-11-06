@@ -3,17 +3,28 @@ using System.Globalization;
 
 namespace Slovoca {
   public class EntrySet {
+    private readonly CultureInfo language;
+    private SortedDictionary<string, Entry> allEntries;
+
     public EntrySet(CultureInfo language, bool isNative) {
-      this.Language = language;
+      this.language = language;
       this.IsNative = isNative;
-      this.AllEntries = new SortedDictionary<string, Entry>(new WordComparer(language));
+      this.allEntries = new SortedDictionary<string, Entry>(new WordComparer(language));
     }
 
-    public CultureInfo Language { get; }
+    public CultureInfo Language {
+      get {
+        return this.language;
+      }
+    }
 
     public bool IsNative { get; set; }
 
-    public SortedDictionary<string, Entry> AllEntries { get; }
+    public SortedDictionary<string, Entry> AllEntries {
+      get {
+        return this.allEntries;
+      }
+    }
 
     public void AddEntry(Entry entry) {
       this.AllEntries.Add(entry.Meaning.Meaning, entry);
@@ -24,7 +35,8 @@ namespace Slovoca {
     }
 
     public Entry FindEntry(Entry entry) {
-      if(this.AllEntries.TryGetValue(entry.Meaning.Meaning, out Entry result)) {
+      Entry result;
+      if(this.AllEntries.TryGetValue(entry.Meaning.Meaning, out result)) {
         return result;
       }
 
@@ -32,7 +44,8 @@ namespace Slovoca {
     }
 
     public Entry FindEntry(string meaning) {
-      if (this.AllEntries.TryGetValue(meaning, out Entry result)) {
+      Entry result;
+      if (this.AllEntries.TryGetValue(meaning, out result)) {
         return result;
       }
 

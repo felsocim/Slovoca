@@ -3,11 +3,17 @@ using System.Globalization;
 
 namespace Slovoca {
   public class WordSet {
+    private SortedDictionary<string, Word> wholeVocabulary;
+
     public WordSet(CultureInfo locale) {
-      this.WholeVocabulary = new SortedDictionary<string, Word>(new WordComparer(locale));
+      this.wholeVocabulary = new SortedDictionary<string, Word>(new WordComparer(locale));
     }
 
-    public SortedDictionary<string, Word> WholeVocabulary { get; }
+    public SortedDictionary<string, Word> WholeVocabulary {
+      get {
+        return this.wholeVocabulary;
+      }
+    }
 
     public void AddWord(Word word) {
       this.WholeVocabulary.Add(word.Meaning, word);
@@ -18,7 +24,8 @@ namespace Slovoca {
     }
 
     public Word FindWord(string meaning) {
-      if(this.WholeVocabulary.TryGetValue(meaning, out Word result)) {
+      Word result;
+      if(this.WholeVocabulary.TryGetValue(meaning, out result)) {
         return result;
       }
 

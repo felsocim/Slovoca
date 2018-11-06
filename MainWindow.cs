@@ -12,11 +12,15 @@ namespace Slovoca {
   }
 
   public partial class MainWindow : Form {
+    private NewProjectDialog createProjectDialog;
+    private NewEntryDialog addEntryDialog;
+    private AboutBox aboutDialog;
+
     public MainWindow() {
       // Dialogs
-      this.CreateProjectDialog = new NewProjectDialog();
-      this.AddEntryDialog = new NewEntryDialog();
-      this.AboutDialog = new AboutBox();
+      this.createProjectDialog = new NewProjectDialog();
+      this.addEntryDialog = new NewEntryDialog();
+      this.aboutDialog = new AboutBox();
 
       // Event handler associations
       this.CreateProjectDialog.OnConfirmProjectCreation += new NewProjectDialog.CreateProject(this.CreateNewProject);
@@ -27,11 +31,23 @@ namespace Slovoca {
 
     private Project CurrentProject { get; set; }
 
-    private NewProjectDialog CreateProjectDialog { get; }
+    private NewProjectDialog CreateProjectDialog {
+      get {
+        return this.createProjectDialog;
+      }
+    }
 
-    private NewEntryDialog AddEntryDialog { get; }
+    private NewEntryDialog AddEntryDialog {
+      get {
+        return this.addEntryDialog;
+      }
+    }
 
-    private AboutBox AboutDialog { get; }
+    private AboutBox AboutDialog {
+      get {
+        return this.aboutDialog;
+      }
+    }
 
     private ActiveVocabulary ActivePanel { get; set; }
 
@@ -90,8 +106,8 @@ namespace Slovoca {
 
       this.ToggleControls(true);
 
-      this.lblForeignToNativePanelTitle.Text = this.CurrentProject.ForeignEntries.Language.DisplayName + "-" + this.CurrentProject.NativeEntries.Language.DisplayName;
-      this.lblNativeToForeignPanelTitle.Text = this.CurrentProject.NativeEntries.Language.DisplayName + "-" + this.CurrentProject.ForeignEntries.Language.DisplayName;
+      this.lblForeignToNativePanelTitle.Text = "Entries in " + this.CurrentProject.ForeignEntries.Language.DisplayName;
+      this.lblNativeToForeignPanelTitle.Text = "Entries in " + this.CurrentProject.NativeEntries.Language.DisplayName;
       this.SelectForeignToNativeVocabulary(null, null);
     }
 
@@ -107,8 +123,8 @@ namespace Slovoca {
     private void CreateNewProject(string file, CultureInfo native, CultureInfo foreign) {
       this.CurrentProject = new Project(file, native, foreign);
       this.ToggleControls(true);
-      this.lblForeignToNativePanelTitle.Text = foreign.DisplayName + "-" + native.DisplayName;
-      this.lblNativeToForeignPanelTitle.Text = native.DisplayName + "-" + foreign.DisplayName;
+      this.lblForeignToNativePanelTitle.Text = "Entries in " + foreign.DisplayName;
+      this.lblNativeToForeignPanelTitle.Text = "Entries in " + native.DisplayName;
       this.SelectForeignToNativeVocabulary(null, null);
     }
 
