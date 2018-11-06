@@ -1,4 +1,4 @@
-﻿namespace Slovoca
+namespace Slovoca
 {
   partial class MainWindow
   {
@@ -534,4 +534,3 @@
     private System.Windows.Forms.SaveFileDialog dlgSaveProjectAs;
   }
 }
-
