@@ -2,6 +2,5 @@
 **********
 
 *) Debug the empty pronounciation string detection problem when loading vocabularies from file.
-*) Show the current project file name in the main window's title.
 *) Create help file(s).
 *) Localize the application in: Slovak, French, ...

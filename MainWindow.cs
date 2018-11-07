@@ -109,6 +109,8 @@ namespace Slovoca {
       this.lblForeignToNativePanelTitle.Text = "Entries in " + this.CurrentProject.ForeignEntries.Language.DisplayName;
       this.lblNativeToForeignPanelTitle.Text = "Entries in " + this.CurrentProject.NativeEntries.Language.DisplayName;
       this.SelectForeignToNativeVocabulary(null, null);
+
+      this.Text = "Slovoca - " + this.CurrentProject.Location;
     }
 
     private void TriggerSaveProjectAsDialog(object sender, EventArgs e) {
@@ -126,6 +128,7 @@ namespace Slovoca {
       this.lblForeignToNativePanelTitle.Text = "Entries in " + foreign.DisplayName;
       this.lblNativeToForeignPanelTitle.Text = "Entries in " + native.DisplayName;
       this.SelectForeignToNativeVocabulary(null, null);
+      this.Text = "Slovoca - " + this.CurrentProject.Location;
     }
 
     private void tsbAdd_Click(object sender, EventArgs e) {
