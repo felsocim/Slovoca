@@ -1,9 +1,8 @@
 ﻿TODO List:
 **********
 
-1) Debug the empty pronounciation string detection problem when loading vocabularies from file.
-2) Create tooltips.
-3) Show the current project file name in the main window's title.
-4) Make the child dialogs appear in the center of the screen.
-5) Create help file(s).
-6) Localize the application in: Slovak, French, ...
+*) Debug the empty pronounciation string detection problem when loading vocabularies from file.
+*) Show the current project file name in the main window's title.
+*) Make the child dialogs appear in the center of the screen.
+*) Create help file(s).
+*) Localize the application in: Slovak, French, ...
