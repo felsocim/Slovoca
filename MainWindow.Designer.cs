@@ -64,8 +64,6 @@ namespace Slovoca
       this.tsbHelp = new System.Windows.Forms.ToolStripButton();
       this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
       this.tsbExit = new System.Windows.Forms.ToolStripButton();
-      this.stsStatusBar = new System.Windows.Forms.StatusStrip();
-      this.tslCurrentStatusOrInformation = new System.Windows.Forms.ToolStripStatusLabel();
       this.pnlForeignToNativePanel = new System.Windows.Forms.Panel();
       this.lblForeignToNativePanelTitle = new System.Windows.Forms.Label();
       this.pnlNativeToForeignPanel = new System.Windows.Forms.Panel();
@@ -82,7 +80,6 @@ namespace Slovoca
       this.dlgSaveProjectAs = new System.Windows.Forms.SaveFileDialog();
       this.menuStrip1.SuspendLayout();
       this.tsToolbar.SuspendLayout();
-      this.stsStatusBar.SuspendLayout();
       this.pnlForeignToNativePanel.SuspendLayout();
       this.pnlNativeToForeignPanel.SuspendLayout();
       this.layMainWindow.SuspendLayout();
@@ -341,18 +338,6 @@ namespace Slovoca
       this.tsbExit.Name = "tsbExit";
       this.tsbExit.Click += new System.EventHandler(this.TriggerExit);
       // 
-      // stsStatusBar
-      // 
-      this.stsStatusBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tslCurrentStatusOrInformation});
-      resources.ApplyResources(this.stsStatusBar, "stsStatusBar");
-      this.stsStatusBar.Name = "stsStatusBar";
-      // 
-      // tslCurrentStatusOrInformation
-      // 
-      this.tslCurrentStatusOrInformation.Name = "tslCurrentStatusOrInformation";
-      resources.ApplyResources(this.tslCurrentStatusOrInformation, "tslCurrentStatusOrInformation");
-      // 
       // pnlForeignToNativePanel
       // 
       resources.ApplyResources(this.pnlForeignToNativePanel, "pnlForeignToNativePanel");
@@ -457,7 +442,6 @@ namespace Slovoca
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Control;
       this.Controls.Add(this.layMainWindow);
-      this.Controls.Add(this.stsStatusBar);
       this.Controls.Add(this.tsToolbar);
       this.Controls.Add(this.menuStrip1);
       this.MainMenuStrip = this.menuStrip1;
@@ -466,8 +450,6 @@ namespace Slovoca
       this.menuStrip1.PerformLayout();
       this.tsToolbar.ResumeLayout(false);
       this.tsToolbar.PerformLayout();
-      this.stsStatusBar.ResumeLayout(false);
-      this.stsStatusBar.PerformLayout();
       this.pnlForeignToNativePanel.ResumeLayout(false);
       this.pnlNativeToForeignPanel.ResumeLayout(false);
       this.layMainWindow.ResumeLayout(false);
@@ -516,12 +498,10 @@ namespace Slovoca
     private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
     private System.Windows.Forms.ToolStripButton tsbHelp;
     private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
-    private System.Windows.Forms.StatusStrip stsStatusBar;
     private System.Windows.Forms.Label lblForeignToNativePanelTitle;
     private System.Windows.Forms.Panel pnlForeignToNativePanel;
     private System.Windows.Forms.Panel pnlNativeToForeignPanel;
     private System.Windows.Forms.Label lblNativeToForeignPanelTitle;
-    private System.Windows.Forms.ToolStripStatusLabel tslCurrentStatusOrInformation;
     private System.Windows.Forms.TableLayoutPanel layMainWindow;
     private System.Windows.Forms.ListBox lsbForeignToNative;
     private System.Windows.Forms.ListBox lsbNativeToForeign;
