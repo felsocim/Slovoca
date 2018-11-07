@@ -1,6 +1,5 @@
 ﻿TODO List:
 **********
 
-*) Debug the empty pronounciation string detection problem when loading vocabularies from file.
 *) Create help file(s).
 *) Localize the application in: Slovak, French, ...

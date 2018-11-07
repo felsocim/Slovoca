@@ -10,7 +10,7 @@
     public string Pronounciation { get; set; }
 
     public bool HasPronounciation() {
-      return this.Pronounciation != null;
+      return (this.Pronounciation != null && this.Pronounciation.Length > 0);
     }
   }
 }
