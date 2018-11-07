@@ -21,6 +21,7 @@ namespace Slovoca {
       this.createProjectDialog = new NewProjectDialog();
       this.addEntryDialog = new NewEntryDialog();
       this.aboutDialog = new AboutBox();
+      this.UnsavedChanges = false;
 
       // Event handler associations
       this.CreateProjectDialog.OnConfirmProjectCreation += new NewProjectDialog.CreateProject(this.CreateNewProject);
@@ -49,7 +50,15 @@ namespace Slovoca {
       }
     }
 
-    private ActiveVocabulary ActivePanel { get; set; }
+    private ActiveVocabulary ActivePanel {
+      get;
+      set;
+    }
+
+    private bool UnsavedChanges {
+      get;
+      set;
+    }
 
     public void ToggleControls(bool activate) {
       // Main menu
