@@ -133,7 +133,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblNewProjectFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 20</value>
+    <value>198, 20</value>
   </data>
   <data name="lblNewProjectFile.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -163,7 +163,7 @@
     <value>3, 72</value>
   </data>
   <data name="cmbNewProjectForeignCultures.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 21</value>
+    <value>198, 21</value>
   </data>
   <data name="cmbNewProjectForeignCultures.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -184,10 +184,10 @@
     <value>Top</value>
   </data>
   <data name="cmbNewProjectNativeCultures.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 72</value>
+    <value>207, 72</value>
   </data>
   <data name="cmbNewProjectNativeCultures.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 21</value>
+    <value>199, 21</value>
   </data>
   <data name="cmbNewProjectNativeCultures.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -211,7 +211,7 @@
     <value>3, 23</value>
   </data>
   <data name="txbNewProjectFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>314, 20</value>
+    <value>320, 20</value>
   </data>
   <data name="txbNewProjectFile.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -238,7 +238,7 @@
     <value>3, 49</value>
   </data>
   <data name="lblNewProjectForeign.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 20</value>
+    <value>198, 20</value>
   </data>
   <data name="lblNewProjectForeign.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -268,10 +268,10 @@
     <value>Fill</value>
   </data>
   <data name="lblNewProejctNative.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 49</value>
+    <value>207, 49</value>
   </data>
   <data name="lblNewProejctNative.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 20</value>
+    <value>199, 20</value>
   </data>
   <data name="lblNewProejctNative.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -298,10 +298,10 @@
     <value>Top</value>
   </data>
   <data name="btnNewProjectBrowseFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 23</value>
+    <value>329, 23</value>
   </data>
   <data name="btnNewProjectBrowseFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>77, 23</value>
   </data>
   <data name="btnNewProjectBrowseFile.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -349,7 +349,7 @@
     <value>Top, Right</value>
   </data>
   <data name="btnNewProjectCreate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 99</value>
+    <value>331, 99</value>
   </data>
   <data name="btnNewProjectCreate.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -382,7 +382,7 @@
     <value>5</value>
   </data>
   <data name="layNewProjectDialog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>401, 125</value>
+    <value>409, 129</value>
   </data>
   <data name="layNewProjectDialog.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -418,7 +418,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>421, 145</value>
+    <value>429, 149</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2340,6 +2340,9 @@
   </data>
   <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>New project</value>
