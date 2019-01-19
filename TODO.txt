@@ -3,4 +3,3 @@
 
 *) Create help file(s).
 *) Localize the application in: Slovak, French, ...
-*) Detect unsaved changes when closing, creating new or opening another project file.

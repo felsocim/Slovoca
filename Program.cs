@@ -7,12 +7,17 @@ namespace Slovoca {
     /// The main entry point for the application.
     /// </summary>
     [STAThread]
-    static void Main() {
+    static void Main(string[] args) {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
 
       MainWindow window = new MainWindow();
-      window.ToggleControls(false);
+
+      if(args.Length == 1) {
+        window.ProjectOpen(args[0]);
+      } else {
+        window.ToggleControls(false);
+      }
 
       Application.Run(window);
     }

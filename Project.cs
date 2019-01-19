@@ -4,6 +4,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Linq;
 using System.IO;
+using System;
 
 namespace Slovoca {
   public class Project {
@@ -109,13 +110,20 @@ namespace Slovoca {
       }
     }
 
-    public void SaveToDisk() {
-      FileStream file = new FileStream(this.Location, FileMode.Create, FileAccess.Write, FileShare.Read);
-      XmlTextWriter writer = new XmlTextWriter(file, null) {
-        Formatting = Formatting.Indented,
-        Indentation = 2,
-        IndentChar = ' '
-      };
+    public string SaveToDisk() {
+      FileStream file;
+      XmlTextWriter writer;
+
+      try {
+        file = new FileStream(this.Location, FileMode.Create, FileAccess.Write, FileShare.Read);
+        writer = new XmlTextWriter(file, System.Text.Encoding.UTF8) {
+          Formatting = Formatting.Indented,
+          Indentation = 2,
+          IndentChar = ' '
+        };
+      } catch(Exception exception) {
+        return exception.Message;
+      }
 
       writer.WriteStartDocument();
 
@@ -140,6 +148,8 @@ namespace Slovoca {
 
       writer.WriteEndDocument();
       writer.Close();
+
+      return null;
     }
 
     public void ReadFromDisk() {

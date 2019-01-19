@@ -78,6 +78,9 @@ namespace Slovoca
       this.lsbSelectedItemTranslations = new System.Windows.Forms.ListBox();
       this.dlgOpenProject = new System.Windows.Forms.OpenFileDialog();
       this.dlgSaveProjectAs = new System.Windows.Forms.SaveFileDialog();
+      this.lblSelectedItemWordDescription = new System.Windows.Forms.Label();
+      this.lblSelectedItemTranslationsDescription = new System.Windows.Forms.Label();
+      this.lblSelectedItemNotesDescription = new System.Windows.Forms.Label();
       this.menuStrip1.SuspendLayout();
       this.tsToolbar.SuspendLayout();
       this.pnlForeignToNativePanel.SuspendLayout();
@@ -401,9 +404,12 @@ namespace Slovoca
       // laySelectedItemColumn
       // 
       resources.ApplyResources(this.laySelectedItemColumn, "laySelectedItemColumn");
-      this.laySelectedItemColumn.Controls.Add(this.lblSelectedItemWord, 0, 0);
-      this.laySelectedItemColumn.Controls.Add(this.lblSelectedItemNotes, 0, 2);
-      this.laySelectedItemColumn.Controls.Add(this.lsbSelectedItemTranslations, 0, 1);
+      this.laySelectedItemColumn.Controls.Add(this.lblSelectedItemWord, 0, 1);
+      this.laySelectedItemColumn.Controls.Add(this.lblSelectedItemNotes, 0, 5);
+      this.laySelectedItemColumn.Controls.Add(this.lsbSelectedItemTranslations, 0, 3);
+      this.laySelectedItemColumn.Controls.Add(this.lblSelectedItemTranslationsDescription, 0, 2);
+      this.laySelectedItemColumn.Controls.Add(this.lblSelectedItemNotesDescription, 0, 4);
+      this.laySelectedItemColumn.Controls.Add(this.lblSelectedItemWordDescription, 0, 0);
       this.laySelectedItemColumn.Name = "laySelectedItemColumn";
       // 
       // lblSelectedItemWord
@@ -436,6 +442,21 @@ namespace Slovoca
       this.dlgSaveProjectAs.InitialDirectory = "%USERPROFILE%";
       this.dlgSaveProjectAs.FileOk += new System.ComponentModel.CancelEventHandler(this.ConfirmSaveProjectAs);
       // 
+      // lblSelectedItemWordDescription
+      // 
+      resources.ApplyResources(this.lblSelectedItemWordDescription, "lblSelectedItemWordDescription");
+      this.lblSelectedItemWordDescription.Name = "lblSelectedItemWordDescription";
+      // 
+      // lblSelectedItemTranslationsDescription
+      // 
+      resources.ApplyResources(this.lblSelectedItemTranslationsDescription, "lblSelectedItemTranslationsDescription");
+      this.lblSelectedItemTranslationsDescription.Name = "lblSelectedItemTranslationsDescription";
+      // 
+      // lblSelectedItemNotesDescription
+      // 
+      resources.ApplyResources(this.lblSelectedItemNotesDescription, "lblSelectedItemNotesDescription");
+      this.lblSelectedItemNotesDescription.Name = "lblSelectedItemNotesDescription";
+      // 
       // MainWindow
       // 
       resources.ApplyResources(this, "$this");
@@ -446,6 +467,7 @@ namespace Slovoca
       this.Controls.Add(this.menuStrip1);
       this.MainMenuStrip = this.menuStrip1;
       this.Name = "MainWindow";
+      this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TriggerQuit);
       this.menuStrip1.ResumeLayout(false);
       this.menuStrip1.PerformLayout();
       this.tsToolbar.ResumeLayout(false);
@@ -512,5 +534,8 @@ namespace Slovoca
     private System.Windows.Forms.ListBox lsbSelectedItemTranslations;
     private System.Windows.Forms.OpenFileDialog dlgOpenProject;
     private System.Windows.Forms.SaveFileDialog dlgSaveProjectAs;
+    private System.Windows.Forms.Label lblSelectedItemTranslationsDescription;
+    private System.Windows.Forms.Label lblSelectedItemNotesDescription;
+    private System.Windows.Forms.Label lblSelectedItemWordDescription;
   }
 }

@@ -91,21 +91,53 @@ namespace Slovoca {
     }
 
     private void TriggerNewProjectDialog(object sender, EventArgs e) {
+      if(this.UnsavedChanges) {
+        switch(MessageBox.Show(this, "There are unsaved changes in your project. Do you want to save them before creating a new one?", "Unsaved changes", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
+          case System.Windows.Forms.DialogResult.Yes:
+            string returnMessage = this.CurrentProject.SaveToDisk();
+            if(returnMessage != null) {
+              MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            } else {
+              this.UnsavedChanges = false;
+              this.Text = "Slovoca - " + this.CurrentProject.Location;
+            }
+            break;
+          case System.Windows.Forms.DialogResult.Cancel:
+            return;
+        }
+      }
+
       this.CreateProjectDialog.ShowDialog(this);
     }
 
     private void TriggerOpenProjectDialog(object sender, EventArgs e) {
+      if(this.UnsavedChanges) {
+        switch(MessageBox.Show(this, "There are unsaved changes in your project. Do you want to save them before opening another one?", "Unsaved changes", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
+          case System.Windows.Forms.DialogResult.Yes:
+            string returnMessage = this.CurrentProject.SaveToDisk();
+            if(returnMessage != null) {
+              MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            } else {
+              this.UnsavedChanges = false;
+              this.Text = "Slovoca - " + this.CurrentProject.Location;
+            }
+            break;
+          case System.Windows.Forms.DialogResult.Cancel:
+            return;
+        }
+      }
+
       this.dlgOpenProject.ShowDialog(this);
     }
 
-    private void ConfirmProjectOpen(object sender, CancelEventArgs e) {
-      this.CurrentProject = new Project(this.dlgOpenProject.FileName);
+    public void ProjectOpen(string location) {
+      this.CurrentProject = new Project(location);
       this.CurrentProject.ReadFromDisk();
 
       this.lsbForeignToNative.Items.Clear();
       this.lsbNativeToForeign.Items.Clear();
 
-      foreach (Entry entry in this.CurrentProject.ForeignEntries.AllEntries.Values) {
+      foreach(Entry entry in this.CurrentProject.ForeignEntries.AllEntries.Values) {
         this.lsbForeignToNative.Items.Add(entry);
       }
 
@@ -122,13 +154,29 @@ namespace Slovoca {
       this.Text = "Slovoca - " + this.CurrentProject.Location;
     }
 
+    private void ConfirmProjectOpen(object sender, CancelEventArgs e) {
+      if(this.CurrentProject != null && this.CurrentProject.Location.CompareTo(this.dlgOpenProject.FileName) == 0) {
+        MessageBox.Show(this, "The project '" + this.dlgOpenProject.FileName + "' is already opened.", "Open project", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        return;
+      }
+
+      this.ProjectOpen(this.dlgOpenProject.FileName);
+    }
+
     private void TriggerSaveProjectAsDialog(object sender, EventArgs e) {
       this.dlgSaveProjectAs.ShowDialog(this);
     }
 
     private void ConfirmSaveProjectAs(object sender, CancelEventArgs e) {
       this.CurrentProject.Location = this.dlgSaveProjectAs.FileName;
-      this.CurrentProject.SaveToDisk();
+
+      string returnMessage = this.CurrentProject.SaveToDisk();
+      if(returnMessage != null) {
+        MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+      } else {
+        this.UnsavedChanges = false;
+        this.Text = "Slovoca - " + this.CurrentProject.Location;
+      }
     }
 
     private void CreateNewProject(string file, CultureInfo native, CultureInfo foreign) {
@@ -190,6 +238,9 @@ namespace Slovoca {
       for (int i = 0; i < current.AllEntries.Count; i++) {
         target.Items.Add(current.AllEntries.ElementAt(i).Value);
       }
+
+      this.UnsavedChanges = true;
+      this.Text = "Slovoca - " + this.CurrentProject.Location + " (unsaved changes)";
     }
 
     private void ShowDetailedEntryInformation(object sender, EventArgs e) {
@@ -349,7 +400,13 @@ namespace Slovoca {
     }
 
     private void TriggerSave(object sender, EventArgs e) {
-      this.CurrentProject.SaveToDisk();
+      string returnMessage = this.CurrentProject.SaveToDisk();
+      if(returnMessage != null) {
+        MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+      } else {
+        this.UnsavedChanges = false;
+        this.Text = "Slovoca - " + this.CurrentProject.Location;
+      }
     }
 
     private void TriggerSlovocaOnline(object sender, EventArgs e) {
@@ -361,8 +418,42 @@ namespace Slovoca {
     }
 
     private void TriggerExit(object sender, EventArgs e) {
-      // TODO: Check if unsaved and prompt user to confirm exit
+      if(this.UnsavedChanges) {
+        switch(MessageBox.Show(this, "There are unsaved changes in your project. Do you want to save them before closing?", "Exit Slovoca", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
+          case System.Windows.Forms.DialogResult.Yes:
+            string returnMessage = this.CurrentProject.SaveToDisk();
+            if(returnMessage != null) {
+              MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            } else {
+              this.UnsavedChanges = false;
+              this.Text = "Slovoca - " + this.CurrentProject.Location;
+            }
+            break;
+          case System.Windows.Forms.DialogResult.Cancel:
+            return;
+        } 
+      }
+
       Application.Exit();
+    }
+
+    private void TriggerQuit(object sender, FormClosingEventArgs e) {
+      if(this.UnsavedChanges) {
+        switch(MessageBox.Show(this, "There are unsaved changes in your project. Do you want to save them before closing?", "Exit Slovoca", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
+          case System.Windows.Forms.DialogResult.Yes:
+            string returnMessage = this.CurrentProject.SaveToDisk();
+            if(returnMessage != null) {
+              MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            } else {
+              this.UnsavedChanges = false;
+              this.Text = "Slovoca - " + this.CurrentProject.Location;
+            }
+            break;
+          case System.Windows.Forms.DialogResult.Cancel:
+            e.Cancel = true;
+            break;
+        }
+      }
     }
   }
 }
