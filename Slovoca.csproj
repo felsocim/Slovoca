@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <StartupObject>Slovoca.Program</StartupObject>
+  </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -49,7 +52,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Slovoca.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Slovoca.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,53 +67,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutBox.cs">
+    <Compile Include="Sources\AboutBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutBox.Designer.cs">
+    <Compile Include="Sources\AboutBox.Designer.cs">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="CultureInfoItem.cs" />
-    <Compile Include="Entry.cs" />
-    <Compile Include="EntrySet.cs" />
-    <Compile Include="NewProjectDialog.cs">
+    <Compile Include="Sources\CultureInfoItem.cs" />
+    <Compile Include="Sources\Entry.cs" />
+    <Compile Include="Sources\EntrySet.cs" />
+    <Compile Include="Sources\NewProjectDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewProjectDialog.Designer.cs">
+    <Compile Include="Sources\NewProjectDialog.Designer.cs">
       <DependentUpon>NewProjectDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="NotFoundException.cs" />
-    <Compile Include="Project.cs" />
-    <Compile Include="Word.cs" />
-    <Compile Include="WordComparer.cs" />
-    <Compile Include="WordSet.cs" />
-    <Compile Include="MainWindow.cs">
+    <Compile Include="Sources\NotFoundException.cs" />
+    <Compile Include="Sources\Project.cs" />
+    <Compile Include="Sources\Word.cs" />
+    <Compile Include="Sources\WordComparer.cs" />
+    <Compile Include="Sources\WordSet.cs" />
+    <Compile Include="Sources\MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainWindow.Designer.cs">
+    <Compile Include="Sources\MainWindow.Designer.cs">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewEntryDialog.cs">
+    <Compile Include="Sources\NewEntryDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewEntryDialog.Designer.cs">
+    <Compile Include="Sources\NewEntryDialog.Designer.cs">
       <DependentUpon>NewEntryDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Sources\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AboutBox.resx">
+    <EmbeddedResource Include="Sources\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainWindow.en.resx">
+    <EmbeddedResource Include="Sources\MainWindow.en.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainWindow.resx">
+    <EmbeddedResource Include="Sources\MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewEntryDialog.resx">
+    <EmbeddedResource Include="Sources\NewEntryDialog.resx">
       <DependentUpon>NewEntryDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewProjectDialog.resx">
+    <EmbeddedResource Include="Sources\NewProjectDialog.resx">
       <DependentUpon>NewProjectDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -137,61 +140,58 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\newFile.bmp" />
+    <None Include="Resources\NewFile_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\NewFile_16x_24.bmp" />
+    <None Include="Resources\Exit_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Exit_16x_24.bmp" />
+    <None Include="Resources\ExportData_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\ExportData_16x_24.bmp" />
+    <None Include="Resources\OpenFolder_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\OpenFolder_16x_24.bmp" />
+    <None Include="Resources\Print_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Print_16x_24.bmp" />
+    <None Include="Resources\Save_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Save_16x_24.bmp" />
+    <None Include="Resources\SaveAs_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\SaveAs_16x_24.bmp" />
+    <None Include="Resources\Copy_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Copy_16x_24.bmp" />
+    <None Include="Resources\Cut_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Cut_16x_24.bmp" />
+    <None Include="Resources\Paste_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Paste_16x_24.bmp" />
+    <None Include="Resources\Settings_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Settings_16x_24.bmp" />
+    <None Include="Resources\Add_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Add_16x_24.bmp" />
+    <None Include="Resources\Edit_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Edit_16x_24.bmp" />
+    <None Include="Resources\FindResults_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\FindResults_16x_24.bmp" />
+    <None Include="Resources\Question_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Question_16x_24.bmp" />
+    <None Include="Resources\Remove_color_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Remove_color_16x_24.bmp" />
+    <None Include="Resources\Web_16x_24.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Web_16x_24.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Slovoca.ico" />
+    <Content Include="Resources\Slovoca.ico" />
     <Content Include="TODO.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -211,5 +211,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
