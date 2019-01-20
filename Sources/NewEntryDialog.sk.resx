@@ -118,220 +118,41 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>437, 183</value>
+  <data name="lblNewEntryEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCancel.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="lblNewEntryEntry.Text" xml:space="preserve">
+    <value>Heslo:</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblNewEntryTranslations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txbNewProjectFile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="lblNewEntryTranslations.Text" xml:space="preserve">
+    <value>Preklady:</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCreate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblNewEntryNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="layNewProjectDialog.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblNewEntryNotes.Text" xml:space="preserve">
+    <value>Poznámky:</value>
   </data>
-  <data name="&gt;&gt;layNewProjectDialog.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnNewEntryCancel.Text" xml:space="preserve">
+    <value>Zrušiť</value>
   </data>
-  <data name="&gt;&gt;cmbNewProjectForeignCultures.Name" xml:space="preserve">
-    <value>cmbNewProjectForeignCultures</value>
+  <data name="btnNewEntryAdd.Text" xml:space="preserve">
+    <value>Pridať</value>
   </data>
-  <data name="&gt;&gt;lblNewProjectForeign.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="lblNewEntryPronounciations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
   </data>
-  <data name="&gt;&gt;lblNewProjectForeign.Name" xml:space="preserve">
-    <value>lblNewProjectForeign</value>
+  <data name="lblNewEntryPronounciations.Text" xml:space="preserve">
+    <value>Výslovnosti:</value>
   </data>
-  <data name="txbNewProjectFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 23</value>
+  <data name="lblNewEntryEntryPronounciation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
   </data>
-  <data name="cmbNewProjectNativeCultures.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="cmbNewProjectNativeCultures.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 21</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectCreate.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="btnNewProjectBrowseFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 23</value>
-  </data>
-  <data name="lblNewProjectForeign.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 20</value>
-  </data>
-  <data name="lblNewProejctNative.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 20</value>
-  </data>
-  <data name="cmbNewProjectNativeCultures.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 72</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;cmbNewProjectForeignCultures.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;layNewProjectDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnNewProjectCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 99</value>
-  </data>
-  <data name="&gt;&gt;lblNewProejctNative.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;cmbNewProjectNativeCultures.Name" xml:space="preserve">
-    <value>cmbNewProjectNativeCultures</value>
-  </data>
-  <data name="&gt;&gt;txbNewProjectFile.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lblNewProjectForeign.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="cmbNewProjectForeignCultures.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 21</value>
-  </data>
-  <data name="btnNewProjectCreate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="layNewProjectDialog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>409, 129</value>
-  </data>
-  <data name="btnNewProjectCancel.Text" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="cmbNewProjectForeignCultures.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="lblNewProjectForeign.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 49</value>
-  </data>
-  <data name="btnNewProjectCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectBrowseFile.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;lblNewProjectFile.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="&gt;&gt;lblNewProejctNative.Name" xml:space="preserve">
-    <value>lblNewProejctNative</value>
-  </data>
-  <data name="&gt;&gt;txbNewProjectFile.Name" xml:space="preserve">
-    <value>txbNewProjectFile</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectCancel.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="btnNewProjectCreate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 99</value>
-  </data>
-  <data name="&gt;&gt;lblNewProjectFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnNewProjectBrowseFile.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lblNewProejctNative.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;cmbNewProjectForeignCultures.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="btnNewProjectBrowseFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 23</value>
-  </data>
-  <data name="dlgNewProjectFileSave.Title" xml:space="preserve">
-    <value>Choose location and name for the new project...</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectBrowseFile.Name" xml:space="preserve">
-    <value>btnNewProjectBrowseFile</value>
-  </data>
-  <data name="&gt;&gt;txbNewProjectFile.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="&gt;&gt;lblNewProjectFile.Name" xml:space="preserve">
-    <value>lblNewProjectFile</value>
-  </data>
-  <data name="&gt;&gt;lblNewProejctNative.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="&gt;&gt;layNewProjectDialog.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cmbNewProjectForeignCultures.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 72</value>
-  </data>
-  <data name="&gt;&gt;cmbNewProjectNativeCultures.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="lblNewProjectFile.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectCancel.Name" xml:space="preserve">
-    <value>btnNewProjectCancel</value>
-  </data>
-  <data name="&gt;&gt;dlgNewProjectFileSave.Name" xml:space="preserve">
-    <value>dlgNewProjectFileSave</value>
-  </data>
-  <data name="lblNewProjectFile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;lblNewProjectForeign.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="lblNewProjectFile.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="lblNewProjectFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 20</value>
-  </data>
-  <data name="&gt;&gt;cmbNewProjectForeignCultures.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblNewProejctNative.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 49</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectCreate.Name" xml:space="preserve">
-    <value>btnNewProjectCreate</value>
-  </data>
-  <data name="btnNewProjectCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="layNewProjectDialog.RowCount" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblNewProejctNative.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectBrowseFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnNewProjectBrowseFile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="lblNewProejctNative.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="cmbNewProjectForeignCultures.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="layNewProjectDialog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 10</value>
-  </data>
-  <data name="btnNewProjectBrowseFile.Text" xml:space="preserve">
-    <value>Browse...</value>
+  <data name="lblNewEntryEntryPronounciation.Text" xml:space="preserve">
+    <value>Výslovnosť:</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2248,118 +2069,7 @@
         AAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <data name="lblNewProjectForeign.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblNewProjectForeign.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="layNewProjectDialog.ColumnCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblNewProjectFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>New project</value>
+    <value>Nové heslo</value>
   </data>
-  <data name="lblNewProejctNative.Text" xml:space="preserve">
-    <value>Native language:</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectBrowseFile.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="&gt;&gt;lblNewProejctNative.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
-  </data>
-  <data name="lblNewProjectFile.Text" xml:space="preserve">
-    <value>Project file location:</value>
-  </data>
-  <data name="&gt;&gt;dlgNewProjectFileSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblNewProjectForeign.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;layNewProjectDialog.Name" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="layNewProjectDialog.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>NewProjectDialog</value>
-  </data>
-  <data name="lblNewProjectFile.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblNewProjectForeign.Text" xml:space="preserve">
-    <value>Foreign language:</value>
-  </data>
-  <data name="lblNewProjectForeign.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="&gt;&gt;lblNewProjectFile.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cmbNewProjectNativeCultures.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="txbNewProjectFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 20</value>
-  </data>
-  <data name="lblNewProejctNative.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnNewProjectCreate.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="dlgNewProjectFileSave.Filter" xml:space="preserve">
-    <value>Slovoca vocabulary files (*.slovo)|*.slovo|All files (*.*)|*.*</value>
-  </data>
-  <data name="layNewProjectDialog.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblNewProjectFile" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbNewProjectForeignCultures" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbNewProjectNativeCultures" Row="3" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="txbNewProjectFile" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="lblNewProjectForeign" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblNewProejctNative" Row="2" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="btnNewProjectBrowseFile" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="btnNewProjectCancel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnNewProjectCreate" Row="4" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Absolute,20,AutoSize,0,Absolute,20,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>429, 149</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbNewProjectNativeCultures.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnNewProjectCreate.Text" xml:space="preserve">
-    <value>Create</value>
-  </data>
-  <data name="txbNewProjectFile.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;cmbNewProjectNativeCultures.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txbNewProjectFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectCreate.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btnNewProjectCreate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dlgNewProjectFileSave.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sk</value>
-  </metadata>
 </root>

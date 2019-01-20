@@ -118,220 +118,282 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>437, 183</value>
+  <data name="tmiFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCancel.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="tmiFile.Text" xml:space="preserve">
+    <value>&amp;Súbor</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tmiFile.ToolTipText" xml:space="preserve">
+    <value>Zobrazí ponuku činností so súborom.</value>
+  </data>
+  <data name="tmiEntry.Text" xml:space="preserve">
+    <value>&amp;Heslo</value>
+  </data>
+  <data name="tmiEntry.ToolTipText" xml:space="preserve">
+    <value>Zobrazí ponuku činností so zvoleným heslom.</value>
+  </data>
+  <data name="tmiLanguage.Text" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="tmiLanguage.ToolTipText" xml:space="preserve">
+    <value>Zobrazí dostupné jazyky rozhrania programu.</value>
+  </data>
+  <data name="tmiHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="tmiHelp.Text" xml:space="preserve">
+    <value>&amp;Pomoc</value>
+  </data>
+  <data name="tmiHelp.ToolTipText" xml:space="preserve">
+    <value>Zobrazí možnosti pomocníka.</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="tmiEnglish.Text" xml:space="preserve">
+    <value>Angličtina (English)</value>
+  </data>
+  <data name="tmiEnglish.ToolTipText" xml:space="preserve">
+    <value>Zmení jazyk rozhrania programu na angličtinu.</value>
+  </data>
+  <data name="tmiSlovak.Text" xml:space="preserve">
+    <value>Slovenčina</value>
+  </data>
+  <data name="tmiSlovak.ToolTipText" xml:space="preserve">
+    <value>Zmení jazyk rozhrania programu na slovenčinu.</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 6</value>
+  </data>
+  <data name="tmiAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
+  </data>
+  <data name="tmiAbout.Text" xml:space="preserve">
+    <value>O programe Slovoca</value>
+  </data>
+  <data name="tmiAbout.ToolTipText" xml:space="preserve">
+    <value>Zobrazí okno so základnými informáciami o programe Slovoca.</value>
+  </data>
+  <data name="lblForeignToNativePanelTitle.Text" xml:space="preserve">
+    <value>Heslá v cudzom jazyku</value>
+  </data>
+  <data name="lblNativeToForeignPanelTitle.Text" xml:space="preserve">
+    <value>Heslá v rodnom jazyku</value>
+  </data>
+  <data name="lblSelectedItemColumnTitle.Text" xml:space="preserve">
+    <value>Zvolené heslo</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txbNewProjectFile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="lblSelectedItemTranslationsDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCreate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblSelectedItemTranslationsDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="layNewProjectDialog.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblSelectedItemTranslationsDescription.Text" xml:space="preserve">
+    <value>Poskytnuté preklady:</value>
   </data>
-  <data name="&gt;&gt;layNewProjectDialog.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="lblSelectedItemNotesDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;cmbNewProjectForeignCultures.Name" xml:space="preserve">
-    <value>cmbNewProjectForeignCultures</value>
+  <data name="lblSelectedItemNotesDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
   </data>
-  <data name="&gt;&gt;lblNewProjectForeign.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="lblSelectedItemNotesDescription.Text" xml:space="preserve">
+    <value>Poznámky:</value>
   </data>
-  <data name="&gt;&gt;lblNewProjectForeign.Name" xml:space="preserve">
-    <value>lblNewProjectForeign</value>
+  <data name="lblSelectedItemWordDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="txbNewProjectFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 23</value>
+  <data name="lblSelectedItemWordDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
   </data>
-  <data name="cmbNewProjectNativeCultures.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="lblSelectedItemWordDescription.Text" xml:space="preserve">
+    <value>Význam a výslovnosť:</value>
   </data>
-  <data name="cmbNewProjectNativeCultures.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 21</value>
+  <data name="tsbNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCreate.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
+  <data name="tsbNew.Text" xml:space="preserve">
+    <value>&amp;Nový</value>
   </data>
-  <data name="btnNewProjectBrowseFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 23</value>
+  <data name="tsbNew.ToolTipText" xml:space="preserve">
+    <value>Vytvorí nový projekt slovníka.</value>
   </data>
-  <data name="lblNewProjectForeign.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 20</value>
+  <data name="tsbOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 22</value>
   </data>
-  <data name="lblNewProejctNative.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 20</value>
+  <data name="tsbOpen.Text" xml:space="preserve">
+    <value>&amp;Otvoriť</value>
   </data>
-  <data name="cmbNewProjectNativeCultures.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 72</value>
+  <data name="tsbOpen.ToolTipText" xml:space="preserve">
+    <value>Otvorí jestvujúci projekt slovníka.</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="tsbSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 22</value>
   </data>
-  <data name="&gt;&gt;cmbNewProjectForeignCultures.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="tsbSave.Text" xml:space="preserve">
+    <value>&amp;Uložiť</value>
   </data>
-  <data name="&gt;&gt;layNewProjectDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tsbSave.ToolTipText" xml:space="preserve">
+    <value>Uloží zmeny v súčasnom projekte slovníka vykonané od posledného uloženia.</value>
   </data>
-  <data name="btnNewProjectCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 99</value>
+  <data name="tsbSaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
   </data>
-  <data name="&gt;&gt;lblNewProejctNative.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="tsbSaveAs.Text" xml:space="preserve">
+    <value>Uložiť &amp;ako</value>
   </data>
-  <data name="&gt;&gt;cmbNewProjectNativeCultures.Name" xml:space="preserve">
-    <value>cmbNewProjectNativeCultures</value>
+  <data name="tsbSaveAs.ToolTipText" xml:space="preserve">
+    <value>Umožní uložiť súčasný projekt slovníka do odlišného súboru.</value>
   </data>
-  <data name="&gt;&gt;txbNewProjectFile.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="tsbAddEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 22</value>
   </data>
-  <data name="lblNewProjectForeign.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="tsbAddEntry.Text" xml:space="preserve">
+    <value>Pridať</value>
   </data>
-  <data name="cmbNewProjectForeignCultures.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 21</value>
+  <data name="tsbAddEntry.ToolTipText" xml:space="preserve">
+    <value>Umožní pridať nové heslo do zvoleného smeru slovníka.</value>
   </data>
-  <data name="btnNewProjectCreate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="tsbEditEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 22</value>
   </data>
-  <data name="layNewProjectDialog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>409, 129</value>
+  <data name="tsbEditEntry.Text" xml:space="preserve">
+    <value>Upraviť</value>
   </data>
-  <data name="btnNewProjectCancel.Text" xml:space="preserve">
-    <value>Cancel</value>
+  <data name="tsbEditEntry.ToolTipText" xml:space="preserve">
+    <value>Umožní upraviť zvolené heslo.</value>
   </data>
-  <data name="cmbNewProjectForeignCultures.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="tsbRemoveEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
   </data>
-  <data name="lblNewProjectForeign.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 49</value>
+  <data name="tsbRemoveEntry.Text" xml:space="preserve">
+    <value>Odstrániť</value>
   </data>
-  <data name="btnNewProjectCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="tsbRemoveEntry.ToolTipText" xml:space="preserve">
+    <value>Odstráni zvolené heslo zo slovníka.</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectBrowseFile.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="tsbFindEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 22</value>
   </data>
-  <data name="&gt;&gt;lblNewProjectFile.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
+  <data name="tsbFindEntry.Text" xml:space="preserve">
+    <value>Hľadať</value>
   </data>
-  <data name="&gt;&gt;lblNewProejctNative.Name" xml:space="preserve">
-    <value>lblNewProejctNative</value>
+  <data name="tsbFindEntry.ToolTipText" xml:space="preserve">
+    <value>Pokúsi sa vyhľadať zadané heslo v zvolenom smere slovníka.</value>
   </data>
-  <data name="&gt;&gt;txbNewProjectFile.Name" xml:space="preserve">
-    <value>txbNewProjectFile</value>
+  <data name="tsbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 22</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCancel.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
+  <data name="tsbHelp.Text" xml:space="preserve">
+    <value>Pomocník</value>
   </data>
-  <data name="btnNewProjectCreate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 99</value>
+  <data name="tsbHelp.ToolTipText" xml:space="preserve">
+    <value>Umožní prehliadať témy pomocníka.</value>
   </data>
-  <data name="&gt;&gt;lblNewProjectFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tsbExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
   </data>
-  <data name="btnNewProjectBrowseFile.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="tsbExit.Text" xml:space="preserve">
+    <value>U&amp;končiť</value>
   </data>
-  <data name="lblNewProejctNative.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="tsbExit.ToolTipText" xml:space="preserve">
+    <value>Ukončí program.</value>
   </data>
-  <data name="&gt;&gt;cmbNewProjectForeignCultures.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
+  <data name="tmiNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
   </data>
-  <data name="btnNewProjectBrowseFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 23</value>
+  <data name="tmiNew.Text" xml:space="preserve">
+    <value>&amp;Nový</value>
   </data>
-  <data name="dlgNewProjectFileSave.Title" xml:space="preserve">
-    <value>Choose location and name for the new project...</value>
+  <data name="tmiNew.ToolTipText" xml:space="preserve">
+    <value>Vytvorí nový projekt slovníka.</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectBrowseFile.Name" xml:space="preserve">
-    <value>btnNewProjectBrowseFile</value>
+  <data name="tmiOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
   </data>
-  <data name="&gt;&gt;txbNewProjectFile.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
+  <data name="tmiOpen.Text" xml:space="preserve">
+    <value>&amp;Otvoriť</value>
   </data>
-  <data name="&gt;&gt;lblNewProjectFile.Name" xml:space="preserve">
-    <value>lblNewProjectFile</value>
+  <data name="tmiOpen.ToolTipText" xml:space="preserve">
+    <value>Otvorí jestvujúci projekt slovníka.</value>
   </data>
-  <data name="&gt;&gt;lblNewProejctNative.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
+  <data name="tmiSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
   </data>
-  <data name="&gt;&gt;layNewProjectDialog.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="tmiSave.Text" xml:space="preserve">
+    <value>&amp;Uložiť</value>
   </data>
-  <data name="cmbNewProjectForeignCultures.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 72</value>
+  <data name="tmiSave.ToolTipText" xml:space="preserve">
+    <value>Uloží zmeny vykonané v súčasnom projekte slovníka od posledného uloženia.</value>
   </data>
-  <data name="&gt;&gt;cmbNewProjectNativeCultures.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
+  <data name="tmiSaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
   </data>
-  <data name="lblNewProjectFile.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="tmiSaveAs.Text" xml:space="preserve">
+    <value>Uložiť &amp;ako</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCancel.Name" xml:space="preserve">
-    <value>btnNewProjectCancel</value>
+  <data name="tmiSaveAs.ToolTipText" xml:space="preserve">
+    <value>Uloží súčasný projekt slovníka do odlišného súboru.</value>
   </data>
-  <data name="&gt;&gt;dlgNewProjectFileSave.Name" xml:space="preserve">
-    <value>dlgNewProjectFileSave</value>
+  <data name="tmiExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
   </data>
-  <data name="lblNewProjectFile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="tmiExit.Text" xml:space="preserve">
+    <value>U&amp;končiť</value>
   </data>
-  <data name="&gt;&gt;lblNewProjectForeign.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
+  <data name="tmiExit.ToolTipText" xml:space="preserve">
+    <value>Ukončí program.</value>
   </data>
-  <data name="lblNewProjectFile.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="tmiAddEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
   </data>
-  <data name="lblNewProjectFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 20</value>
+  <data name="tmiAddEntry.Text" xml:space="preserve">
+    <value>Pridať</value>
   </data>
-  <data name="&gt;&gt;cmbNewProjectForeignCultures.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tmiAddEntry.ToolTipText" xml:space="preserve">
+    <value>Umožní pridať nové heslo do zvoleného smeru slovníka.</value>
   </data>
-  <data name="lblNewProejctNative.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 49</value>
+  <data name="tmiEditEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectCreate.Name" xml:space="preserve">
-    <value>btnNewProjectCreate</value>
+  <data name="tmiEditEntry.Text" xml:space="preserve">
+    <value>Upraviť</value>
   </data>
-  <data name="btnNewProjectCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="tmiEditEntry.ToolTipText" xml:space="preserve">
+    <value>Umožní upraviť zvolené heslo.</value>
   </data>
-  <data name="layNewProjectDialog.RowCount" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="tmiRemoveEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
   </data>
-  <data name="lblNewProejctNative.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="tmiRemoveEntry.Text" xml:space="preserve">
+    <value>Odstrániť</value>
   </data>
-  <data name="&gt;&gt;btnNewProjectBrowseFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tmiRemoveEntry.ToolTipText" xml:space="preserve">
+    <value>Odstráni zvolené heslo zo slovníka.</value>
   </data>
-  <data name="btnNewProjectBrowseFile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="tmiViewHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
   </data>
-  <data name="lblNewProejctNative.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="tmiViewHelp.Text" xml:space="preserve">
+    <value>Zobraziť pomocníka</value>
   </data>
-  <data name="cmbNewProjectForeignCultures.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="tmiViewHelp.ToolTipText" xml:space="preserve">
+    <value>Umožní prehliadať témy pomocníka.</value>
   </data>
-  <data name="layNewProjectDialog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 10</value>
+  <data name="tmiSlovocaOnline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
   </data>
-  <data name="btnNewProjectBrowseFile.Text" xml:space="preserve">
-    <value>Browse...</value>
+  <data name="tmiSlovocaOnline.Text" xml:space="preserve">
+    <value>Internetová stránka programu Slovoca</value>
+  </data>
+  <data name="tmiSlovocaOnline.ToolTipText" xml:space="preserve">
+    <value>Otvorí internetovú stránku programu Slovoca v predvolenom prehliadači.</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2248,118 +2310,7 @@
         AAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <data name="lblNewProjectForeign.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;lblNewProjectForeign.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="layNewProjectDialog.ColumnCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblNewProjectFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>New project</value>
-  </data>
-  <data name="lblNewProejctNative.Text" xml:space="preserve">
-    <value>Native language:</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectBrowseFile.Parent" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="&gt;&gt;lblNewProejctNative.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
-  </data>
-  <data name="lblNewProjectFile.Text" xml:space="preserve">
-    <value>Project file location:</value>
-  </data>
-  <data name="&gt;&gt;dlgNewProjectFileSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblNewProjectForeign.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;layNewProjectDialog.Name" xml:space="preserve">
-    <value>layNewProjectDialog</value>
-  </data>
-  <data name="layNewProjectDialog.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>NewProjectDialog</value>
-  </data>
-  <data name="lblNewProjectFile.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblNewProjectForeign.Text" xml:space="preserve">
-    <value>Foreign language:</value>
-  </data>
-  <data name="lblNewProjectForeign.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="&gt;&gt;lblNewProjectFile.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cmbNewProjectNativeCultures.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="txbNewProjectFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 20</value>
-  </data>
-  <data name="lblNewProejctNative.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnNewProjectCreate.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="dlgNewProjectFileSave.Filter" xml:space="preserve">
-    <value>Slovoca vocabulary files (*.slovo)|*.slovo|All files (*.*)|*.*</value>
-  </data>
-  <data name="layNewProjectDialog.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblNewProjectFile" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbNewProjectForeignCultures" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbNewProjectNativeCultures" Row="3" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="txbNewProjectFile" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="lblNewProjectForeign" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblNewProejctNative" Row="2" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="btnNewProjectBrowseFile" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="btnNewProjectCancel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnNewProjectCreate" Row="4" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Absolute,20,AutoSize,0,Absolute,20,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>429, 149</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbNewProjectNativeCultures.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnNewProjectCreate.Text" xml:space="preserve">
-    <value>Create</value>
-  </data>
-  <data name="txbNewProjectFile.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;cmbNewProjectNativeCultures.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txbNewProjectFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnNewProjectCreate.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btnNewProjectCreate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dlgNewProjectFileSave.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sk</value>
-  </metadata>
 </root>

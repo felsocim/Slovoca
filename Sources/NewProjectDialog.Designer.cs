@@ -65,15 +65,15 @@
       // 
       // cmbNewProjectNativeCultures
       // 
-      this.layNewProjectDialog.SetColumnSpan(this.cmbNewProjectNativeCultures, 2);
       resources.ApplyResources(this.cmbNewProjectNativeCultures, "cmbNewProjectNativeCultures");
+      this.layNewProjectDialog.SetColumnSpan(this.cmbNewProjectNativeCultures, 2);
       this.cmbNewProjectNativeCultures.FormattingEnabled = true;
       this.cmbNewProjectNativeCultures.Name = "cmbNewProjectNativeCultures";
       // 
       // txbNewProjectFile
       // 
-      this.layNewProjectDialog.SetColumnSpan(this.txbNewProjectFile, 2);
       resources.ApplyResources(this.txbNewProjectFile, "txbNewProjectFile");
+      this.layNewProjectDialog.SetColumnSpan(this.txbNewProjectFile, 2);
       this.txbNewProjectFile.Name = "txbNewProjectFile";
       this.txbNewProjectFile.ReadOnly = true;
       // 

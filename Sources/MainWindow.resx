@@ -117,899 +117,605 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="msMainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tmiNew.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
+  <data name="&gt;&gt;lblSelectedItemWordDescription.Name" xml:space="preserve">
+    <value>lblSelectedItemWordDescription</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tmiNew.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+N</value>
-  </data>
-  <data name="tmiNew.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
-  </data>
-  <data name="tmiNew.Text" xml:space="preserve">
-    <value>&amp;New</value>
-  </data>
-  <data name="tmiNew.ToolTipText" xml:space="preserve">
-    <value>Create new vocabulary project.</value>
-  </data>
-  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 6</value>
-  </data>
-  <data name="tmiOpen.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tmiOpen.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+O</value>
-  </data>
-  <data name="tmiOpen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
-  </data>
-  <data name="tmiOpen.Text" xml:space="preserve">
-    <value>&amp;Open</value>
-  </data>
-  <data name="tmiOpen.ToolTipText" xml:space="preserve">
-    <value>Open an existing vocabulary project.</value>
-  </data>
-  <data name="tmiSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tmiSave.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+S</value>
-  </data>
-  <data name="tmiSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
-  </data>
-  <data name="tmiSave.Text" xml:space="preserve">
-    <value>&amp;Save</value>
-  </data>
-  <data name="tmiSave.ToolTipText" xml:space="preserve">
-    <value>Save changes made to the current vocabulary project.</value>
-  </data>
-  <data name="tmiSaveAs.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tmiSaveAs.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+S</value>
-  </data>
-  <data name="tmiSaveAs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
-  </data>
-  <data name="tmiSaveAs.Text" xml:space="preserve">
-    <value>Save &amp;As</value>
-  </data>
-  <data name="tmiSaveAs.ToolTipText" xml:space="preserve">
-    <value>Save the current vocabulary project in a different file.</value>
-  </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 6</value>
-  </data>
-  <data name="tmiExit.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tmiExit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+F4</value>
-  </data>
-  <data name="tmiExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
-  </data>
-  <data name="tmiExit.Text" xml:space="preserve">
-    <value>E&amp;xit</value>
-  </data>
-  <data name="tmiExit.ToolTipText" xml:space="preserve">
-    <value>Close the program.</value>
-  </data>
-  <data name="tmiFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 20</value>
-  </data>
-  <data name="tmiFile.Text" xml:space="preserve">
-    <value>&amp;File</value>
-  </data>
-  <data name="tmiFile.ToolTipText" xml:space="preserve">
-    <value>Show the file actions menu.</value>
-  </data>
-  <data name="tmiAddEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tmiAddEntry.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+A</value>
-  </data>
-  <data name="tmiAddEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="tmiAddEntry.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="tmiAddEntry.ToolTipText" xml:space="preserve">
-    <value>Add new entry to the selected vocabulary part.</value>
-  </data>
-  <data name="tmiEditEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tmiEditEntry.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+E</value>
-  </data>
-  <data name="tmiEditEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="tmiEditEntry.Text" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="tmiEditEntry.ToolTipText" xml:space="preserve">
-    <value>Edit selected vocabulary item.</value>
-  </data>
-  <data name="tmiRemoveEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tmiRemoveEntry.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+D</value>
-  </data>
-  <data name="tmiRemoveEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="tmiRemoveEntry.Text" xml:space="preserve">
-    <value>Remove</value>
-  </data>
-  <data name="tmiRemoveEntry.ToolTipText" xml:space="preserve">
-    <value>Remove selected vocabulary item.</value>
-  </data>
-  <data name="tmiEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 20</value>
-  </data>
-  <data name="tmiEntry.Text" xml:space="preserve">
-    <value>&amp;Entry</value>
-  </data>
-  <data name="tmiEntry.ToolTipText" xml:space="preserve">
-    <value>Show the entry actions menu.</value>
-  </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
-  </data>
-  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="englishToolStripMenuItem.ToolTipText" xml:space="preserve">
-    <value>Change the display language of the application to English.</value>
-  </data>
-  <data name="slovenčinaSlovakToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
-  </data>
-  <data name="slovenčinaSlovakToolStripMenuItem.Text" xml:space="preserve">
-    <value>Slovenčina (Slovak)</value>
-  </data>
-  <data name="slovenčinaSlovakToolStripMenuItem.ToolTipText" xml:space="preserve">
-    <value>Change the display language of the application to Slovak.</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 20</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="tmiViewHelp.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tmiViewHelp.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>F1</value>
-  </data>
-  <data name="tmiViewHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tmiViewHelp.Text" xml:space="preserve">
-    <value>View Help</value>
-  </data>
-  <data name="tmiViewHelp.ToolTipText" xml:space="preserve">
-    <value>Browse Slovoca's help file.</value>
-  </data>
-  <data name="tmiSlovocaOnline.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tmiSlovocaOnline.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tmiSlovocaOnline.Text" xml:space="preserve">
-    <value>Slovoca Online</value>
-  </data>
-  <data name="tmiSlovocaOnline.ToolTipText" xml:space="preserve">
-    <value>Navigate to the Slovoca project's website using the default web browser.</value>
-  </data>
-  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
-  </data>
-  <data name="tmiAbout.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+F1</value>
-  </data>
-  <data name="tmiAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tmiAbout.Text" xml:space="preserve">
-    <value>About Slovoca</value>
-  </data>
-  <data name="tmiAbout.ToolTipText" xml:space="preserve">
-    <value>Show basic information on Slovoca.</value>
-  </data>
-  <data name="tmiHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
-  </data>
-  <data name="tmiHelp.Text" xml:space="preserve">
-    <value>&amp;Help</value>
-  </data>
-  <data name="tmiHelp.ToolTipText" xml:space="preserve">
-    <value>Show the help menu.</value>
-  </data>
-  <data name="msMainMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="msMainMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>737, 24</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="msMainMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;msMainMenu.Name" xml:space="preserve">
-    <value>msMainMenu</value>
-  </data>
-  <data name="&gt;&gt;msMainMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;msMainMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;msMainMenu.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="tsToolbar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 17</value>
-  </metadata>
-  <data name="tsbNew.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbNew.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 22</value>
-  </data>
-  <data name="tsbNew.Text" xml:space="preserve">
-    <value>&amp;New</value>
-  </data>
-  <data name="tsbNew.ToolTipText" xml:space="preserve">
-    <value>Create new vocabulary project.</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="tsbOpen.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbOpen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 22</value>
-  </data>
-  <data name="tsbOpen.Text" xml:space="preserve">
-    <value>&amp;Open</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="tsbOpen.ToolTipText" xml:space="preserve">
     <value>Open an existing vocabulary project.</value>
   </data>
-  <data name="tsbSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="laySelectedItemColumn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 33</value>
   </data>
-  <data name="tsbSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 22</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlNativeToForeignPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="tsbSave.Text" xml:space="preserve">
-    <value>&amp;Save</value>
+  <data name="&gt;&gt;lblSelectedItemTranslationsDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tsbSave.ToolTipText" xml:space="preserve">
+  <data name="&gt;&gt;tsbFindEntry.Name" xml:space="preserve">
+    <value>tsbFindEntry</value>
+  </data>
+  <data name="lsbSelectedItemTranslations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 61</value>
+  </data>
+  <data name="tmiSave.ToolTipText" xml:space="preserve">
     <value>Save changes made to the current vocabulary project.</value>
   </data>
-  <data name="tsbSaveAs.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbSaveAs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
-  </data>
-  <data name="tsbSaveAs.Text" xml:space="preserve">
-    <value>Save &amp;As</value>
-  </data>
-  <data name="tsbSaveAs.ToolTipText" xml:space="preserve">
-    <value>Save the current vocabulary project in a different file.</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="tsbAddEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbAddEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 22</value>
-  </data>
-  <data name="tsbAddEntry.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="tsbAddEntry.ToolTipText" xml:space="preserve">
-    <value>Add new entry to the selected vocabulary part.</value>
-  </data>
-  <data name="tsbEditEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
+  <data name="&gt;&gt;tmiAbout.Name" xml:space="preserve">
+    <value>tmiAbout</value>
   </data>
   <data name="tsbEditEntry.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 22</value>
   </data>
-  <data name="tsbEditEntry.Text" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="tsbEditEntry.ToolTipText" xml:space="preserve">
-    <value>Edit selected vocabulary item.</value>
-  </data>
-  <data name="tsbRemoveEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbRemoveEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
-  </data>
-  <data name="tsbRemoveEntry.Text" xml:space="preserve">
-    <value>Remove</value>
-  </data>
-  <data name="tsbRemoveEntry.ToolTipText" xml:space="preserve">
-    <value>Remove selected vocabulary item.</value>
-  </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="tstSearchQuery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
-  </data>
-  <data name="tsbFindEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbFindEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 22</value>
-  </data>
-  <data name="tsbFindEntry.Text" xml:space="preserve">
-    <value>Find</value>
-  </data>
-  <data name="tsbFindEntry.ToolTipText" xml:space="preserve">
-    <value>Find item in the selected vocabulary part.</value>
-  </data>
-  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="tsbHelp.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 22</value>
-  </data>
-  <data name="tsbHelp.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="tsbHelp.ToolTipText" xml:space="preserve">
-    <value>Browse Slovoca's help file.</value>
-  </data>
-  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="tsbExit.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 22</value>
-  </data>
-  <data name="tsbExit.Text" xml:space="preserve">
-    <value>E&amp;xit</value>
-  </data>
-  <data name="tsbExit.ToolTipText" xml:space="preserve">
-    <value>Close the program.</value>
-  </data>
-  <data name="tsToolbar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="tsToolbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>737, 25</value>
-  </data>
-  <data name="tsToolbar.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tsToolbar.Name" xml:space="preserve">
-    <value>tsToolbar</value>
-  </data>
-  <data name="&gt;&gt;tsToolbar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsToolbar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tsToolbar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlForeignToNativePanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="lblForeignToNativePanelTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblForeignToNativePanelTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lblForeignToNativePanelTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblForeignToNativePanelTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lblForeignToNativePanelTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
-  </data>
-  <data name="lblForeignToNativePanelTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblForeignToNativePanelTitle.Text" xml:space="preserve">
-    <value>Entries in Foreign language</value>
-  </data>
   <data name="lblForeignToNativePanelTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;lblForeignToNativePanelTitle.Name" xml:space="preserve">
-    <value>lblForeignToNativePanelTitle</value>
-  </data>
-  <data name="&gt;&gt;lblForeignToNativePanelTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblForeignToNativePanelTitle.Parent" xml:space="preserve">
-    <value>pnlForeignToNativePanel</value>
-  </data>
-  <data name="&gt;&gt;lblForeignToNativePanelTitle.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pnlForeignToNativePanel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="pnlForeignToNativePanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="pnlForeignToNativePanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 24</value>
-  </data>
-  <data name="pnlForeignToNativePanel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="tsbNew.Text" xml:space="preserve">
+    <value>&amp;New</value>
   </data>
   <data name="&gt;&gt;pnlForeignToNativePanel.Name" xml:space="preserve">
     <value>pnlForeignToNativePanel</value>
   </data>
-  <data name="&gt;&gt;pnlForeignToNativePanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlForeignToNativePanel.Parent" xml:space="preserve">
-    <value>layMainWindow</value>
-  </data>
-  <data name="&gt;&gt;pnlForeignToNativePanel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlNativeToForeignPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="lblNativeToForeignPanelTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="lsbNativeToForeign.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="lblNativeToForeignPanelTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblNativeToForeignPanelTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="laySelectedItemColumn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="lblNativeToForeignPanelTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;tsbHelp.Name" xml:space="preserve">
+    <value>tsbHelp</value>
   </data>
-  <data name="lblNativeToForeignPanelTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 22</value>
+  <data name="&gt;&gt;dlgSaveProjectAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbAddEntry.ToolTipText" xml:space="preserve">
+    <value>Add new entry to the selected vocabulary part.</value>
+  </data>
+  <data name="tsbExit.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="lblForeignToNativePanelTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 22</value>
+  </data>
+  <data name="tsbExit.ToolTipText" xml:space="preserve">
+    <value>Close the program.</value>
+  </data>
+  <data name="tmiNew.ToolTipText" xml:space="preserve">
+    <value>Create new vocabulary project.</value>
+  </data>
+  <data name="&gt;&gt;tmiRemoveEntry.Name" xml:space="preserve">
+    <value>tmiRemoveEntry</value>
+  </data>
+  <data name="tsbNew.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;layMainWindow.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="lblNativeToForeignPanelTitle.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="lblNativeToForeignPanelTitle.Text" xml:space="preserve">
-    <value>Entries in Native language</value>
+  <data name="tmiSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
   </data>
-  <data name="lblNativeToForeignPanelTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="tsbSaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
   </data>
-  <data name="&gt;&gt;lblNativeToForeignPanelTitle.Name" xml:space="preserve">
-    <value>lblNativeToForeignPanelTitle</value>
+  <data name="&gt;&gt;tsbNew.Name" xml:space="preserve">
+    <value>tsbNew</value>
   </data>
-  <data name="&gt;&gt;lblNativeToForeignPanelTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblSelectedItemWord.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tmiExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="&gt;&gt;tsbHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiRemoveEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;lsbNativeToForeign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tstSearchQuery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmiExit.Name" xml:space="preserve">
+    <value>tmiExit</value>
+  </data>
+  <data name="&gt;&gt;tsbSave.Name" xml:space="preserve">
+    <value>tsbSave</value>
+  </data>
+  <data name="tmiSaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="&gt;&gt;tmiLanguage.Name" xml:space="preserve">
+    <value>tmiLanguage</value>
+  </data>
+  <data name="tmiSaveAs.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+S</value>
+  </data>
+  <data name="&gt;&gt;tsToolbar.Name" xml:space="preserve">
+    <value>tsToolbar</value>
+  </data>
+  <data name="tsbExit.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="lblSelectedItemWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 24</value>
   </data>
   <data name="&gt;&gt;lblNativeToForeignPanelTitle.Parent" xml:space="preserve">
     <value>pnlNativeToForeignPanel</value>
   </data>
-  <data name="&gt;&gt;lblNativeToForeignPanelTitle.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pnlNativeToForeignPanel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="pnlNativeToForeignPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>518, 3</value>
-  </data>
-  <data name="pnlNativeToForeignPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 24</value>
-  </data>
-  <data name="pnlNativeToForeignPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pnlNativeToForeignPanel.Name" xml:space="preserve">
-    <value>pnlNativeToForeignPanel</value>
-  </data>
-  <data name="&gt;&gt;pnlNativeToForeignPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlNativeToForeignPanel.Parent" xml:space="preserve">
-    <value>layMainWindow</value>
-  </data>
-  <data name="&gt;&gt;pnlNativeToForeignPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="layMainWindow.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
   <data name="layMainWindow.ColumnCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lsbForeignToNative.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lsbForeignToNative.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8pt</value>
-  </data>
-  <data name="lsbForeignToNative.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 33</value>
-  </data>
-  <data name="lsbForeignToNative.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 356</value>
-  </data>
-  <data name="lsbForeignToNative.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="&gt;&gt;lsbForeignToNative.Name" xml:space="preserve">
     <value>lsbForeignToNative</value>
   </data>
-  <data name="&gt;&gt;lsbForeignToNative.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tmiFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 20</value>
   </data>
-  <data name="&gt;&gt;lsbForeignToNative.Parent" xml:space="preserve">
-    <value>layMainWindow</value>
-  </data>
-  <data name="&gt;&gt;lsbForeignToNative.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lsbNativeToForeign.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lsbNativeToForeign.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8pt</value>
-  </data>
-  <data name="lsbNativeToForeign.Location" type="System.Drawing.Point, System.Drawing">
-    <value>518, 33</value>
-  </data>
-  <data name="lsbNativeToForeign.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 356</value>
-  </data>
-  <data name="lsbNativeToForeign.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lsbNativeToForeign.Name" xml:space="preserve">
-    <value>lsbNativeToForeign</value>
-  </data>
-  <data name="&gt;&gt;lsbNativeToForeign.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lsbNativeToForeign.Parent" xml:space="preserve">
-    <value>layMainWindow</value>
-  </data>
-  <data name="&gt;&gt;lsbNativeToForeign.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lblSelectedItemColumnTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSelectedItemColumnTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblSelectedItemColumnTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lblSelectedItemColumnTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblSelectedItemColumnTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 0</value>
-  </data>
-  <data name="lblSelectedItemColumnTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 30</value>
-  </data>
-  <data name="lblSelectedItemColumnTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblSelectedItemColumnTitle.Text" xml:space="preserve">
-    <value>Selected entry</value>
-  </data>
-  <data name="lblSelectedItemColumnTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemColumnTitle.Name" xml:space="preserve">
-    <value>lblSelectedItemColumnTitle</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemColumnTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemColumnTitle.Parent" xml:space="preserve">
-    <value>layMainWindow</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemColumnTitle.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="tsbOpen.Text" xml:space="preserve">
+    <value>&amp;Open</value>
   </data>
   <data name="laySelectedItemColumn.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="lblSelectedItemWord.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSelectedItemWord.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblSelectedItemWord.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
-  </data>
-  <data name="lblSelectedItemWord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblSelectedItemWord.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 16</value>
-  </data>
-  <data name="lblSelectedItemWord.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 5</value>
-  </data>
-  <data name="lblSelectedItemWord.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 24</value>
-  </data>
-  <data name="lblSelectedItemWord.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemWord.Name" xml:space="preserve">
-    <value>lblSelectedItemWord</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemWord.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;msMainMenu.Name" xml:space="preserve">
+    <value>msMainMenu</value>
   </data>
   <data name="&gt;&gt;lblSelectedItemWord.Parent" xml:space="preserve">
     <value>laySelectedItemColumn</value>
   </data>
-  <data name="&gt;&gt;lblSelectedItemWord.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="lblForeignToNativePanelTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
   </data>
-  <data name="lblSelectedItemNotes.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Slovoca</value>
   </data>
-  <data name="lblSelectedItemNotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblSelectedItemNotes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="lblSelectedItemNotes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblSelectedItemNotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 213</value>
-  </data>
-  <data name="lblSelectedItemNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 143</value>
-  </data>
-  <data name="lblSelectedItemNotes.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemNotes.Name" xml:space="preserve">
-    <value>lblSelectedItemNotes</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemNotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemNotes.Parent" xml:space="preserve">
-    <value>laySelectedItemColumn</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemNotes.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lsbSelectedItemTranslations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lsbSelectedItemTranslations.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8pt, style=Italic</value>
-  </data>
-  <data name="lsbSelectedItemTranslations.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 61</value>
-  </data>
-  <data name="lsbSelectedItemTranslations.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 136</value>
-  </data>
-  <data name="lsbSelectedItemTranslations.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lsbSelectedItemTranslations.Name" xml:space="preserve">
-    <value>lsbSelectedItemTranslations</value>
-  </data>
-  <data name="&gt;&gt;lsbSelectedItemTranslations.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lsbSelectedItemTranslations.Parent" xml:space="preserve">
-    <value>laySelectedItemColumn</value>
-  </data>
-  <data name="&gt;&gt;lsbSelectedItemTranslations.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;pnlNativeToForeignPanel.Name" xml:space="preserve">
+    <value>pnlNativeToForeignPanel</value>
   </data>
   <data name="lblSelectedItemTranslationsDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblSelectedItemTranslationsDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 45</value>
-  </data>
-  <data name="lblSelectedItemTranslationsDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 13</value>
-  </data>
-  <data name="lblSelectedItemTranslationsDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblSelectedItemTranslationsDescription.Text" xml:space="preserve">
-    <value>Provided translation(s):</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemTranslationsDescription.Name" xml:space="preserve">
-    <value>lblSelectedItemTranslationsDescription</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemTranslationsDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemTranslationsDescription.Parent" xml:space="preserve">
-    <value>laySelectedItemColumn</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemTranslationsDescription.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lblSelectedItemNotesDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSelectedItemNotesDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 200</value>
-  </data>
-  <data name="lblSelectedItemNotesDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 13</value>
-  </data>
-  <data name="lblSelectedItemNotesDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblSelectedItemNotesDescription.Text" xml:space="preserve">
-    <value>User note(s):</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemNotesDescription.Name" xml:space="preserve">
-    <value>lblSelectedItemNotesDescription</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemNotesDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemNotesDescription.Parent" xml:space="preserve">
-    <value>laySelectedItemColumn</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemNotesDescription.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lblSelectedItemWordDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSelectedItemWordDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="lblSelectedItemWordDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 13</value>
-  </data>
-  <data name="lblSelectedItemWordDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblSelectedItemWordDescription.Text" xml:space="preserve">
-    <value>Entry and pronunciation:</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemWordDescription.Name" xml:space="preserve">
-    <value>lblSelectedItemWordDescription</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemWordDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemWordDescription.Parent" xml:space="preserve">
-    <value>laySelectedItemColumn</value>
-  </data>
-  <data name="&gt;&gt;lblSelectedItemWordDescription.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="laySelectedItemColumn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="laySelectedItemColumn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 33</value>
-  </data>
-  <data name="laySelectedItemColumn.RowCount" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="laySelectedItemColumn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 356</value>
-  </data>
-  <data name="laySelectedItemColumn.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;laySelectedItemColumn.Name" xml:space="preserve">
-    <value>laySelectedItemColumn</value>
-  </data>
-  <data name="&gt;&gt;laySelectedItemColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;laySelectedItemColumn.Parent" xml:space="preserve">
-    <value>layMainWindow</value>
-  </data>
-  <data name="&gt;&gt;laySelectedItemColumn.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="laySelectedItemColumn.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblSelectedItemWord" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSelectedItemNotes" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lsbSelectedItemTranslations" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSelectedItemTranslationsDescription" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSelectedItemNotesDescription" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSelectedItemWordDescription" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,Percent,50,AutoSize,0,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="layMainWindow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 52</value>
-  </data>
-  <data name="layMainWindow.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="layMainWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>737, 392</value>
-  </data>
-  <data name="layMainWindow.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
   </data>
   <data name="&gt;&gt;layMainWindow.Name" xml:space="preserve">
     <value>layMainWindow</value>
   </data>
+  <data name="&gt;&gt;lblNativeToForeignPanelTitle.Name" xml:space="preserve">
+    <value>lblNativeToForeignPanelTitle</value>
+  </data>
+  <data name="tmiSlovocaOnline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="lblForeignToNativePanelTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="msMainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblSelectedItemColumnTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 0</value>
+  </data>
+  <data name="lsbForeignToNative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 356</value>
+  </data>
   <data name="&gt;&gt;layMainWindow.Type" xml:space="preserve">
     <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;layMainWindow.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="tmiExit.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
   </data>
-  <data name="&gt;&gt;layMainWindow.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tmiOpen.Name" xml:space="preserve">
+    <value>tmiOpen</value>
+  </data>
+  <data name="layMainWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>737, 392</value>
+  </data>
+  <data name="laySelectedItemColumn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layMainWindow.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tmiSaveAs.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemNotes.Name" xml:space="preserve">
+    <value>lblSelectedItemNotes</value>
+  </data>
+  <data name="tmiAbout.ToolTipText" xml:space="preserve">
+    <value>Show basic information on Slovoca.</value>
+  </data>
+  <data name="lblSelectedItemWordDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tsbSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 22</value>
+  </data>
+  <data name="tmiAbout.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F1</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;tmiSlovak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="dlgOpenProject.Filter" xml:space="preserve">
+    <value>Slovoca vocabulary files (*.slovo)|*.slovo|All files (*.*)|*.*</value>
+  </data>
+  <data name="lsbNativeToForeign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 33</value>
+  </data>
+  <data name="lblSelectedItemColumnTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tmiOpen.ToolTipText" xml:space="preserve">
+    <value>Open an existing vocabulary project.</value>
+  </data>
+  <data name="lblSelectedItemWordDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tsbFindEntry.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="tsbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <data name="pnlNativeToForeignPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="&gt;&gt;lblForeignToNativePanelTitle.Name" xml:space="preserve">
+    <value>lblForeignToNativePanelTitle</value>
+  </data>
+  <data name="tmiRemoveEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tstSearchQuery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;tmiViewHelp.Name" xml:space="preserve">
+    <value>tmiViewHelp</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="&gt;&gt;dlgOpenProject.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiSaveAs.Text" xml:space="preserve">
+    <value>Save &amp;As</value>
+  </data>
+  <data name="&gt;&gt;pnlForeignToNativePanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlForeignToNativePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiHelp.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="tmiOpen.Text" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemNotesDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmiHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiSlovocaOnline.ToolTipText" xml:space="preserve">
+    <value>Navigate to the Slovoca project's website using the default web browser.</value>
+  </data>
+  <data name="tmiHelp.ToolTipText" xml:space="preserve">
+    <value>Show the help menu.</value>
+  </data>
+  <data name="tmiRemoveEntry.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;tsbSaveAs.Name" xml:space="preserve">
+    <value>tsbSaveAs</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dlgOpenProject.Name" xml:space="preserve">
+    <value>dlgOpenProject</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;tmiAddEntry.Name" xml:space="preserve">
+    <value>tmiAddEntry</value>
+  </data>
+  <data name="lblForeignToNativePanelTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tmiSlovocaOnline.Name" xml:space="preserve">
+    <value>tmiSlovocaOnline</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="tsbOpen.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tsbSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmiHelp.Name" xml:space="preserve">
+    <value>tmiHelp</value>
+  </data>
+  <data name="tmiEditEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;lblForeignToNativePanelTitle.Parent" xml:space="preserve">
+    <value>pnlForeignToNativePanel</value>
+  </data>
+  <data name="lblSelectedItemWord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="slovenčinaSlovakToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Change the display language of the application to Slovak.</value>
+  </data>
+  <data name="&gt;&gt;pnlNativeToForeignPanel.Parent" xml:space="preserve">
+    <value>layMainWindow</value>
+  </data>
+  <data name="lblSelectedItemTranslationsDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="&gt;&gt;msMainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;laySelectedItemColumn.Name" xml:space="preserve">
+    <value>laySelectedItemColumn</value>
+  </data>
+  <data name="pnlNativeToForeignPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tmiRemoveEntry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <data name="tmiSave.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="&gt;&gt;tsbOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlForeignToNativePanel.Parent" xml:space="preserve">
+    <value>layMainWindow</value>
+  </data>
+  <data name="tmiSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="tsbRemoveEntry.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="tmiNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="tsbAddEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemNotes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="slovenčinaSlovakToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="&gt;&gt;tmiOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lsbSelectedItemTranslations.Name" xml:space="preserve">
+    <value>lsbSelectedItemTranslations</value>
+  </data>
+  <data name="lblSelectedItemWord.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tmiEnglish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lsbSelectedItemTranslations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;tmiFile.Name" xml:space="preserve">
+    <value>tmiFile</value>
+  </data>
+  <data name="lblNativeToForeignPanelTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tmiViewHelp.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lsbForeignToNative.Parent" xml:space="preserve">
+    <value>layMainWindow</value>
+  </data>
+  <data name="lblSelectedItemNotesDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 200</value>
+  </data>
+  <data name="&gt;&gt;tsbEditEntry.Name" xml:space="preserve">
+    <value>tsbEditEntry</value>
+  </data>
+  <data name="tsbEditEntry.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;lblForeignToNativePanelTitle.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="tmiExit.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="lsbNativeToForeign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="tmiAddEntry.ToolTipText" xml:space="preserve">
+    <value>Add new entry to the selected vocabulary part.</value>
+  </data>
+  <data name="tmiSlovak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiSlovocaOnline.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;lblNativeToForeignPanelTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="tsToolbar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pnlForeignToNativePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tsToolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbSaveAs.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tmiAddEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 6</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemWord.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tmiFile.ToolTipText" xml:space="preserve">
+    <value>Show the file actions menu.</value>
+  </data>
+  <data name="lblSelectedItemColumnTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblSelectedItemNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 213</value>
+  </data>
+  <data name="lblNativeToForeignPanelTitle.Text" xml:space="preserve">
+    <value>Entries in Native language</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemWordDescription.Parent" xml:space="preserve">
+    <value>laySelectedItemColumn</value>
+  </data>
+  <data name="&gt;&gt;lsbForeignToNative.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlNativeToForeignPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 3</value>
+  </data>
+  <data name="&gt;&gt;tsbRemoveEntry.Name" xml:space="preserve">
+    <value>tsbRemoveEntry</value>
+  </data>
+  <data name="tmiAddEntry.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+A</value>
+  </data>
+  <data name="&gt;&gt;tmiNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbAddEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tmiEnglish.Name" xml:space="preserve">
+    <value>tmiEnglish</value>
+  </data>
+  <data name="lsbNativeToForeign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 356</value>
+  </data>
+  <data name="tsbEditEntry.ToolTipText" xml:space="preserve">
+    <value>Edit selected vocabulary item.</value>
+  </data>
+  <data name="lblSelectedItemWord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tmiNew.Name" xml:space="preserve">
+    <value>tmiNew</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;tmiExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;lsbSelectedItemTranslations.Parent" xml:space="preserve">
+    <value>laySelectedItemColumn</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemColumnTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lsbForeignToNative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
   </data>
   <data name="layMainWindow.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pnlNativeToForeignPanel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pnlForeignToNativePanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lsbForeignToNative" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lsbNativeToForeign" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblSelectedItemColumnTitle" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="laySelectedItemColumn" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,30,Percent,40,Percent,30" /&gt;&lt;Rows Styles="Absolute,30,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <metadata name="dlgOpenProject.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>352, 17</value>
-  </metadata>
-  <data name="dlgOpenProject.Filter" xml:space="preserve">
-    <value>Slovoca vocabulary files (*.slovo)|*.slovo|All files (*.*)|*.*</value>
+  <data name="lblSelectedItemNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="dlgOpenProject.Title" xml:space="preserve">
-    <value>Open an existing Slovoca project...</value>
+  <data name="lblSelectedItemColumnTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
-  <metadata name="dlgSaveProjectAs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>489, 17</value>
-  </metadata>
-  <data name="dlgSaveProjectAs.Filter" xml:space="preserve">
-    <value>Slovoca vocabulary files (*.slovo)|*.slovo|All files (*.*)|*.*</value>
+  <data name="tmiEntry.ToolTipText" xml:space="preserve">
+    <value>Show the entry actions menu.</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>737, 443</value>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2926,244 +2632,568 @@
         AAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="tsbSaveAs.ToolTipText" xml:space="preserve">
+    <value>Save the current vocabulary project in a different file.</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Slovoca</value>
+  <data name="lsbSelectedItemTranslations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 136</value>
   </data>
-  <data name="&gt;&gt;tmiFile.Name" xml:space="preserve">
-    <value>tmiFile</value>
+  <data name="lblSelectedItemNotesDescription.Text" xml:space="preserve">
+    <value>User note(s):</value>
   </data>
-  <data name="&gt;&gt;tmiFile.Type" xml:space="preserve">
+  <data name="&gt;&gt;lsbForeignToNative.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelectedItemNotes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tsbExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lsbForeignToNative.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="slovenčinaSlovakToolStripMenuItem.Text" xml:space="preserve">
+    <value>Slovenčina (Slovak)</value>
+  </data>
+  <data name="pnlForeignToNativePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 24</value>
+  </data>
+  <data name="lblForeignToNativePanelTitle.Text" xml:space="preserve">
+    <value>Entries in Foreign language</value>
+  </data>
+  <data name="tmiEditEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tmiEntry.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tmiNew.Name" xml:space="preserve">
-    <value>tmiNew</value>
+  <data name="tsbExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
   </data>
-  <data name="&gt;&gt;tmiNew.Type" xml:space="preserve">
+  <data name="&gt;&gt;tsToolbar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemTranslationsDescription.Name" xml:space="preserve">
+    <value>lblSelectedItemTranslationsDescription</value>
+  </data>
+  <data name="tmiAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="&gt;&gt;tmiAddEntry.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
-    <value>toolStripMenuItem2</value>
+  <data name="&gt;&gt;pnlNativeToForeignPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tsToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>737, 25</value>
   </data>
-  <data name="&gt;&gt;tmiOpen.Name" xml:space="preserve">
-    <value>tmiOpen</value>
+  <data name="tsbNew.ToolTipText" xml:space="preserve">
+    <value>Create new vocabulary project.</value>
   </data>
-  <data name="&gt;&gt;tmiOpen.Type" xml:space="preserve">
+  <data name="tmiEntry.Text" xml:space="preserve">
+    <value>&amp;Entry</value>
+  </data>
+  <data name="tmiAddEntry.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;tmiLanguage.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiViewHelp.ToolTipText" xml:space="preserve">
+    <value>Browse Slovoca's help file.</value>
+  </data>
+  <data name="lblForeignToNativePanelTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblSelectedItemColumnTitle.Text" xml:space="preserve">
+    <value>Selected entry</value>
+  </data>
+  <data name="tsbSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="&gt;&gt;lsbNativeToForeign.Parent" xml:space="preserve">
+    <value>layMainWindow</value>
+  </data>
+  <data name="lblSelectedItemNotes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dlgSaveProjectAs.Filter" xml:space="preserve">
+    <value>Slovoca vocabulary files (*.slovo)|*.slovo|All files (*.*)|*.*</value>
+  </data>
+  <data name="&gt;&gt;laySelectedItemColumn.Parent" xml:space="preserve">
+    <value>layMainWindow</value>
+  </data>
+  <data name="lsbSelectedItemTranslations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlNativeToForeignPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tsbAddEntry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiSlovocaOnline.Text" xml:space="preserve">
+    <value>Slovoca Online</value>
+  </data>
+  <data name="&gt;&gt;tsbNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lsbSelectedItemTranslations.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Italic</value>
   </data>
   <data name="&gt;&gt;tmiSave.Name" xml:space="preserve">
     <value>tmiSave</value>
   </data>
-  <data name="&gt;&gt;tmiSave.Type" xml:space="preserve">
+  <data name="&gt;&gt;tmiAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelectedItemWordDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemNotesDescription.Name" xml:space="preserve">
+    <value>lblSelectedItemNotesDescription</value>
+  </data>
+  <data name="&gt;&gt;tsbExit.Name" xml:space="preserve">
+    <value>tsbExit</value>
+  </data>
+  <data name="&gt;&gt;slovenčinaSlovakToolStripMenuItem.Name" xml:space="preserve">
+    <value>slovenčinaSlovakToolStripMenuItem</value>
+  </data>
+  <data name="tmiEditEntry.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+E</value>
+  </data>
+  <data name="&gt;&gt;tsbAddEntry.Name" xml:space="preserve">
+    <value>tsbAddEntry</value>
+  </data>
+  <data name="&gt;&gt;tstSearchQuery.Name" xml:space="preserve">
+    <value>tstSearchQuery</value>
+  </data>
+  <data name="&gt;&gt;lsbSelectedItemTranslations.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSelectedItemNotesDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNativeToForeignPanelTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblNativeToForeignPanelTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="laySelectedItemColumn.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblSelectedItemWord" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSelectedItemNotes" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lsbSelectedItemTranslations" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSelectedItemTranslationsDescription" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSelectedItemNotesDescription" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSelectedItemWordDescription" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,Percent,50,AutoSize,0,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemWord.Name" xml:space="preserve">
+    <value>lblSelectedItemWord</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
+  </data>
+  <data name="tmiNew.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="lblSelectedItemNotes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemWordDescription.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblSelectedItemTranslationsDescription.Text" xml:space="preserve">
+    <value>Provided translation(s):</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemColumnTitle.Parent" xml:space="preserve">
+    <value>layMainWindow</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemWordDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="laySelectedItemColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 356</value>
+  </data>
+  <data name="lblSelectedItemColumnTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="pnlForeignToNativePanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lsbForeignToNative.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="tsbFindEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbSaveAs.Text" xml:space="preserve">
+    <value>Save &amp;As</value>
+  </data>
+  <data name="&gt;&gt;tsbOpen.Name" xml:space="preserve">
+    <value>tsbOpen</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slovenčinaSlovakToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lsbNativeToForeign.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSelectedItemColumnTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tsbAddEntry.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="tsbRemoveEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tmiEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="tsToolbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="&gt;&gt;tsbFindEntry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmiSaveAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="englishToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Change the display language of the application to English.</value>
+  </data>
+  <data name="tsbFindEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 22</value>
+  </data>
+  <data name="&gt;&gt;msMainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSelectedItemNotesDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tsbSaveAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiExit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="tmiRemoveEntry.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+D</value>
+  </data>
+  <data name="lblSelectedItemWord.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="lblNativeToForeignPanelTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 22</value>
+  </data>
+  <data name="&gt;&gt;tmiEditEntry.Name" xml:space="preserve">
+    <value>tmiEditEntry</value>
+  </data>
+  <data name="tmiSaveAs.ToolTipText" xml:space="preserve">
+    <value>Save the current vocabulary project in a different file.</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;lblNativeToForeignPanelTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 6</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemTranslationsDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tmiRemoveEntry.ToolTipText" xml:space="preserve">
+    <value>Remove selected vocabulary item.</value>
+  </data>
+  <data name="&gt;&gt;tsToolbar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblNativeToForeignPanelTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="tmiAbout.Text" xml:space="preserve">
+    <value>About Slovoca</value>
+  </data>
+  <data name="lblSelectedItemColumnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 30</value>
+  </data>
+  <data name="lblSelectedItemWord.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 5</value>
+  </data>
+  <data name="&gt;&gt;tmiSlovak.Name" xml:space="preserve">
+    <value>tmiSlovak</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemTranslationsDescription.Parent" xml:space="preserve">
+    <value>laySelectedItemColumn</value>
+  </data>
+  <data name="laySelectedItemColumn.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="lblNativeToForeignPanelTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblSelectedItemColumnTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemNotes.Parent" xml:space="preserve">
+    <value>laySelectedItemColumn</value>
+  </data>
+  <data name="&gt;&gt;lsbNativeToForeign.Name" xml:space="preserve">
+    <value>lsbNativeToForeign</value>
+  </data>
+  <data name="tmiEditEntry.ToolTipText" xml:space="preserve">
+    <value>Edit selected vocabulary item.</value>
+  </data>
+  <data name="lblSelectedItemWordDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbRemoveEntry.ToolTipText" xml:space="preserve">
+    <value>Remove selected vocabulary item.</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tmiViewHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemColumnTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;laySelectedItemColumn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tsbEditEntry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbRemoveEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;layMainWindow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiNew.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbHelp.ToolTipText" xml:space="preserve">
+    <value>Browse Slovoca's help file.</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="lblSelectedItemWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="tmiEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="tmiOpen.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="lblSelectedItemNotesDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="&gt;&gt;msMainMenu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSelectedItemTranslationsDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 45</value>
+  </data>
+  <data name="tsbSave.ToolTipText" xml:space="preserve">
+    <value>Save changes made to the current vocabulary project.</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>737, 443</value>
+  </data>
+  <data name="&gt;&gt;lblForeignToNativePanelTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblForeignToNativePanelTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSelectedItemNotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;laySelectedItemColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="lsbForeignToNative.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tmiExit.ToolTipText" xml:space="preserve">
+    <value>Close the program.</value>
+  </data>
+  <data name="tmiFile.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbFindEntry.ToolTipText" xml:space="preserve">
+    <value>Find item in the selected vocabulary part.</value>
+  </data>
+  <data name="&gt;&gt;dlgSaveProjectAs.Name" xml:space="preserve">
+    <value>dlgSaveProjectAs</value>
+  </data>
+  <data name="pnlForeignToNativePanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tmiAddEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="lblSelectedItemNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 143</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemColumnTitle.Name" xml:space="preserve">
+    <value>lblSelectedItemColumnTitle</value>
+  </data>
+  <data name="tmiSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlNativeToForeignPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tsbHelp.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tmiSlovocaOnline.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tmiSaveAs.Name" xml:space="preserve">
     <value>tmiSaveAs</value>
   </data>
-  <data name="&gt;&gt;tmiSaveAs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
-    <value>toolStripMenuItem3</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tmiExit.Name" xml:space="preserve">
-    <value>tmiExit</value>
-  </data>
-  <data name="&gt;&gt;tmiExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tmiEntry.Name" xml:space="preserve">
     <value>tmiEntry</value>
   </data>
-  <data name="&gt;&gt;tmiEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="msMainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>737, 24</value>
   </data>
-  <data name="&gt;&gt;tmiAddEntry.Name" xml:space="preserve">
-    <value>tmiAddEntry</value>
+  <data name="layMainWindow.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;tmiAddEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblSelectedItemNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tmiEditEntry.Name" xml:space="preserve">
-    <value>tmiEditEntry</value>
+  <data name="lsbSelectedItemTranslations.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;tmiEditEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tmiRemoveEntry.Name" xml:space="preserve">
-    <value>tmiRemoveEntry</value>
-  </data>
-  <data name="&gt;&gt;tmiRemoveEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
-    <value>languageToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
-    <value>englishToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;slovenčinaSlovakToolStripMenuItem.Name" xml:space="preserve">
-    <value>slovenčinaSlovakToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;slovenčinaSlovakToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tmiHelp.Name" xml:space="preserve">
-    <value>tmiHelp</value>
-  </data>
-  <data name="&gt;&gt;tmiHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tmiViewHelp.Name" xml:space="preserve">
-    <value>tmiViewHelp</value>
-  </data>
-  <data name="&gt;&gt;tmiViewHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tmiSlovocaOnline.Name" xml:space="preserve">
-    <value>tmiSlovocaOnline</value>
-  </data>
-  <data name="&gt;&gt;tmiSlovocaOnline.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
-    <value>toolStripMenuItem6</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tmiAbout.Name" xml:space="preserve">
-    <value>tmiAbout</value>
-  </data>
-  <data name="&gt;&gt;tmiAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbNew.Name" xml:space="preserve">
-    <value>tsbNew</value>
-  </data>
-  <data name="&gt;&gt;tsbNew.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
-    <value>toolStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbOpen.Name" xml:space="preserve">
-    <value>tsbOpen</value>
-  </data>
-  <data name="&gt;&gt;tsbOpen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbSave.Name" xml:space="preserve">
-    <value>tsbSave</value>
-  </data>
-  <data name="&gt;&gt;tsbSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbSaveAs.Name" xml:space="preserve">
-    <value>tsbSaveAs</value>
-  </data>
-  <data name="&gt;&gt;tsbSaveAs.Type" xml:space="preserve">
+  <data name="&gt;&gt;tsbRemoveEntry.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
     <value>toolStripSeparator2</value>
   </data>
+  <data name="tmiOpen.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tmiNew.Text" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="layMainWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="&gt;&gt;tmiEditEntry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedItemNotesDescription.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tmiViewHelp.Text" xml:space="preserve">
+    <value>View Help</value>
+  </data>
+  <data name="lsbNativeToForeign.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tmiViewHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="lblSelectedItemTranslationsDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tmiSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tmiEditEntry.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="layMainWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tmiViewHelp.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F1</value>
+  </data>
+  <data name="pnlForeignToNativePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="dlgOpenProject.Title" xml:space="preserve">
+    <value>Open an existing Slovoca project...</value>
+  </data>
+  <data name="tsbEditEntry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tmiFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsbAddEntry.Name" xml:space="preserve">
-    <value>tsbAddEntry</value>
+  <data name="lblSelectedItemWordDescription.Text" xml:space="preserve">
+    <value>Entry and pronunciation:</value>
   </data>
-  <data name="&gt;&gt;tsbAddEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblSelectedItemNotesDescription.Parent" xml:space="preserve">
+    <value>laySelectedItemColumn</value>
   </data>
-  <data name="&gt;&gt;tsbEditEntry.Name" xml:space="preserve">
-    <value>tsbEditEntry</value>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
   </data>
-  <data name="&gt;&gt;tsbEditEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="msMainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;tsbRemoveEntry.Name" xml:space="preserve">
-    <value>tsbRemoveEntry</value>
-  </data>
-  <data name="&gt;&gt;tsbRemoveEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
-    <value>toolStripSeparator5</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tstSearchQuery.Name" xml:space="preserve">
-    <value>tstSearchQuery</value>
-  </data>
-  <data name="&gt;&gt;tstSearchQuery.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbFindEntry.Name" xml:space="preserve">
-    <value>tsbFindEntry</value>
-  </data>
-  <data name="&gt;&gt;tsbFindEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
-    <value>toolStripSeparator6</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbHelp.Name" xml:space="preserve">
-    <value>tsbHelp</value>
-  </data>
-  <data name="&gt;&gt;tsbHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
-    <value>toolStripSeparator7</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbExit.Name" xml:space="preserve">
-    <value>tsbExit</value>
-  </data>
-  <data name="&gt;&gt;tsbExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dlgOpenProject.Name" xml:space="preserve">
-    <value>dlgOpenProject</value>
-  </data>
-  <data name="&gt;&gt;dlgOpenProject.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dlgSaveProjectAs.Name" xml:space="preserve">
-    <value>dlgSaveProjectAs</value>
-  </data>
-  <data name="&gt;&gt;dlgSaveProjectAs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainWindow</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>sk</value>
+  </metadata>
+  <metadata name="msMainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dlgSaveProjectAs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>489, 17</value>
+  </metadata>
+  <metadata name="dlgOpenProject.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>352, 17</value>
+  </metadata>
+  <metadata name="tsToolbar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
 </root>

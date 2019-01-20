@@ -58,7 +58,6 @@
       // lblNewEntryTranslations
       // 
       resources.ApplyResources(this.lblNewEntryTranslations, "lblNewEntryTranslations");
-      this.layNewEntryDialogLayout.SetColumnSpan(this.lblNewEntryTranslations, 2);
       this.lblNewEntryTranslations.Name = "lblNewEntryTranslations";
       // 
       // txbNewEntryTranslations
