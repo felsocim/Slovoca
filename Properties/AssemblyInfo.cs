@@ -11,7 +11,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Marek Felsoci")]
 [assembly: AssemblyProduct("Slovoca")]
-[assembly: AssemblyCopyright("Copyright © 2018 Marek Felsoci")]
+[assembly: AssemblyCopyright("Copyright © 2019  Marek Felsoci")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
