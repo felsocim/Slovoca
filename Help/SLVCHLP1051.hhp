@@ -1,0 +1,16 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=SLVCHLP1051.chm
+Contents file=1051\Table of Contents.hhc
+Default topic=1051\01_What_is_Slovoca.html
+Display compile progress=Yes
+Language=0x41b Slovenèina
+
+
+[FILES]
+1051\03_Vocabulary_project.html
+1051\01_What_is_Slovoca.html
+1051\02_General_functions.html
+
+[INFOTYPES]
+

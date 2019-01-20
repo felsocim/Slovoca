@@ -1,0 +1,16 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=SLVCHLP1033.chm
+Contents file=1033\Table of Contents.hhc
+Default topic=1033\01_What_is_Slovoca.html
+Display compile progress=Yes
+Language=0x409 Angliètina (USA)
+
+
+[FILES]
+1033\03_Vocabulary_project.html
+1033\01_What_is_Slovoca.html
+1033\02_General_functions.html
+
+[INFOTYPES]
+

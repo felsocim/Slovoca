@@ -330,3 +330,9 @@ ASALocalRun/
 
 # Windows Explorer
 *.db
+
+# Compiled help files and related
+*.chm
+Help/_vti_pvt/*
+Help/1033/_vti_cnf/*
+Help/1051/_vti_cnf/*
