@@ -29,7 +29,7 @@ namespace Slovoca
     private void InitializeComponent()
     {
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-      this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+      this.msMainMenu = new System.Windows.Forms.MenuStrip();
       this.tmiFile = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiNew = new System.Windows.Forms.ToolStripMenuItem();
       this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
@@ -42,6 +42,9 @@ namespace Slovoca
       this.tmiAddEntry = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiEditEntry = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiRemoveEntry = new System.Windows.Forms.ToolStripMenuItem();
+      this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+      this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+      this.slovenèinaSlovakToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiHelp = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiViewHelp = new System.Windows.Forms.ToolStripMenuItem();
       this.tmiSlovocaOnline = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,12 +79,12 @@ namespace Slovoca
       this.lblSelectedItemWord = new System.Windows.Forms.Label();
       this.lblSelectedItemNotes = new System.Windows.Forms.Label();
       this.lsbSelectedItemTranslations = new System.Windows.Forms.ListBox();
-      this.dlgOpenProject = new System.Windows.Forms.OpenFileDialog();
-      this.dlgSaveProjectAs = new System.Windows.Forms.SaveFileDialog();
-      this.lblSelectedItemWordDescription = new System.Windows.Forms.Label();
       this.lblSelectedItemTranslationsDescription = new System.Windows.Forms.Label();
       this.lblSelectedItemNotesDescription = new System.Windows.Forms.Label();
-      this.menuStrip1.SuspendLayout();
+      this.lblSelectedItemWordDescription = new System.Windows.Forms.Label();
+      this.dlgOpenProject = new System.Windows.Forms.OpenFileDialog();
+      this.dlgSaveProjectAs = new System.Windows.Forms.SaveFileDialog();
+      this.msMainMenu.SuspendLayout();
       this.tsToolbar.SuspendLayout();
       this.pnlForeignToNativePanel.SuspendLayout();
       this.pnlNativeToForeignPanel.SuspendLayout();
@@ -89,14 +92,15 @@ namespace Slovoca
       this.laySelectedItemColumn.SuspendLayout();
       this.SuspendLayout();
       // 
-      // menuStrip1
+      // msMainMenu
       // 
-      this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+      this.msMainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tmiFile,
             this.tmiEntry,
+            this.languageToolStripMenuItem,
             this.tmiHelp});
-      resources.ApplyResources(this.menuStrip1, "menuStrip1");
-      this.menuStrip1.Name = "menuStrip1";
+      resources.ApplyResources(this.msMainMenu, "msMainMenu");
+      this.msMainMenu.Name = "msMainMenu";
       // 
       // tmiFile
       // 
@@ -185,6 +189,24 @@ namespace Slovoca
       resources.ApplyResources(this.tmiRemoveEntry, "tmiRemoveEntry");
       this.tmiRemoveEntry.Name = "tmiRemoveEntry";
       this.tmiRemoveEntry.Click += new System.EventHandler(this.TriggerRemoveEntry);
+      // 
+      // languageToolStripMenuItem
+      // 
+      this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.englishToolStripMenuItem,
+            this.slovenèinaSlovakToolStripMenuItem});
+      this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
+      resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
+      // 
+      // englishToolStripMenuItem
+      // 
+      this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+      resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+      // 
+      // slovenèinaSlovakToolStripMenuItem
+      // 
+      this.slovenèinaSlovakToolStripMenuItem.Name = "slovenèinaSlovakToolStripMenuItem";
+      resources.ApplyResources(this.slovenèinaSlovakToolStripMenuItem, "slovenèinaSlovakToolStripMenuItem");
       // 
       // tmiHelp
       // 
@@ -428,6 +450,21 @@ namespace Slovoca
       this.lsbSelectedItemTranslations.FormattingEnabled = true;
       this.lsbSelectedItemTranslations.Name = "lsbSelectedItemTranslations";
       // 
+      // lblSelectedItemTranslationsDescription
+      // 
+      resources.ApplyResources(this.lblSelectedItemTranslationsDescription, "lblSelectedItemTranslationsDescription");
+      this.lblSelectedItemTranslationsDescription.Name = "lblSelectedItemTranslationsDescription";
+      // 
+      // lblSelectedItemNotesDescription
+      // 
+      resources.ApplyResources(this.lblSelectedItemNotesDescription, "lblSelectedItemNotesDescription");
+      this.lblSelectedItemNotesDescription.Name = "lblSelectedItemNotesDescription";
+      // 
+      // lblSelectedItemWordDescription
+      // 
+      resources.ApplyResources(this.lblSelectedItemWordDescription, "lblSelectedItemWordDescription");
+      this.lblSelectedItemWordDescription.Name = "lblSelectedItemWordDescription";
+      // 
       // dlgOpenProject
       // 
       this.dlgOpenProject.DefaultExt = "*.slovo";
@@ -442,21 +479,6 @@ namespace Slovoca
       this.dlgSaveProjectAs.InitialDirectory = "%USERPROFILE%";
       this.dlgSaveProjectAs.FileOk += new System.ComponentModel.CancelEventHandler(this.ConfirmSaveProjectAs);
       // 
-      // lblSelectedItemWordDescription
-      // 
-      resources.ApplyResources(this.lblSelectedItemWordDescription, "lblSelectedItemWordDescription");
-      this.lblSelectedItemWordDescription.Name = "lblSelectedItemWordDescription";
-      // 
-      // lblSelectedItemTranslationsDescription
-      // 
-      resources.ApplyResources(this.lblSelectedItemTranslationsDescription, "lblSelectedItemTranslationsDescription");
-      this.lblSelectedItemTranslationsDescription.Name = "lblSelectedItemTranslationsDescription";
-      // 
-      // lblSelectedItemNotesDescription
-      // 
-      resources.ApplyResources(this.lblSelectedItemNotesDescription, "lblSelectedItemNotesDescription");
-      this.lblSelectedItemNotesDescription.Name = "lblSelectedItemNotesDescription";
-      // 
       // MainWindow
       // 
       resources.ApplyResources(this, "$this");
@@ -464,12 +486,12 @@ namespace Slovoca
       this.BackColor = System.Drawing.SystemColors.Control;
       this.Controls.Add(this.layMainWindow);
       this.Controls.Add(this.tsToolbar);
-      this.Controls.Add(this.menuStrip1);
-      this.MainMenuStrip = this.menuStrip1;
+      this.Controls.Add(this.msMainMenu);
+      this.MainMenuStrip = this.msMainMenu;
       this.Name = "MainWindow";
       this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TriggerQuit);
-      this.menuStrip1.ResumeLayout(false);
-      this.menuStrip1.PerformLayout();
+      this.msMainMenu.ResumeLayout(false);
+      this.msMainMenu.PerformLayout();
       this.tsToolbar.ResumeLayout(false);
       this.tsToolbar.PerformLayout();
       this.pnlForeignToNativePanel.ResumeLayout(false);
@@ -485,7 +507,7 @@ namespace Slovoca
 
     #endregion
 
-    private System.Windows.Forms.MenuStrip menuStrip1;
+    private System.Windows.Forms.MenuStrip msMainMenu;
     private System.Windows.Forms.ToolStripMenuItem tmiFile;
     private System.Windows.Forms.ToolStripMenuItem tmiNew;
     private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
@@ -537,5 +559,8 @@ namespace Slovoca
     private System.Windows.Forms.Label lblSelectedItemTranslationsDescription;
     private System.Windows.Forms.Label lblSelectedItemNotesDescription;
     private System.Windows.Forms.Label lblSelectedItemWordDescription;
+    private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
+    private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
+    private System.Windows.Forms.ToolStripMenuItem slovenèinaSlovakToolStripMenuItem;
   }
 }
