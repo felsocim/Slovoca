@@ -1,5 +1,0 @@
-﻿TODO List:
-**********
-
-*) Create help file(s).
-*) Localize the application in: Slovak, French, ...
