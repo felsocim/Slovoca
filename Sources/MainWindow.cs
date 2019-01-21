@@ -4,6 +4,7 @@ using System.Linq;
 using System.Windows.Forms;
 using System.ComponentModel;
 using System.Globalization;
+using System.Resources;
 
 namespace Slovoca {
   public enum ActiveVocabulary {
@@ -30,7 +31,20 @@ namespace Slovoca {
       InitializeComponent(); 
     }
 
-    private Project CurrentProject { get; set; }
+    public ResXResourceSet Strings {
+      get;
+      set;
+    }
+
+    public int Locale {
+      get;
+      set;
+    }
+
+    private Project CurrentProject {
+      get;
+      set;
+    }
 
     private NewProjectDialog CreateProjectDialog {
       get {

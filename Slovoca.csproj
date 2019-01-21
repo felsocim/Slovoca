@@ -84,6 +84,11 @@
     </Compile>
     <Compile Include="Sources\NotFoundException.cs" />
     <Compile Include="Sources\Project.cs" />
+    <Compile Include="Sources\Strings1051.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings1051.resx</DependentUpon>
+    </Compile>
     <Compile Include="Sources\Word.cs" />
     <Compile Include="Sources\WordComparer.cs" />
     <Compile Include="Sources\WordSet.cs" />
@@ -134,6 +139,10 @@
     </Compile>
     <EmbeddedResource Include="Sources\NewProjectDialog.sk.resx">
       <DependentUpon>NewProjectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sources\Strings1051.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings1051.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

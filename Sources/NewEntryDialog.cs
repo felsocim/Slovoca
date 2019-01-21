@@ -31,7 +31,7 @@ namespace Slovoca {
 
     public void PrepareForEditing(Entry entry) {
       this.Text = "Edit entry";
-      this.btnNewEntryAdd.Text = "Save changes";
+      this.btnNewEntryAdd.Text = "Save";
       this.txbNewEntryEntry.Text = entry.Meaning.Meaning;
       this.txbNewEntryEntry.Enabled = false;
       this.txbNewEntryEntryPronounciation.Text = entry.Meaning.HasPronounciation() ? entry.Meaning.Pronounciation : "";
