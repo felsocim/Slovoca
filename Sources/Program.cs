@@ -11,25 +11,23 @@ namespace Slovoca {
     /// </summary>
     [STAThread]
     static void Main(string[] args) {
-      Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
+      string locale = "en";
+
+      try {
+        RegistryKey slovoca = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Slovoca");
+        locale = slovoca.GetValue("Locale").ToString();
+      } catch(Exception) {
+        locale = "en";
+      }
+
+      Thread.CurrentThread.CurrentUICulture = new CultureInfo(locale);
+
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
 
       MainWindow window = new MainWindow();
 
-      /*RegistryKey slovoca = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Slovoca");
-      string locale = "en";
-
-      if(slovoca != null) {
-        try {
-          locale = slovoca.GetValue("Locale").ToString();
-        } catch(Exception) {
-          locale = "en";
-        }
-      }*/
-
-      //Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(locale);
-      
+      window.SetActiveUILanguage(locale);
 
       if(args.Length == 1) {
         window.ProjectOpen(args[0]);

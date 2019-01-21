@@ -211,17 +211,26 @@
   <data name="tmiEntry.ToolTipText" xml:space="preserve">
     <value>Zobrazí ponuku činností so zvoleným heslom.</value>
   </data>
+  <data name="tmiEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
   <data name="tmiEnglish.Text" xml:space="preserve">
     <value>Angličtina (English)</value>
   </data>
   <data name="tmiEnglish.ToolTipText" xml:space="preserve">
     <value>Zmení jazyk rozhrania programu na angličtinu.</value>
   </data>
+  <data name="tmiSlovak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
   <data name="tmiSlovak.Text" xml:space="preserve">
     <value>Slovenčina</value>
   </data>
   <data name="tmiSlovak.ToolTipText" xml:space="preserve">
     <value>Zmení jazyk rozhrania programu na slovenčinu.</value>
+  </data>
+  <data name="tmiLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
   </data>
   <data name="tmiLanguage.Text" xml:space="preserve">
     <value>Jazyk</value>

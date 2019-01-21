@@ -291,6 +291,42 @@ namespace Slovoca.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Language change failed.
+        /// </summary>
+        internal static string MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to change the language of the Slovoca&apos;s user interface!.
+        /// </summary>
+        internal static string MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Restart required.
+        /// </summary>
+        internal static string MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language change will take effect upon next launch of Slovoca..
+        /// </summary>
+        internal static string MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error message:.
         /// </summary>
         internal static string MAIN_WINDOWS_ERROR_MESSAGE_PREFIX {

@@ -202,11 +202,13 @@ namespace Slovoca
       // 
       this.tmiEnglish.Name = "tmiEnglish";
       resources.ApplyResources(this.tmiEnglish, "tmiEnglish");
+      this.tmiEnglish.Click += new System.EventHandler(this.TriggerChangeUILanguageToEnglish);
       // 
       // tmiSlovak
       // 
       this.tmiSlovak.Name = "tmiSlovak";
       resources.ApplyResources(this.tmiSlovak, "tmiSlovak");
+      this.tmiSlovak.Click += new System.EventHandler(this.TriggerChangeUILanguageToSlovak);
       // 
       // tmiHelp
       // 

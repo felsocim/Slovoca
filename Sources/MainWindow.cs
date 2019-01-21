@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using System.ComponentModel;
 using System.Globalization;
 using System.Resources;
+using Microsoft.Win32;
 
 namespace Slovoca {
   public enum ActiveVocabulary {
@@ -92,6 +93,47 @@ namespace Slovoca {
     private void DeactivateEditControls(object sender, EventArgs e) {
       this.tsbEditEntry.Enabled = false;
       this.tsbRemoveEntry.Enabled = false;
+    }
+
+    public void SetActiveUILanguage(string locale) {
+      switch(locale) {
+        case "en":
+          this.tmiEnglish.Checked = true;
+          this.tmiSlovak.Checked = false;
+          break;
+        case "sk":
+          this.tmiSlovak.Checked = true;
+          this.tmiEnglish.Checked = false;
+          break;
+      }
+    }
+
+    private void TriggerChangeUILanguageToEnglish(object sender, EventArgs e) {
+      if(!this.tmiEnglish.Checked) {
+        try {
+          RegistryKey slovoca = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Slovoca", true);
+          slovoca.SetValue("Locale", "en");
+        } catch(Exception exception) {
+          MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE + "\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + exception.Message, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
+          return;
+        }
+
+        MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Information);
+      }
+    }
+
+    private void TriggerChangeUILanguageToSlovak(object sender, EventArgs e) {
+      if(!this.tmiSlovak.Checked) {
+        try {
+          RegistryKey slovoca = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Slovoca", true);
+          slovoca.SetValue("Locale", "sk");
+        } catch(Exception exception) {
+          MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE + "\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + exception.Message, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
+          return;
+        }
+
+        MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Information);
+      }
     }
 
     private void TriggerNewProjectDialog(object sender, EventArgs e) {

@@ -286,4 +286,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <data name="MAIN_WINDOWS_PROJECT_ALREADY_OPENED_MESSAGE" xml:space="preserve">
     <value>This vocabulary project is already opened in Slovoca!</value>
   </data>
+  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION" xml:space="preserve">
+    <value>Language change failed</value>
+  </data>
+  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE" xml:space="preserve">
+    <value>Failed to change the language of the Slovoca's user interface!</value>
+  </data>
+  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE" xml:space="preserve">
+    <value>Language change will take effect upon next launch of Slovoca.</value>
+  </data>
 </root>
