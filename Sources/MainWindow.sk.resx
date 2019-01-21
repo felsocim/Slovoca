@@ -118,6 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tmiNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="tmiNew.Text" xml:space="preserve">
+    <value>&amp;Nový</value>
+  </data>
+  <data name="tmiNew.ToolTipText" xml:space="preserve">
+    <value>Vytvorí nový projekt slovníka.</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="tmiOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="tmiOpen.Text" xml:space="preserve">
+    <value>&amp;Otvoriť</value>
+  </data>
+  <data name="tmiOpen.ToolTipText" xml:space="preserve">
+    <value>Otvorí jestvujúci projekt slovníka.</value>
+  </data>
+  <data name="tmiSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="tmiSave.Text" xml:space="preserve">
+    <value>&amp;Uložiť</value>
+  </data>
+  <data name="tmiSave.ToolTipText" xml:space="preserve">
+    <value>Uloží zmeny vykonané v súčasnom projekte slovníka od posledného uloženia.</value>
+  </data>
+  <data name="tmiSaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="tmiSaveAs.Text" xml:space="preserve">
+    <value>Uložiť &amp;ako</value>
+  </data>
+  <data name="tmiSaveAs.ToolTipText" xml:space="preserve">
+    <value>Uloží súčasný projekt slovníka do odlišného súboru.</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="tmiExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="tmiExit.Text" xml:space="preserve">
+    <value>U&amp;končiť</value>
+  </data>
+  <data name="tmiExit.ToolTipText" xml:space="preserve">
+    <value>Ukončí program.</value>
+  </data>
   <data name="tmiFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 20</value>
   </data>
@@ -127,32 +178,38 @@
   <data name="tmiFile.ToolTipText" xml:space="preserve">
     <value>Zobrazí ponuku činností so súborom.</value>
   </data>
+  <data name="tmiAddEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="tmiAddEntry.Text" xml:space="preserve">
+    <value>Pridať</value>
+  </data>
+  <data name="tmiAddEntry.ToolTipText" xml:space="preserve">
+    <value>Umožní pridať nové heslo do zvoleného smeru slovníka.</value>
+  </data>
+  <data name="tmiEditEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="tmiEditEntry.Text" xml:space="preserve">
+    <value>Upraviť</value>
+  </data>
+  <data name="tmiEditEntry.ToolTipText" xml:space="preserve">
+    <value>Umožní upraviť zvolené heslo.</value>
+  </data>
+  <data name="tmiRemoveEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="tmiRemoveEntry.Text" xml:space="preserve">
+    <value>Odstrániť</value>
+  </data>
+  <data name="tmiRemoveEntry.ToolTipText" xml:space="preserve">
+    <value>Odstráni zvolené heslo zo slovníka.</value>
+  </data>
   <data name="tmiEntry.Text" xml:space="preserve">
     <value>&amp;Heslo</value>
   </data>
   <data name="tmiEntry.ToolTipText" xml:space="preserve">
     <value>Zobrazí ponuku činností so zvoleným heslom.</value>
-  </data>
-  <data name="tmiLanguage.Text" xml:space="preserve">
-    <value>Jazyk</value>
-  </data>
-  <data name="tmiLanguage.ToolTipText" xml:space="preserve">
-    <value>Zobrazí dostupné jazyky rozhrania programu.</value>
-  </data>
-  <data name="tmiHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="tmiHelp.Text" xml:space="preserve">
-    <value>&amp;Pomoc</value>
-  </data>
-  <data name="tmiHelp.ToolTipText" xml:space="preserve">
-    <value>Zobrazí možnosti pomocníka.</value>
-  </data>
-  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 6</value>
-  </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 6</value>
   </data>
   <data name="tmiEnglish.Text" xml:space="preserve">
     <value>Angličtina (English)</value>
@@ -166,6 +223,30 @@
   <data name="tmiSlovak.ToolTipText" xml:space="preserve">
     <value>Zmení jazyk rozhrania programu na slovenčinu.</value>
   </data>
+  <data name="tmiLanguage.Text" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="tmiLanguage.ToolTipText" xml:space="preserve">
+    <value>Zobrazí dostupné jazyky rozhrania programu.</value>
+  </data>
+  <data name="tmiViewHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
+  </data>
+  <data name="tmiViewHelp.Text" xml:space="preserve">
+    <value>Zobraziť pomocníka</value>
+  </data>
+  <data name="tmiViewHelp.ToolTipText" xml:space="preserve">
+    <value>Umožní prehliadať témy pomocníka.</value>
+  </data>
+  <data name="tmiSlovocaOnline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 22</value>
+  </data>
+  <data name="tmiSlovocaOnline.Text" xml:space="preserve">
+    <value>Internetová stránka programu Slovoca</value>
+  </data>
+  <data name="tmiSlovocaOnline.ToolTipText" xml:space="preserve">
+    <value>Otvorí internetovú stránku programu Slovoca v predvolenom prehliadači.</value>
+  </data>
   <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
     <value>268, 6</value>
   </data>
@@ -178,42 +259,14 @@
   <data name="tmiAbout.ToolTipText" xml:space="preserve">
     <value>Zobrazí okno so základnými informáciami o programe Slovoca.</value>
   </data>
-  <data name="lblForeignToNativePanelTitle.Text" xml:space="preserve">
-    <value>Heslá v cudzom jazyku</value>
+  <data name="tmiHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
   </data>
-  <data name="lblNativeToForeignPanelTitle.Text" xml:space="preserve">
-    <value>Heslá v rodnom jazyku</value>
+  <data name="tmiHelp.Text" xml:space="preserve">
+    <value>&amp;Pomoc</value>
   </data>
-  <data name="lblSelectedItemColumnTitle.Text" xml:space="preserve">
-    <value>Zvolené heslo</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblSelectedItemTranslationsDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblSelectedItemTranslationsDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 13</value>
-  </data>
-  <data name="lblSelectedItemTranslationsDescription.Text" xml:space="preserve">
-    <value>Poskytnuté preklady:</value>
-  </data>
-  <data name="lblSelectedItemNotesDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblSelectedItemNotesDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 13</value>
-  </data>
-  <data name="lblSelectedItemNotesDescription.Text" xml:space="preserve">
-    <value>Poznámky:</value>
-  </data>
-  <data name="lblSelectedItemWordDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblSelectedItemWordDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 13</value>
-  </data>
-  <data name="lblSelectedItemWordDescription.Text" xml:space="preserve">
-    <value>Význam a výslovnosť:</value>
+  <data name="tmiHelp.ToolTipText" xml:space="preserve">
+    <value>Zobrazí možnosti pomocníka.</value>
   </data>
   <data name="tsbNew.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 22</value>
@@ -305,95 +358,42 @@
   <data name="tsbExit.ToolTipText" xml:space="preserve">
     <value>Ukončí program.</value>
   </data>
-  <data name="tmiNew.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
+  <data name="lblForeignToNativePanelTitle.Text" xml:space="preserve">
+    <value>Heslá v cudzom jazyku</value>
   </data>
-  <data name="tmiNew.Text" xml:space="preserve">
-    <value>&amp;Nový</value>
+  <data name="lblNativeToForeignPanelTitle.Text" xml:space="preserve">
+    <value>Heslá v rodnom jazyku</value>
   </data>
-  <data name="tmiNew.ToolTipText" xml:space="preserve">
-    <value>Vytvorí nový projekt slovníka.</value>
+  <data name="lblSelectedItemColumnTitle.Text" xml:space="preserve">
+    <value>Zvolené heslo</value>
   </data>
-  <data name="tmiOpen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblSelectedItemTranslationsDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tmiOpen.Text" xml:space="preserve">
-    <value>&amp;Otvoriť</value>
+  <data name="lblSelectedItemTranslationsDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
   </data>
-  <data name="tmiOpen.ToolTipText" xml:space="preserve">
-    <value>Otvorí jestvujúci projekt slovníka.</value>
+  <data name="lblSelectedItemTranslationsDescription.Text" xml:space="preserve">
+    <value>Poskytnuté preklady:</value>
   </data>
-  <data name="tmiSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
+  <data name="lblSelectedItemNotesDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tmiSave.Text" xml:space="preserve">
-    <value>&amp;Uložiť</value>
+  <data name="lblSelectedItemNotesDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
   </data>
-  <data name="tmiSave.ToolTipText" xml:space="preserve">
-    <value>Uloží zmeny vykonané v súčasnom projekte slovníka od posledného uloženia.</value>
+  <data name="lblSelectedItemNotesDescription.Text" xml:space="preserve">
+    <value>Poznámky:</value>
   </data>
-  <data name="tmiSaveAs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
+  <data name="lblSelectedItemWordDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tmiSaveAs.Text" xml:space="preserve">
-    <value>Uložiť &amp;ako</value>
+  <data name="lblSelectedItemWordDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
   </data>
-  <data name="tmiSaveAs.ToolTipText" xml:space="preserve">
-    <value>Uloží súčasný projekt slovníka do odlišného súboru.</value>
-  </data>
-  <data name="tmiExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
-  </data>
-  <data name="tmiExit.Text" xml:space="preserve">
-    <value>U&amp;končiť</value>
-  </data>
-  <data name="tmiExit.ToolTipText" xml:space="preserve">
-    <value>Ukončí program.</value>
-  </data>
-  <data name="tmiAddEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
-  </data>
-  <data name="tmiAddEntry.Text" xml:space="preserve">
-    <value>Pridať</value>
-  </data>
-  <data name="tmiAddEntry.ToolTipText" xml:space="preserve">
-    <value>Umožní pridať nové heslo do zvoleného smeru slovníka.</value>
-  </data>
-  <data name="tmiEditEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
-  </data>
-  <data name="tmiEditEntry.Text" xml:space="preserve">
-    <value>Upraviť</value>
-  </data>
-  <data name="tmiEditEntry.ToolTipText" xml:space="preserve">
-    <value>Umožní upraviť zvolené heslo.</value>
-  </data>
-  <data name="tmiRemoveEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
-  </data>
-  <data name="tmiRemoveEntry.Text" xml:space="preserve">
-    <value>Odstrániť</value>
-  </data>
-  <data name="tmiRemoveEntry.ToolTipText" xml:space="preserve">
-    <value>Odstráni zvolené heslo zo slovníka.</value>
-  </data>
-  <data name="tmiViewHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>271, 22</value>
-  </data>
-  <data name="tmiViewHelp.Text" xml:space="preserve">
-    <value>Zobraziť pomocníka</value>
-  </data>
-  <data name="tmiViewHelp.ToolTipText" xml:space="preserve">
-    <value>Umožní prehliadať témy pomocníka.</value>
-  </data>
-  <data name="tmiSlovocaOnline.Size" type="System.Drawing.Size, System.Drawing">
-    <value>271, 22</value>
-  </data>
-  <data name="tmiSlovocaOnline.Text" xml:space="preserve">
-    <value>Internetová stránka programu Slovoca</value>
-  </data>
-  <data name="tmiSlovocaOnline.ToolTipText" xml:space="preserve">
-    <value>Otvorí internetovú stránku programu Slovoca v predvolenom prehliadači.</value>
+  <data name="lblSelectedItemWordDescription.Text" xml:space="preserve">
+    <value>Význam a výslovnosť:</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2309,8 +2309,5 @@
         jzYznI8wLZiPJySDUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAA=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>

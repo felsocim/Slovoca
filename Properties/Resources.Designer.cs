@@ -60,6 +60,52 @@ namespace Slovoca.Properties {
             }
         }
         
+        /// <summary>
+        ///   Looks up a localized string similar to Personalized vocabulary creation tool.
+        /// </summary>
+        internal static string ABOUT_BOX_DESCRIPTION {
+            get {
+                return ResourceManager.GetString("ABOUT_BOX_DESCRIPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This program is free software; you can redistribute it and/or
+        ///modify it under the terms of the GNU General Public License
+        ///as published by the Free Software Foundation; either version 2
+        ///of the License, or (at your option) any later version.
+        ///
+        ///This program is distributed in the hope that it will be useful,
+        ///but WITHOUT ANY WARRANTY; without even the implied warranty of
+        ///MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        ///GNU General Public License for more details.
+        ///
+        ///You should have received a [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ABOUT_BOX_GNU {
+            get {
+                return ResourceManager.GetString("ABOUT_BOX_GNU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to About.
+        /// </summary>
+        internal static string ABOUT_BOX_TITLE_PREFIX {
+            get {
+                return ResourceManager.GetString("ABOUT_BOX_TITLE_PREFIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Version.
+        /// </summary>
+        internal static string ABOUT_BOX_VERSION_PREFIX {
+            get {
+                return ResourceManager.GetString("ABOUT_BOX_VERSION_PREFIX", resourceCulture);
+            }
+        }
+        
         internal static System.Drawing.Bitmap Add_16x_24 {
             get {
                 object obj = ResourceManager.GetObject("Add_16x_24", resourceCulture);
@@ -106,6 +152,285 @@ namespace Slovoca.Properties {
             get {
                 object obj = ResourceManager.GetObject("FindResults_16x_24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Entries in.
+        /// </summary>
+        internal static string MAIN_WINDOW_ENTRIES_IN_PREFIX {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_ENTRIES_IN_PREFIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Entry already exists.
+        /// </summary>
+        internal static string MAIN_WINDOW_ENTRY_ALREADY_EXISTS_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_ENTRY_ALREADY_EXISTS_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The entry:.
+        /// </summary>
+        internal static string MAIN_WINDOW_ENTRY_ALREADY_EXISTS_MESSAGE_PREFIX {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_ENTRY_ALREADY_EXISTS_MESSAGE_PREFIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to already exists in the selected vocabulary. Would you like to update it?.
+        /// </summary>
+        internal static string MAIN_WINDOW_ENTRY_ALREADY_EXISTS_MESSAGE_SUFFIX {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_ENTRY_ALREADY_EXISTS_MESSAGE_SUFFIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Something went wrong.
+        /// </summary>
+        internal static string MAIN_WINDOW_ENTRY_DISAPPEARED_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_ENTRY_DISAPPEARED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The edited entry is no longer present in the target vocabulary!.
+        /// </summary>
+        internal static string MAIN_WINDOW_ENTRY_DISAPPEARED_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_ENTRY_DISAPPEARED_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Entry not found.
+        /// </summary>
+        internal static string MAIN_WINDOW_ENTRY_NOT_FOUND_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_ENTRY_NOT_FOUND_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Requested entry does not exist in the active vocabulary part..
+        /// </summary>
+        internal static string MAIN_WINDOW_ENTRY_NOT_FOUND_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_ENTRY_NOT_FOUND_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No entry selected.
+        /// </summary>
+        internal static string MAIN_WINDOW_NOTHING_SELECTED_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_NOTHING_SELECTED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, select an entry first!.
+        /// </summary>
+        internal static string MAIN_WINDOW_NOTHING_SELECTED_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_NOTHING_SELECTED_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save failure.
+        /// </summary>
+        internal static string MAIN_WINDOW_PROJECT_SAVE_FAILURE_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_PROJECT_SAVE_FAILURE_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to save the project to file:.
+        /// </summary>
+        internal static string MAIN_WINDOW_PROJECT_SAVE_FAILURE_PREFIX {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_PROJECT_SAVE_FAILURE_PREFIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unsaved changes.
+        /// </summary>
+        internal static string MAIN_WINDOW_UNSAVED_CHANGES_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_UNSAVED_CHANGES_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There are unsaved changes in your project. Do you want to save them first?.
+        /// </summary>
+        internal static string MAIN_WINDOW_UNSAVED_CHANGES_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_UNSAVED_CHANGES_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (unsaved changes).
+        /// </summary>
+        internal static string MAIN_WINDOW_UNSAVED_CHANGES_TAG {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_UNSAVED_CHANGES_TAG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error message:.
+        /// </summary>
+        internal static string MAIN_WINDOWS_ERROR_MESSAGE_PREFIX {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOWS_ERROR_MESSAGE_PREFIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No vocabulary part selected.
+        /// </summary>
+        internal static string MAIN_WINDOWS_NO_LIST_SELECTED_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOWS_NO_LIST_SELECTED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, select one of the vocabulary parts first!.
+        /// </summary>
+        internal static string MAIN_WINDOWS_NO_LIST_SELECTED_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOWS_NO_LIST_SELECTED_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Project already opened.
+        /// </summary>
+        internal static string MAIN_WINDOWS_PROJECT_ALREADY_OPENED_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOWS_PROJECT_ALREADY_OPENED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This vocabulary project is already opened in Slovoca!.
+        /// </summary>
+        internal static string MAIN_WINDOWS_PROJECT_ALREADY_OPENED_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOWS_PROJECT_ALREADY_OPENED_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add.
+        /// </summary>
+        internal static string NEW_ENTRY_DIALOG_ADD_BUTTON {
+            get {
+                return ResourceManager.GetString("NEW_ENTRY_DIALOG_ADD_BUTTON", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add entry.
+        /// </summary>
+        internal static string NEW_ENTRY_DIALOG_ADD_TITLE {
+            get {
+                return ResourceManager.GetString("NEW_ENTRY_DIALOG_ADD_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        internal static string NEW_ENTRY_DIALOG_EDIT_BUTTON {
+            get {
+                return ResourceManager.GetString("NEW_ENTRY_DIALOG_EDIT_BUTTON", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit entry.
+        /// </summary>
+        internal static string NEW_ENTRY_DIALOG_EDIT_TITLE {
+            get {
+                return ResourceManager.GetString("NEW_ENTRY_DIALOG_EDIT_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Missing data.
+        /// </summary>
+        internal static string NEW_ENTRY_DIALOG_MISSING_DATA_CAPTION {
+            get {
+                return ResourceManager.GetString("NEW_ENTRY_DIALOG_MISSING_DATA_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, type in the meaning of the entry!.
+        /// </summary>
+        internal static string NEW_ENTRY_DIALOG_MISSING_ENTRY_MEANING {
+            get {
+                return ResourceManager.GetString("NEW_ENTRY_DIALOG_MISSING_ENTRY_MEANING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, type in at least one translation of the entry!.
+        /// </summary>
+        internal static string NEW_ENTRY_DIALOG_MISSING_TRANSLATION {
+            get {
+                return ResourceManager.GetString("NEW_ENTRY_DIALOG_MISSING_TRANSLATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Missing data.
+        /// </summary>
+        internal static string NEW_PROJECT_DIALOG_UNSPECIFIED_CAPTION {
+            get {
+                return ResourceManager.GetString("NEW_PROJECT_DIALOG_UNSPECIFIED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, choose a foreign language culture of your new vocabulary!.
+        /// </summary>
+        internal static string NEW_PROJECT_DIALOG_UNSPECIFIED_FOREIGN_CULTURE {
+            get {
+                return ResourceManager.GetString("NEW_PROJECT_DIALOG_UNSPECIFIED_FOREIGN_CULTURE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, choose location and name for your new project file!.
+        /// </summary>
+        internal static string NEW_PROJECT_DIALOG_UNSPECIFIED_LOCATION {
+            get {
+                return ResourceManager.GetString("NEW_PROJECT_DIALOG_UNSPECIFIED_LOCATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, choose a native language culture of your new vocabulary!.
+        /// </summary>
+        internal static string NEW_PROJECT_DIALOG_UNSPECIFIED_NATIVE_CULTURE {
+            get {
+                return ResourceManager.GetString("NEW_PROJECT_DIALOG_UNSPECIFIED_NATIVE_CULTURE", resourceCulture);
             }
         }
         

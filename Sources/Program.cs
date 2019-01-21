@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 using Microsoft.Win32;
+using System.Threading;
+using System.Globalization;
 
 namespace Slovoca {
   static class Program {
@@ -9,24 +11,25 @@ namespace Slovoca {
     /// </summary>
     [STAThread]
     static void Main(string[] args) {
+      Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
 
       MainWindow window = new MainWindow();
 
-      RegistryKey slovoca = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Slovoca");
-      int locale = 1033;
+      /*RegistryKey slovoca = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Slovoca");
+      string locale = "en";
 
       if(slovoca != null) {
         try {
-          locale = int.Parse(slovoca.GetValue("Locale").ToString());
+          locale = slovoca.GetValue("Locale").ToString();
         } catch(Exception) {
-          locale = 1033;
+          locale = "en";
         }
-      }
+      }*/
 
-      window.Locale = locale;
-      window.Strings = new System.Resources.ResXResourceSet("Strings" + locale.ToString());
+      //Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(locale);
+      
 
       if(args.Length == 1) {
         window.ProjectOpen(args[0]);

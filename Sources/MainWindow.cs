@@ -31,16 +31,6 @@ namespace Slovoca {
       InitializeComponent(); 
     }
 
-    public ResXResourceSet Strings {
-      get;
-      set;
-    }
-
-    public int Locale {
-      get;
-      set;
-    }
-
     private Project CurrentProject {
       get;
       set;
@@ -106,11 +96,11 @@ namespace Slovoca {
 
     private void TriggerNewProjectDialog(object sender, EventArgs e) {
       if(this.UnsavedChanges) {
-        switch(MessageBox.Show(this, "There are unsaved changes in your project. Do you want to save them before creating a new one?", "Unsaved changes", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
+        switch(MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_UNSAVED_CHANGES_MESSAGE, Properties.Resources.MAIN_WINDOW_UNSAVED_CHANGES_CAPTION, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
           case System.Windows.Forms.DialogResult.Yes:
             string returnMessage = this.CurrentProject.SaveToDisk();
             if(returnMessage != null) {
-              MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+              MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_PREFIX + " " + this.CurrentProject.Location + "'!\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + returnMessage, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
             } else {
               this.UnsavedChanges = false;
               this.Text = "Slovoca - " + this.CurrentProject.Location;
@@ -126,11 +116,11 @@ namespace Slovoca {
 
     private void TriggerOpenProjectDialog(object sender, EventArgs e) {
       if(this.UnsavedChanges) {
-        switch(MessageBox.Show(this, "There are unsaved changes in your project. Do you want to save them before opening another one?", "Unsaved changes", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
+        switch(MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_UNSAVED_CHANGES_MESSAGE, Properties.Resources.MAIN_WINDOW_UNSAVED_CHANGES_CAPTION, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
           case System.Windows.Forms.DialogResult.Yes:
             string returnMessage = this.CurrentProject.SaveToDisk();
             if(returnMessage != null) {
-              MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+              MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_PREFIX + " " + this.CurrentProject.Location + "'!\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + returnMessage, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
             } else {
               this.UnsavedChanges = false;
               this.Text = "Slovoca - " + this.CurrentProject.Location;
@@ -161,8 +151,8 @@ namespace Slovoca {
 
       this.ToggleControls(true);
 
-      this.lblForeignToNativePanelTitle.Text = "Entries in " + this.CurrentProject.ForeignEntries.Language.DisplayName;
-      this.lblNativeToForeignPanelTitle.Text = "Entries in " + this.CurrentProject.NativeEntries.Language.DisplayName;
+      this.lblForeignToNativePanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + this.CurrentProject.ForeignEntries.Language.DisplayName;
+      this.lblNativeToForeignPanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + this.CurrentProject.NativeEntries.Language.DisplayName;
       this.SelectForeignToNativeVocabulary(null, null);
 
       this.Text = "Slovoca - " + this.CurrentProject.Location;
@@ -170,7 +160,7 @@ namespace Slovoca {
 
     private void ConfirmProjectOpen(object sender, CancelEventArgs e) {
       if(this.CurrentProject != null && this.CurrentProject.Location.CompareTo(this.dlgOpenProject.FileName) == 0) {
-        MessageBox.Show(this, "The project '" + this.dlgOpenProject.FileName + "' is already opened.", "Open project", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_PROJECT_ALREADY_OPENED_MESSAGE, Properties.Resources.MAIN_WINDOWS_PROJECT_ALREADY_OPENED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Warning);
         return;
       }
 
@@ -186,7 +176,7 @@ namespace Slovoca {
 
       string returnMessage = this.CurrentProject.SaveToDisk();
       if(returnMessage != null) {
-        MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_PREFIX + " " + this.CurrentProject.Location + "'!\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + returnMessage, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
       } else {
         this.UnsavedChanges = false;
         this.Text = "Slovoca - " + this.CurrentProject.Location;
@@ -196,8 +186,8 @@ namespace Slovoca {
     private void CreateNewProject(string file, CultureInfo native, CultureInfo foreign) {
       this.CurrentProject = new Project(file, native, foreign);
       this.ToggleControls(true);
-      this.lblForeignToNativePanelTitle.Text = "Entries in " + foreign.DisplayName;
-      this.lblNativeToForeignPanelTitle.Text = "Entries in " + native.DisplayName;
+      this.lblForeignToNativePanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + foreign.DisplayName;
+      this.lblNativeToForeignPanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + native.DisplayName;
       this.SelectForeignToNativeVocabulary(null, null);
       this.Text = "Slovoca - " + this.CurrentProject.Location;
     }
@@ -213,7 +203,7 @@ namespace Slovoca {
       ListBox active = this.ActivePanel == ActiveVocabulary.FOREIGN_TO_NATIVE ? this.lsbForeignToNative : lsbNativeToForeign;
 
       if(active.SelectedIndex == -1) {
-        MessageBox.Show(this, "No item has been selected for editing!", "Nothing to edit", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_NOTHING_SELECTED_MESSAGE, Properties.Resources.MAIN_WINDOW_NOTHING_SELECTED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
         return;
       }
 
@@ -254,7 +244,7 @@ namespace Slovoca {
       }
 
       this.UnsavedChanges = true;
-      this.Text = "Slovoca - " + this.CurrentProject.Location + " (unsaved changes)";
+      this.Text = "Slovoca - " + this.CurrentProject.Location + " " + Properties.Resources.MAIN_WINDOW_UNSAVED_CHANGES_TAG;
     }
 
     private void ShowDetailedEntryInformation(object sender, EventArgs e) {
@@ -267,7 +257,7 @@ namespace Slovoca {
           selected = this.lsbNativeToForeign;
           break;
         default:
-          MessageBox.Show(this, "No vocabulary has been selected!", "Unspecified vocabulary", MessageBoxButtons.OK, MessageBoxIcon.Error);
+          MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_NO_LIST_SELECTED_MESSAGE, Properties.Resources.MAIN_WINDOWS_NO_LIST_SELECTED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
           return;
       }
 
@@ -304,7 +294,7 @@ namespace Slovoca {
         existing = this.ActivePanel == ActiveVocabulary.FOREIGN_TO_NATIVE ? this.CurrentProject.ForeignEntries.FindEntry(entry) : this.CurrentProject.NativeEntries.FindEntry(entry);
       } catch (NotFoundException) {
         if (editing) {
-          MessageBox.Show(this, "The edited entry is no longer present in the target vocabulary!", "Something went wrong", MessageBoxButtons.OK, MessageBoxIcon.Error);
+          MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_ENTRY_DISAPPEARED_MESSAGE, Properties.Resources.MAIN_WINDOW_ENTRY_DISAPPEARED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
           return;
         }
 
@@ -338,7 +328,7 @@ namespace Slovoca {
         return;
       }
 
-      insertIntoExisting = MessageBox.Show(this, "The entry '" + entry.Meaning.Meaning + "' already exists in the selected vocabulary. Would you like to update it?", "Entry already exists", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes;
+      insertIntoExisting = MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_ENTRY_ALREADY_EXISTS_MESSAGE_PREFIX + " " + entry.Meaning.Meaning + " " + Properties.Resources.MAIN_WINDOW_ENTRY_ALREADY_EXISTS_MESSAGE_SUFFIX, Properties.Resources.MAIN_WINDOW_ENTRY_ALREADY_EXISTS_CAPTION, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes;
 
       if(insertIntoExisting) {
         if(this.ActivePanel == ActiveVocabulary.FOREIGN_TO_NATIVE) {
@@ -369,12 +359,12 @@ namespace Slovoca {
           source = this.lsbNativeToForeign;
           break;
         default:
-          Console.WriteLine("[Error] No vocabulary is active!");
+          Console.WriteLine(Properties.Resources.MAIN_WINDOWS_NO_LIST_SELECTED_CAPTION);
           return;
       }
 
       if (source.SelectedIndex == -1) {
-        MessageBox.Show(this, "No item was selected in the active vocabulary!", "Nothing to remove", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_NOTHING_SELECTED_MESSAGE, Properties.Resources.MAIN_WINDOW_NOTHING_SELECTED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
         return;
       }
 
@@ -397,7 +387,7 @@ namespace Slovoca {
           target = this.lsbNativeToForeign;
           break;
         default:
-          Console.WriteLine("[Error] No vocabulary is active!");
+          Console.WriteLine(Properties.Resources.MAIN_WINDOWS_NO_LIST_SELECTED_CAPTION);
           return;
       }
 
@@ -406,7 +396,7 @@ namespace Slovoca {
       try {
         found = source.FindEntry(this.tstSearchQuery.Text);
       } catch (NotFoundException) {
-        MessageBox.Show(this, "The entry '" + this.tstSearchQuery.Text + "' was not found in the active vocabulary.", "Not found", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_ENTRY_NOT_FOUND_MESSAGE, Properties.Resources.MAIN_WINDOW_ENTRY_NOT_FOUND_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Information);
         return;
       }
 
@@ -416,7 +406,7 @@ namespace Slovoca {
     private void TriggerSave(object sender, EventArgs e) {
       string returnMessage = this.CurrentProject.SaveToDisk();
       if(returnMessage != null) {
-        MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_PREFIX + " " + this.CurrentProject.Location + "'!\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + returnMessage, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
       } else {
         this.UnsavedChanges = false;
         this.Text = "Slovoca - " + this.CurrentProject.Location;
@@ -433,11 +423,11 @@ namespace Slovoca {
 
     private void TriggerExit(object sender, EventArgs e) {
       if(this.UnsavedChanges) {
-        switch(MessageBox.Show(this, "There are unsaved changes in your project. Do you want to save them before closing?", "Exit Slovoca", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
+        switch(MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_UNSAVED_CHANGES_MESSAGE, Properties.Resources.MAIN_WINDOW_UNSAVED_CHANGES_CAPTION, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
           case System.Windows.Forms.DialogResult.Yes:
             string returnMessage = this.CurrentProject.SaveToDisk();
             if(returnMessage != null) {
-              MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+              MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_PREFIX + " " + this.CurrentProject.Location + "'!\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + returnMessage, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
             } else {
               this.UnsavedChanges = false;
               this.Text = "Slovoca - " + this.CurrentProject.Location;
@@ -453,11 +443,11 @@ namespace Slovoca {
 
     private void TriggerQuit(object sender, FormClosingEventArgs e) {
       if(this.UnsavedChanges) {
-        switch(MessageBox.Show(this, "There are unsaved changes in your project. Do you want to save them before closing?", "Exit Slovoca", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
+        switch(MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_UNSAVED_CHANGES_MESSAGE, Properties.Resources.MAIN_WINDOW_UNSAVED_CHANGES_CAPTION, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)) {
           case System.Windows.Forms.DialogResult.Yes:
             string returnMessage = this.CurrentProject.SaveToDisk();
             if(returnMessage != null) {
-              MessageBox.Show(this, "Failed to save the project to file '" + this.CurrentProject.Location + "'!\nError message: " + returnMessage, "Save failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+              MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_PREFIX + " " + this.CurrentProject.Location + "'!\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + returnMessage, Properties.Resources.MAIN_WINDOW_PROJECT_SAVE_FAILURE_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
             } else {
               this.UnsavedChanges = false;
               this.Text = "Slovoca - " + this.CurrentProject.Location;

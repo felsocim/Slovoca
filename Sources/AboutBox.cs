@@ -11,11 +11,12 @@ namespace Slovoca {
   partial class AboutBox : Form {
     public AboutBox() {
       InitializeComponent();
-      this.Text = String.Format("About {0}", AssemblyTitle);
+      this.Text = String.Format(Properties.Resources.ABOUT_BOX_TITLE_PREFIX + " {0}", AssemblyTitle);
       this.labelProductName.Text = AssemblyProduct;
-      this.labelDescription.Text = AssemblyDescription;
-      this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
+      this.labelDescription.Text = Properties.Resources.ABOUT_BOX_DESCRIPTION;
+      this.labelVersion.Text = String.Format(Properties.Resources.ABOUT_BOX_VERSION_PREFIX + " {0}", AssemblyVersion);
       this.labelCopyright.Text = AssemblyCopyright;
+      this.textBoxDescription.Text = Properties.Resources.ABOUT_BOX_GNU;
     }
 
     #region Assembly Attribute Accessors

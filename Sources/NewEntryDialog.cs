@@ -23,15 +23,15 @@ namespace Slovoca {
     }
 
     public void PrepareForAdding() {
-      this.Text = "Add entry";
-      this.btnNewEntryAdd.Text = "Add";
+      this.Text = Properties.Resources.NEW_ENTRY_DIALOG_ADD_TITLE;
+      this.btnNewEntryAdd.Text = Properties.Resources.NEW_ENTRY_DIALOG_ADD_BUTTON;
       this.txbNewEntryEntry.Enabled = true;
       this.EditMode = false;
     }
 
     public void PrepareForEditing(Entry entry) {
-      this.Text = "Edit entry";
-      this.btnNewEntryAdd.Text = "Save";
+      this.Text = Properties.Resources.NEW_ENTRY_DIALOG_EDIT_TITLE;
+      this.btnNewEntryAdd.Text = Properties.Resources.NEW_ENTRY_DIALOG_EDIT_BUTTON;
       this.txbNewEntryEntry.Text = entry.Meaning.Meaning;
       this.txbNewEntryEntry.Enabled = false;
       this.txbNewEntryEntryPronounciation.Text = entry.Meaning.HasPronounciation() ? entry.Meaning.Pronounciation : "";
@@ -67,12 +67,12 @@ namespace Slovoca {
 
     private void TriggerNewEntryAdd(object sender, EventArgs e) {
       if(this.txbNewEntryEntry.Lines.Length < 1) {
-        MessageBox.Show(this, "You must fill the entry value!", "Missing data", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, Properties.Resources.NEW_ENTRY_DIALOG_MISSING_ENTRY_MEANING, Properties.Resources.NEW_ENTRY_DIALOG_MISSING_DATA_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
         return;
       }
 
       if(this.txbNewEntryTranslations.Lines.Length < 1) {
-        MessageBox.Show(this, "You must provide at least one translation!", "Missing data", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, Properties.Resources.NEW_ENTRY_DIALOG_MISSING_TRANSLATION, Properties.Resources.NEW_ENTRY_DIALOG_MISSING_DATA_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
         return;
       }
 

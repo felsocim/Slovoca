@@ -44,17 +44,17 @@ namespace Slovoca {
 
     private void ConfirmProjectCreation(object sender, EventArgs e) {
       if(this.txbNewProjectFile.Text == "") {
-        MessageBox.Show(this, "You must choose location and name for your new project file!", "Unspecified project file", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, Properties.Resources.NEW_PROJECT_DIALOG_UNSPECIFIED_LOCATION, Properties.Resources.NEW_PROJECT_DIALOG_UNSPECIFIED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
         return;
       }
 
       if (this.cmbNewProjectForeignCultures.SelectedIndex == -1) {
-        MessageBox.Show(this, "You must choose a foreign language culture of your new personalized vocabulary!", "Unspecified foreign language culture", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, Properties.Resources.NEW_PROJECT_DIALOG_UNSPECIFIED_FOREIGN_CULTURE, Properties.Resources.NEW_PROJECT_DIALOG_UNSPECIFIED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
         return;
       }
 
       if (this.cmbNewProjectNativeCultures.SelectedIndex == -1) {
-        MessageBox.Show(this, "You must choose a native language culture of your new personalized vocabulary!", "Unspecified native language culture", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        MessageBox.Show(this, Properties.Resources.NEW_PROJECT_DIALOG_UNSPECIFIED_NATIVE_CULTURE, Properties.Resources.NEW_PROJECT_DIALOG_UNSPECIFIED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
         return;
       }
 

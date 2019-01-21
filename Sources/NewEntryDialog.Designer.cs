@@ -48,6 +48,7 @@
       // lblNewEntryEntry
       // 
       resources.ApplyResources(this.lblNewEntryEntry, "lblNewEntryEntry");
+      this.lblNewEntryEntry.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.lblNewEntryEntry.Name = "lblNewEntryEntry";
       // 
       // txbNewEntryEntry
@@ -58,6 +59,7 @@
       // lblNewEntryTranslations
       // 
       resources.ApplyResources(this.lblNewEntryTranslations, "lblNewEntryTranslations");
+      this.lblNewEntryTranslations.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.lblNewEntryTranslations.Name = "lblNewEntryTranslations";
       // 
       // txbNewEntryTranslations
@@ -70,6 +72,7 @@
       // 
       resources.ApplyResources(this.lblNewEntryNotes, "lblNewEntryNotes");
       this.layNewEntryDialogLayout.SetColumnSpan(this.lblNewEntryNotes, 2);
+      this.lblNewEntryNotes.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.lblNewEntryNotes.Name = "lblNewEntryNotes";
       // 
       // txbNewEntryNotes
@@ -104,6 +107,7 @@
       // btnNewEntryCancel
       // 
       resources.ApplyResources(this.btnNewEntryCancel, "btnNewEntryCancel");
+      this.btnNewEntryCancel.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.btnNewEntryCancel.Name = "btnNewEntryCancel";
       this.btnNewEntryCancel.UseVisualStyleBackColor = true;
       this.btnNewEntryCancel.Click += new System.EventHandler(this.CancelNewEntryAdd);
@@ -111,6 +115,7 @@
       // btnNewEntryAdd
       // 
       resources.ApplyResources(this.btnNewEntryAdd, "btnNewEntryAdd");
+      this.btnNewEntryAdd.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.btnNewEntryAdd.Name = "btnNewEntryAdd";
       this.btnNewEntryAdd.UseVisualStyleBackColor = true;
       this.btnNewEntryAdd.Click += new System.EventHandler(this.TriggerNewEntryAdd);
@@ -118,6 +123,7 @@
       // lblNewEntryPronounciations
       // 
       resources.ApplyResources(this.lblNewEntryPronounciations, "lblNewEntryPronounciations");
+      this.lblNewEntryPronounciations.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.lblNewEntryPronounciations.Name = "lblNewEntryPronounciations";
       // 
       // txbNewEntryEntryPronounciation
@@ -128,6 +134,7 @@
       // lblNewEntryEntryPronounciation
       // 
       resources.ApplyResources(this.lblNewEntryEntryPronounciation, "lblNewEntryEntryPronounciation");
+      this.lblNewEntryEntryPronounciation.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.lblNewEntryEntryPronounciation.Name = "lblNewEntryEntryPronounciation";
       // 
       // NewEntryDialog
