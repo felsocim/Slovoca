@@ -47,28 +47,28 @@
       // labelDescription
       // 
       resources.ApplyResources(this.labelDescription, "labelDescription");
-      this.labelDescription.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
+      this.labelDescription.ImageKey = global::Slovoca.Sources.Strings1051.unselected_vocabulary_message;
       this.labelDescription.MaximumSize = new System.Drawing.Size(0, 17);
       this.labelDescription.Name = "labelDescription";
       // 
       // labelProductName
       // 
       resources.ApplyResources(this.labelProductName, "labelProductName");
-      this.labelProductName.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
+      this.labelProductName.ImageKey = global::Slovoca.Sources.Strings1051.unselected_vocabulary_message;
       this.labelProductName.MaximumSize = new System.Drawing.Size(0, 17);
       this.labelProductName.Name = "labelProductName";
       // 
       // labelVersion
       // 
       resources.ApplyResources(this.labelVersion, "labelVersion");
-      this.labelVersion.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
+      this.labelVersion.ImageKey = global::Slovoca.Sources.Strings1051.unselected_vocabulary_message;
       this.labelVersion.MaximumSize = new System.Drawing.Size(0, 17);
       this.labelVersion.Name = "labelVersion";
       // 
       // labelCopyright
       // 
       resources.ApplyResources(this.labelCopyright, "labelCopyright");
-      this.labelCopyright.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
+      this.labelCopyright.ImageKey = global::Slovoca.Sources.Strings1051.unselected_vocabulary_message;
       this.labelCopyright.MaximumSize = new System.Drawing.Size(0, 17);
       this.labelCopyright.Name = "labelCopyright";
       // 
@@ -83,7 +83,7 @@
       // 
       resources.ApplyResources(this.okButton, "okButton");
       this.okButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-      this.okButton.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
+      this.okButton.ImageKey = global::Slovoca.Sources.Strings1051.unselected_vocabulary_message;
       this.okButton.Name = "okButton";
       // 
       // AboutBox

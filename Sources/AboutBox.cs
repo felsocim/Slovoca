@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Slovoca {
+  /// <summary>
+  /// Dialog showing assembly information to the user in a human readable form together with the GPL license information.
+  /// </summary>
   partial class AboutBox : Form {
     public AboutBox() {
       InitializeComponent();

@@ -11,6 +11,7 @@ namespace Slovoca {
     /// </summary>
     [STAThread]
     static void Main(string[] args) {
+      // Try to determine language code for the application from the Registry database. If the code can not be determined, English will be used by default.
       string locale = "en";
 
       try {
@@ -35,6 +36,7 @@ namespace Slovoca {
         window.ToggleControls(false);
       }
 
+      // Show the UI
       Application.Run(window);
     }
   }

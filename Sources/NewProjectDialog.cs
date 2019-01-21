@@ -5,6 +5,12 @@ using System.Globalization;
 
 namespace Slovoca {
   public partial class NewProjectDialog : Form {
+    /// <summary>
+    /// Function called when the user confirms the creation of a new vocabulary project.
+    /// </summary>
+    /// <param name="file">location of the project file</param>
+    /// <param name="native">native language of the vocabulary</param>
+    /// <param name="foreign">foreign language of the vocabulary</param>
     public delegate void CreateProject(string file, CultureInfo native, CultureInfo foreign);
     public event CreateProject OnConfirmProjectCreation;
 

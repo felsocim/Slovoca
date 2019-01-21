@@ -8,6 +8,9 @@ using System.Resources;
 using Microsoft.Win32;
 
 namespace Slovoca {
+  /// <summary>
+  /// List of vocabulary parts (left and right).
+  /// </summary>
   public enum ActiveVocabulary {
     FOREIGN_TO_NATIVE,
     NATIVE_TO_FOREIGN
@@ -18,6 +21,9 @@ namespace Slovoca {
     private NewEntryDialog addEntryDialog;
     private AboutBox aboutDialog;
 
+    /// <summary>
+    /// Main application window.
+    /// </summary>
     public MainWindow() {
       // Dialogs
       this.createProjectDialog = new NewProjectDialog();
@@ -65,6 +71,10 @@ namespace Slovoca {
       set;
     }
 
+    /// <summary>
+    /// Activates/deactivates controls related to vocabulary modification.
+    /// </summary>
+    /// <param name="activate">true for activation, false for deactivation</param>
     public void ToggleControls(bool activate) {
       // Main menu
       this.tmiSave.Enabled = activate;
@@ -84,6 +94,9 @@ namespace Slovoca {
       this.layMainWindow.Enabled = activate;
     }
 
+    /// <summary>
+    /// Cleares information from the middle column of the main window.
+    /// </summary>
     private void ClearSelectItemInformation() {
       this.lblSelectedItemWord.Text = "";
       this.lsbSelectedItemTranslations.Items.Clear();
@@ -95,6 +108,10 @@ namespace Slovoca {
       this.tsbRemoveEntry.Enabled = false;
     }
 
+    /// <summary>
+    /// Checks the menu item corresponding to the currently used UI language.
+    /// </summary>
+    /// <param name="locale">current locale code</param>
     public void SetActiveUILanguage(string locale) {
       switch(locale) {
         case "en":
@@ -176,6 +193,10 @@ namespace Slovoca {
       this.dlgOpenProject.ShowDialog(this);
     }
 
+    /// <summary>
+    /// Loads vocabulary project file from given location.
+    /// </summary>
+    /// <param name="location"></param>
     public void ProjectOpen(string location) {
       this.CurrentProject = new Project(location);
       this.CurrentProject.ReadFromDisk();

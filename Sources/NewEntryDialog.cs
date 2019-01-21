@@ -4,7 +4,15 @@ using System.Globalization;
 using System.Windows.Forms;
 
 namespace Slovoca {
+  /// <summary>
+  /// Allows to add/edit an entry to a vocabulary.
+  /// </summary>
   public partial class NewEntryDialog : Form {
+    /// <summary>
+    /// Function called when the user confirms an insertion/modification of the selected vocabulary entry.
+    /// </summary>
+    /// <param name="meaning">new/edited entry</param>
+    /// <param name="editing">modification only?</param>
     public delegate void handleAddConfirm(Entry meaning, bool editing);
     public event handleAddConfirm OnAddConfirm;
     public NewEntryDialog() {

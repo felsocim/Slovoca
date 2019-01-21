@@ -1,6 +1,9 @@
 using System.Globalization;
 
 namespace Slovoca {
+  /// <summary>
+  /// Represents a vocabulary entry.
+  /// </summary>
   public class Entry {
     public Entry(string meaning, string pronounciation, string[] translations, string[] pronounciations, string[] notes, CultureInfo foreignLanguage) {
       this.Meaning = new Word(meaning, pronounciation);

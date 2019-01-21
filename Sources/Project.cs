@@ -7,6 +7,9 @@ using System.IO;
 using System;
 
 namespace Slovoca {
+  /// <summary>
+  /// Represents a vocabluary project.
+  /// </summary>
   public class Project {
     public Project() { }
 

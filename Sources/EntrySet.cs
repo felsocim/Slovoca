@@ -2,6 +2,9 @@ using System.Collections.Generic;
 using System.Globalization;
 
 namespace Slovoca {
+  /// <summary>
+  /// Represents a set of vocabulary entries either in foreign or in native language.
+  /// </summary>
   public class EntrySet {
     private readonly CultureInfo language;
     private SortedDictionary<string, Entry> allEntries;
