@@ -2,7 +2,7 @@
 
 Custom vocabulary creation tool
 
-![Screenshot](Help/example.png)
+![Screenshot](docs/example.png)
 
 ## About
 
