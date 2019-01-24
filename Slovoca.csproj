@@ -104,11 +104,6 @@
     </Compile>
     <Compile Include="Sources\NotFoundException.cs" />
     <Compile Include="Sources\Project.cs" />
-    <Compile Include="Sources\Strings1051.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Strings1051.resx</DependentUpon>
-    </Compile>
     <Compile Include="Sources\Word.cs" />
     <Compile Include="Sources\WordComparer.cs" />
     <Compile Include="Sources\WordSet.cs" />
@@ -165,10 +160,6 @@
     <EmbeddedResource Include="Sources\NewProjectDialog.sk.resx">
       <DependentUpon>NewProjectDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sources\Strings1051.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings1051.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -178,7 +169,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Slovoca_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -236,7 +226,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Slovoca.ico" />
-    <Content Include="TODO.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -255,17 +244,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <PublishFile Include="TODO.txt">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Exclude</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>File</FileType>
-    </PublishFile>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -55,7 +55,6 @@
       // lblNewProjectFile
       // 
       resources.ApplyResources(this.lblNewProjectFile, "lblNewProjectFile");
-      this.lblNewProjectFile.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.lblNewProjectFile.Name = "lblNewProjectFile";
       // 
       // cmbNewProjectForeignCultures
@@ -81,20 +80,17 @@
       // lblNewProjectForeign
       // 
       resources.ApplyResources(this.lblNewProjectForeign, "lblNewProjectForeign");
-      this.lblNewProjectForeign.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.lblNewProjectForeign.Name = "lblNewProjectForeign";
       // 
       // lblNewProejctNative
       // 
       resources.ApplyResources(this.lblNewProejctNative, "lblNewProejctNative");
       this.layNewProjectDialog.SetColumnSpan(this.lblNewProejctNative, 2);
-      this.lblNewProejctNative.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.lblNewProejctNative.Name = "lblNewProejctNative";
       // 
       // btnNewProjectBrowseFile
       // 
       resources.ApplyResources(this.btnNewProjectBrowseFile, "btnNewProjectBrowseFile");
-      this.btnNewProjectBrowseFile.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.btnNewProjectBrowseFile.Name = "btnNewProjectBrowseFile";
       this.btnNewProjectBrowseFile.UseVisualStyleBackColor = true;
       this.btnNewProjectBrowseFile.Click += new System.EventHandler(this.TriggerFileBrowseDialog);
@@ -102,7 +98,6 @@
       // btnNewProjectCancel
       // 
       resources.ApplyResources(this.btnNewProjectCancel, "btnNewProjectCancel");
-      this.btnNewProjectCancel.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.btnNewProjectCancel.Name = "btnNewProjectCancel";
       this.btnNewProjectCancel.UseVisualStyleBackColor = true;
       this.btnNewProjectCancel.Click += new System.EventHandler(this.CancelProjectCreation);
@@ -111,7 +106,6 @@
       // 
       resources.ApplyResources(this.btnNewProjectCreate, "btnNewProjectCreate");
       this.layNewProjectDialog.SetColumnSpan(this.btnNewProjectCreate, 2);
-      this.btnNewProjectCreate.ImageKey = global::Slovoca.Sources.Strings1051.not_found_message;
       this.btnNewProjectCreate.Name = "btnNewProjectCreate";
       this.btnNewProjectCreate.UseVisualStyleBackColor = true;
       this.btnNewProjectCreate.Click += new System.EventHandler(this.ConfirmProjectCreation);
