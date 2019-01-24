@@ -155,17 +155,25 @@ namespace Slovoca {
       return null;
     }
 
-    public void ReadFromDisk() {
-      FileStream file = new FileStream(this.Location, FileMode.Open, FileAccess.Read, FileShare.Read);
-      XElement vocabulary = XElement.Load(file);
+    public string ReadFromDisk() {
+      try {
+        FileStream file = new FileStream(this.Location, FileMode.Open, FileAccess.Read, FileShare.Read);
+        XElement vocabulary = XElement.Load(file);
 
-      this.ForeignEntries = new EntrySet(new CultureInfo((string) (from culture in vocabulary.Descendants("ForeignLanguage") select culture).First()), false);
-      this.NativeEntries = new EntrySet(new CultureInfo((string) (from culture in vocabulary.Descendants("NativeLanguage") select culture).First()), true);
+        this.ForeignEntries = new EntrySet(new CultureInfo((string)(from culture in vocabulary.Descendants("ForeignLanguage")
+                                                                    select culture).First()), false);
+        this.NativeEntries = new EntrySet(new CultureInfo((string)(from culture in vocabulary.Descendants("NativeLanguage")
+                                                                   select culture).First()), true);
 
-      this.LoadEntrySet(vocabulary, ActiveVocabulary.FOREIGN_TO_NATIVE);
-      this.LoadEntrySet(vocabulary, ActiveVocabulary.NATIVE_TO_FOREIGN);
+        this.LoadEntrySet(vocabulary, ActiveVocabulary.FOREIGN_TO_NATIVE);
+        this.LoadEntrySet(vocabulary, ActiveVocabulary.NATIVE_TO_FOREIGN);
 
-      file.Close();
+        file.Close();
+      } catch(Exception exception) {
+        return exception.Message;
+      }
+
+      return null;
     }
   }
 }

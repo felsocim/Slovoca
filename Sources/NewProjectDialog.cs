@@ -21,11 +21,11 @@ namespace Slovoca {
     public string FileName { get; private set; }
 
     private void LoadSystemSupportedCultures(object sender, EventArgs e) {
-      CultureInfo[] cultures = CultureInfo.GetCultures(CultureTypes.SpecificCultures);
+      CultureInfo[] cultures = CultureInfo.GetCultures(CultureTypes.NeutralCultures);
 
-      foreach(CultureInfo culture in cultures) {
-        cmbNewProjectForeignCultures.Items.Add(new CultureInfoItem(culture));
-        cmbNewProjectNativeCultures.Items.Add(new CultureInfoItem(culture));
+      for(int i = 1; i < cultures.Length; i++) {
+        cmbNewProjectForeignCultures.Items.Add(new CultureInfoItem(cultures[i]));
+        cmbNewProjectNativeCultures.Items.Add(new CultureInfoItem(cultures[i]));
       }
     }
 

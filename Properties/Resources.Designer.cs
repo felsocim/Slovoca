@@ -246,6 +246,24 @@ namespace Slovoca.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Load failure.
+        /// </summary>
+        internal static string MAIN_WINDOW_PROJECT_LOAD_FAILURE_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_PROJECT_LOAD_FAILURE_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to load the contents of the requested project file!.
+        /// </summary>
+        internal static string MAIN_WINDOW_PROJECT_LOAD_FAILURE_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_PROJECT_LOAD_FAILURE_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Save failure.
         /// </summary>
         internal static string MAIN_WINDOW_PROJECT_SAVE_FAILURE_CAPTION {

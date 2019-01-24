@@ -228,7 +228,15 @@ namespace Slovoca {
     /// <param name="location"></param>
     public void ProjectOpen(string location) {
       this.CurrentProject = new Project(location);
-      this.CurrentProject.ReadFromDisk();
+
+      string message = this.CurrentProject.ReadFromDisk();
+
+      if(message != null) {
+        MessageBox.Show(this, Properties.Resources.MAIN_WINDOW_PROJECT_LOAD_FAILURE_MESSAGE + "\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + message, Properties.Resources.MAIN_WINDOW_PROJECT_LOAD_FAILURE_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        this.CurrentProject = null;
+
+        return;
+      }
 
       this.lsbForeignToNative.Items.Clear();
       this.lsbNativeToForeign.Items.Clear();
@@ -243,8 +251,8 @@ namespace Slovoca {
 
       this.ToggleControls(true);
 
-      this.lblForeignToNativePanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + this.CurrentProject.ForeignEntries.Language.DisplayName;
-      this.lblNativeToForeignPanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + this.CurrentProject.NativeEntries.Language.DisplayName;
+      this.lblForeignToNativePanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + this.CurrentProject.ForeignEntries.Language.NativeName + " (" + this.CurrentProject.ForeignEntries.Language.TwoLetterISOLanguageName.ToUpperInvariant() + ")";
+      this.lblNativeToForeignPanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + this.CurrentProject.NativeEntries.Language.NativeName + " (" + this.CurrentProject.NativeEntries.Language.TwoLetterISOLanguageName.ToUpperInvariant() + ")";
       this.SelectForeignToNativeVocabulary(null, null);
 
       this.Text = "Slovoca - " + this.CurrentProject.Location;
@@ -278,8 +286,8 @@ namespace Slovoca {
     private void CreateNewProject(string file, CultureInfo native, CultureInfo foreign) {
       this.CurrentProject = new Project(file, native, foreign);
       this.ToggleControls(true);
-      this.lblForeignToNativePanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + foreign.DisplayName;
-      this.lblNativeToForeignPanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + native.DisplayName;
+      this.lblForeignToNativePanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + foreign.NativeName + " (" + foreign.TwoLetterISOLanguageName.ToUpperInvariant() + ")";
+      this.lblNativeToForeignPanelTitle.Text = Properties.Resources.MAIN_WINDOW_ENTRIES_IN_PREFIX + " " + native.NativeName + " (" + native.TwoLetterISOLanguageName.ToUpperInvariant() + ")";
       this.SelectForeignToNativeVocabulary(null, null);
       this.Text = "Slovoca - " + this.CurrentProject.Location;
     }

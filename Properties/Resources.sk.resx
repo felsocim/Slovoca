@@ -290,4 +290,10 @@ Kópiu Všeobecnej verejnej licencie GNU ste mali dostať spolu s týmto program
   <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE" xml:space="preserve">
     <value>Zmena jazyka rozhrania sa prejaví pri opätovnom spustení programu Slovoca.</value>
   </data>
+  <data name="MAIN_WINDOW_PROJECT_LOAD_FAILURE_CAPTION" xml:space="preserve">
+    <value>Načítanie zlyhalo</value>
+  </data>
+  <data name="MAIN_WINDOW_PROJECT_LOAD_FAILURE_MESSAGE" xml:space="preserve">
+    <value>Nepodarilo sa načítať obsah požadovaného súboru projektu!</value>
+  </data>
 </root>

@@ -15,7 +15,7 @@ namespace Slovoca {
     }
 
     public override string ToString() {
-      return this.Culture.DisplayName;
+      return this.Culture.TwoLetterISOLanguageName.ToUpperInvariant() + " (" + this.Culture.NativeName + ")";
     }
   }
 }

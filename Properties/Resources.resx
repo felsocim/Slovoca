@@ -298,4 +298,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE" xml:space="preserve">
     <value>Language change will take effect upon next launch of Slovoca.</value>
   </data>
+  <data name="MAIN_WINDOW_PROJECT_LOAD_FAILURE_CAPTION" xml:space="preserve">
+    <value>Load failure</value>
+  </data>
+  <data name="MAIN_WINDOW_PROJECT_LOAD_FAILURE_MESSAGE" xml:space="preserve">
+    <value>Failed to load the contents of the requested project file!</value>
+  </data>
 </root>
