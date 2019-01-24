@@ -160,13 +160,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <data name="FindResults_16x_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FindResults_16x_24.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MAIN_WINDOWS_ERROR_MESSAGE_PREFIX" xml:space="preserve">
+  <data name="MAIN_WINDOW_ERROR_MESSAGE_PREFIX" xml:space="preserve">
     <value>Error message:</value>
   </data>
-  <data name="MAIN_WINDOWS_NO_LIST_SELECTED_CAPTION" xml:space="preserve">
+  <data name="MAIN_WINDOW_NO_LIST_SELECTED_CAPTION" xml:space="preserve">
     <value>No vocabulary part selected</value>
   </data>
-  <data name="MAIN_WINDOWS_NO_LIST_SELECTED_MESSAGE" xml:space="preserve">
+  <data name="MAIN_WINDOW_NO_LIST_SELECTED_MESSAGE" xml:space="preserve">
     <value>Please, select one of the vocabulary parts first!</value>
   </data>
   <data name="MAIN_WINDOW_ENTRIES_IN_PREFIX" xml:space="preserve">
@@ -280,22 +280,22 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   <data name="ABOUT_BOX_DESCRIPTION" xml:space="preserve">
     <value>Personalized vocabulary creation tool</value>
   </data>
-  <data name="MAIN_WINDOWS_PROJECT_ALREADY_OPENED_CAPTION" xml:space="preserve">
+  <data name="MAIN_WINDOW_PROJECT_ALREADY_OPENED_CAPTION" xml:space="preserve">
     <value>Project already opened</value>
   </data>
-  <data name="MAIN_WINDOWS_PROJECT_ALREADY_OPENED_MESSAGE" xml:space="preserve">
+  <data name="MAIN_WINDOW_PROJECT_ALREADY_OPENED_MESSAGE" xml:space="preserve">
     <value>This vocabulary project is already opened in Slovoca!</value>
   </data>
-  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION" xml:space="preserve">
+  <data name="MAIN_WINDOW_CHANGE_UI_LANGUAGE_ERROR_CAPTION" xml:space="preserve">
     <value>Language change failed</value>
   </data>
-  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE" xml:space="preserve">
+  <data name="MAIN_WINDOW_CHANGE_UI_LANGUAGE_ERROR_MESSAGE" xml:space="preserve">
     <value>Failed to change the language of the Slovoca's user interface!</value>
   </data>
-  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION" xml:space="preserve">
+  <data name="MAIN_WINDOW_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION" xml:space="preserve">
     <value>Restart required</value>
   </data>
-  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE" xml:space="preserve">
+  <data name="MAIN_WINDOW_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE" xml:space="preserve">
     <value>Language change will take effect upon next launch of Slovoca.</value>
   </data>
   <data name="MAIN_WINDOW_PROJECT_LOAD_FAILURE_CAPTION" xml:space="preserve">
@@ -303,5 +303,14 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
   </data>
   <data name="MAIN_WINDOW_PROJECT_LOAD_FAILURE_MESSAGE" xml:space="preserve">
     <value>Failed to load the contents of the requested project file!</value>
+  </data>
+  <data name="HELP_FILE_PATH" xml:space="preserve">
+    <value>SLVCHLP1033.chm</value>
+  </data>
+  <data name="MAIN_WINDOW_HELP_FILE_CANNOT_BE_OPENED_CAPTION" xml:space="preserve">
+    <value>Help unavailable</value>
+  </data>
+  <data name="MAIN_WINDOW_HELP_FILE_CANNOT_BE_OPENED_MESSAGE" xml:space="preserve">
+    <value>Failed to show Slovoca's help file! Please, visit the program's website.</value>
   </data>
 </root>

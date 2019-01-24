@@ -160,6 +160,8 @@
     <EmbeddedResource Include="Sources\NewProjectDialog.sk.resx">
       <DependentUpon>NewProjectDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Help\1033\SLVCHLP.chm" />
+    <None Include="Help\1051\SLVCHLP.chm" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -225,6 +225,7 @@ namespace Slovoca
       this.tmiViewHelp.Image = global::Slovoca.Properties.Resources.Question_16x_24;
       resources.ApplyResources(this.tmiViewHelp, "tmiViewHelp");
       this.tmiViewHelp.Name = "tmiViewHelp";
+      this.tmiViewHelp.Click += new System.EventHandler(this.TriggerOpenHelpFile);
       // 
       // tmiSlovocaOnline
       // 
@@ -352,6 +353,7 @@ namespace Slovoca
       this.tsbHelp.Image = global::Slovoca.Properties.Resources.Question_16x_24;
       resources.ApplyResources(this.tsbHelp, "tsbHelp");
       this.tsbHelp.Name = "tsbHelp";
+      this.tsbHelp.Click += new System.EventHandler(this.TriggerOpenHelpFile);
       // 
       // toolStripSeparator7
       // 

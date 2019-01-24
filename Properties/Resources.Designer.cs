@@ -156,6 +156,51 @@ namespace Slovoca.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SLVCHLP1033.chm.
+        /// </summary>
+        internal static string HELP_FILE_PATH {
+            get {
+                return ResourceManager.GetString("HELP_FILE_PATH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language change failed.
+        /// </summary>
+        internal static string MAIN_WINDOW_CHANGE_UI_LANGUAGE_ERROR_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_CHANGE_UI_LANGUAGE_ERROR_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to change the language of the Slovoca&apos;s user interface!.
+        /// </summary>
+        internal static string MAIN_WINDOW_CHANGE_UI_LANGUAGE_ERROR_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_CHANGE_UI_LANGUAGE_ERROR_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Restart required.
+        /// </summary>
+        internal static string MAIN_WINDOW_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language change will take effect upon next launch of Slovoca..
+        /// </summary>
+        internal static string MAIN_WINDOW_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Entries in.
         /// </summary>
         internal static string MAIN_WINDOW_ENTRIES_IN_PREFIX {
@@ -228,6 +273,51 @@ namespace Slovoca.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error message:.
+        /// </summary>
+        internal static string MAIN_WINDOW_ERROR_MESSAGE_PREFIX {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_ERROR_MESSAGE_PREFIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Help unavailable.
+        /// </summary>
+        internal static string MAIN_WINDOW_HELP_FILE_CANNOT_BE_OPENED_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_HELP_FILE_CANNOT_BE_OPENED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to show Slovoca&apos;s help file! Please, visit the program&apos;s website..
+        /// </summary>
+        internal static string MAIN_WINDOW_HELP_FILE_CANNOT_BE_OPENED_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_HELP_FILE_CANNOT_BE_OPENED_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No vocabulary part selected.
+        /// </summary>
+        internal static string MAIN_WINDOW_NO_LIST_SELECTED_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_NO_LIST_SELECTED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, select one of the vocabulary parts first!.
+        /// </summary>
+        internal static string MAIN_WINDOW_NO_LIST_SELECTED_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_NO_LIST_SELECTED_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No entry selected.
         /// </summary>
         internal static string MAIN_WINDOW_NOTHING_SELECTED_CAPTION {
@@ -242,6 +332,24 @@ namespace Slovoca.Properties {
         internal static string MAIN_WINDOW_NOTHING_SELECTED_MESSAGE {
             get {
                 return ResourceManager.GetString("MAIN_WINDOW_NOTHING_SELECTED_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Project already opened.
+        /// </summary>
+        internal static string MAIN_WINDOW_PROJECT_ALREADY_OPENED_CAPTION {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_PROJECT_ALREADY_OPENED_CAPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This vocabulary project is already opened in Slovoca!.
+        /// </summary>
+        internal static string MAIN_WINDOW_PROJECT_ALREADY_OPENED_MESSAGE {
+            get {
+                return ResourceManager.GetString("MAIN_WINDOW_PROJECT_ALREADY_OPENED_MESSAGE", resourceCulture);
             }
         }
         
@@ -305,87 +413,6 @@ namespace Slovoca.Properties {
         internal static string MAIN_WINDOW_UNSAVED_CHANGES_TAG {
             get {
                 return ResourceManager.GetString("MAIN_WINDOW_UNSAVED_CHANGES_TAG", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Language change failed.
-        /// </summary>
-        internal static string MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION {
-            get {
-                return ResourceManager.GetString("MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Failed to change the language of the Slovoca&apos;s user interface!.
-        /// </summary>
-        internal static string MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE {
-            get {
-                return ResourceManager.GetString("MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Restart required.
-        /// </summary>
-        internal static string MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION {
-            get {
-                return ResourceManager.GetString("MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Language change will take effect upon next launch of Slovoca..
-        /// </summary>
-        internal static string MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE {
-            get {
-                return ResourceManager.GetString("MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error message:.
-        /// </summary>
-        internal static string MAIN_WINDOWS_ERROR_MESSAGE_PREFIX {
-            get {
-                return ResourceManager.GetString("MAIN_WINDOWS_ERROR_MESSAGE_PREFIX", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to No vocabulary part selected.
-        /// </summary>
-        internal static string MAIN_WINDOWS_NO_LIST_SELECTED_CAPTION {
-            get {
-                return ResourceManager.GetString("MAIN_WINDOWS_NO_LIST_SELECTED_CAPTION", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Please, select one of the vocabulary parts first!.
-        /// </summary>
-        internal static string MAIN_WINDOWS_NO_LIST_SELECTED_MESSAGE {
-            get {
-                return ResourceManager.GetString("MAIN_WINDOWS_NO_LIST_SELECTED_MESSAGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Project already opened.
-        /// </summary>
-        internal static string MAIN_WINDOWS_PROJECT_ALREADY_OPENED_CAPTION {
-            get {
-                return ResourceManager.GetString("MAIN_WINDOWS_PROJECT_ALREADY_OPENED_CAPTION", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to This vocabulary project is already opened in Slovoca!.
-        /// </summary>
-        internal static string MAIN_WINDOWS_PROJECT_ALREADY_OPENED_MESSAGE {
-            get {
-                return ResourceManager.GetString("MAIN_WINDOWS_PROJECT_ALREADY_OPENED_MESSAGE", resourceCulture);
             }
         }
         

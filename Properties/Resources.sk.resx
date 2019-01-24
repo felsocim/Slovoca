@@ -182,13 +182,13 @@ Kópiu Všeobecnej verejnej licencie GNU ste mali dostať spolu s týmto program
   <data name="ABOUT_BOX_VERSION_PREFIX" xml:space="preserve">
     <value>Vydanie</value>
   </data>
-  <data name="MAIN_WINDOWS_ERROR_MESSAGE_PREFIX" xml:space="preserve">
+  <data name="MAIN_WINDOW_ERROR_MESSAGE_PREFIX" xml:space="preserve">
     <value>Chybové hlásenie:</value>
   </data>
-  <data name="MAIN_WINDOWS_NO_LIST_SELECTED_CAPTION" xml:space="preserve">
+  <data name="MAIN_WINDOW_NO_LIST_SELECTED_CAPTION" xml:space="preserve">
     <value>Žiaden zvolený smer slovníka</value>
   </data>
-  <data name="MAIN_WINDOWS_NO_LIST_SELECTED_MESSAGE" xml:space="preserve">
+  <data name="MAIN_WINDOW_NO_LIST_SELECTED_MESSAGE" xml:space="preserve">
     <value>Prosím, najskôr zvoľte cieľový smer slovníka!</value>
   </data>
   <data name="MAIN_WINDOW_ENTRIES_IN_PREFIX" xml:space="preserve">
@@ -272,22 +272,22 @@ Kópiu Všeobecnej verejnej licencie GNU ste mali dostať spolu s týmto program
   <data name="ABOUT_BOX_DESCRIPTION" xml:space="preserve">
     <value>Nástroj na tvorbu vlastných slovníkov</value>
   </data>
-  <data name="MAIN_WINDOWS_PROJECT_ALREADY_OPENED_CAPTION" xml:space="preserve">
+  <data name="MAIN_WINDOW_PROJECT_ALREADY_OPENED_CAPTION" xml:space="preserve">
     <value>Projekt je už otvorený</value>
   </data>
-  <data name="MAIN_WINDOWS_PROJECT_ALREADY_OPENED_MESSAGE" xml:space="preserve">
+  <data name="MAIN_WINDOW_PROJECT_ALREADY_OPENED_MESSAGE" xml:space="preserve">
     <value>Tento projekt slovníka je už v programe Slovoca otvorený!</value>
   </data>
-  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION" xml:space="preserve">
+  <data name="MAIN_WINDOW_CHANGE_UI_LANGUAGE_ERROR_CAPTION" xml:space="preserve">
     <value>Zmena jazyka zlyhala</value>
   </data>
-  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE" xml:space="preserve">
+  <data name="MAIN_WINDOW_CHANGE_UI_LANGUAGE_ERROR_MESSAGE" xml:space="preserve">
     <value>Nepodarilo sa zmeniť jazyk rozhrania programu Slovoca!</value>
   </data>
-  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION" xml:space="preserve">
+  <data name="MAIN_WINDOW_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_CAPTION" xml:space="preserve">
     <value>Vyžaduje sa reštart</value>
   </data>
-  <data name="MAIN_WINDOWS_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE" xml:space="preserve">
+  <data name="MAIN_WINDOW_CHANGE_UI_LANGUAGE_RESTART_REQUIRED_MESSAGE" xml:space="preserve">
     <value>Zmena jazyka rozhrania sa prejaví pri opätovnom spustení programu Slovoca.</value>
   </data>
   <data name="MAIN_WINDOW_PROJECT_LOAD_FAILURE_CAPTION" xml:space="preserve">
@@ -295,5 +295,14 @@ Kópiu Všeobecnej verejnej licencie GNU ste mali dostať spolu s týmto program
   </data>
   <data name="MAIN_WINDOW_PROJECT_LOAD_FAILURE_MESSAGE" xml:space="preserve">
     <value>Nepodarilo sa načítať obsah požadovaného súboru projektu!</value>
+  </data>
+  <data name="HELP_FILE_PATH" xml:space="preserve">
+    <value>SLVCHLP1051.chm</value>
+  </data>
+  <data name="MAIN_WINDOW_HELP_FILE_CANNOT_BE_OPENED_CAPTION" xml:space="preserve">
+    <value>Pomocník nedostupný</value>
+  </data>
+  <data name="MAIN_WINDOW_HELP_FILE_CANNOT_BE_OPENED_MESSAGE" xml:space="preserve">
+    <value>Nepodarilo sa zobraziť súbor pomocníka programu Slovoca! Navšívte, prosím, internetovú stránku programu.</value>
   </data>
 </root>
