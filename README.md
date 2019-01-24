@@ -41,5 +41,5 @@ This software tool was developed by Marek Felsoci (student at the [University of
 
 ## Further information
 
-For more information about Slovoca, please, refer to the website https://felsocim.github.io/Slovoca.
+For more information about Slovoca, please, refer to [the project's website](https://felsocim.github.io/Slovoca/).
 
