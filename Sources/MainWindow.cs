@@ -292,7 +292,7 @@ namespace Slovoca {
       this.Text = "Slovoca - " + this.CurrentProject.Location;
     }
 
-    private void tsbAdd_Click(object sender, EventArgs e) {
+    private void TriggerAddEntry(object sender, EventArgs e) {
       this.AddEntryDialog.ForeignLanguage = this.CurrentProject.ForeignEntries.Language;
       this.AddEntryDialog.ConfigureEnvironment(this.ActivePanel);
       this.AddEntryDialog.PrepareForAdding();

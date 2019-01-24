@@ -174,7 +174,7 @@ namespace Slovoca
       this.tmiAddEntry.Image = global::Slovoca.Properties.Resources.Add_16x_24;
       resources.ApplyResources(this.tmiAddEntry, "tmiAddEntry");
       this.tmiAddEntry.Name = "tmiAddEntry";
-      this.tmiAddEntry.Click += new System.EventHandler(this.tsbAdd_Click);
+      this.tmiAddEntry.Click += new System.EventHandler(this.TriggerAddEntry);
       // 
       // tmiEditEntry
       // 
@@ -309,7 +309,7 @@ namespace Slovoca
       this.tsbAddEntry.Image = global::Slovoca.Properties.Resources.Add_16x_24;
       resources.ApplyResources(this.tsbAddEntry, "tsbAddEntry");
       this.tsbAddEntry.Name = "tsbAddEntry";
-      this.tsbAddEntry.Click += new System.EventHandler(this.tsbAdd_Click);
+      this.tsbAddEntry.Click += new System.EventHandler(this.TriggerAddEntry);
       // 
       // tsbEditEntry
       // 

@@ -820,7 +820,10 @@
     <value>Fill</value>
   </data>
   <data name="lsbSelectedItemTranslations.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8pt, style=Italic</value>
+    <value>Microsoft Sans Serif, 10pt, style=Italic</value>
+  </data>
+  <data name="lsbSelectedItemTranslations.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <data name="lsbSelectedItemTranslations.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 61</value>
