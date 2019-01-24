@@ -6,6 +6,9 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Resources;
 using Microsoft.Win32;
+using System.Xml;
+using System.Xml.Linq;
+using System.IO;
 
 namespace Slovoca {
   /// <summary>
@@ -125,13 +128,41 @@ namespace Slovoca {
       }
     }
 
+    private string SaveProgramSettings(string locale) {
+      FileStream file;
+      XmlTextWriter writer;
+
+      try {
+        file = new FileStream(Globals.SettingsFile, FileMode.Create, FileAccess.Write, FileShare.Read);
+        writer = new XmlTextWriter(file, System.Text.Encoding.UTF8) {
+          Formatting = Formatting.Indented,
+          Indentation = 2,
+          IndentChar = ' '
+        };
+      } catch(Exception exception) {
+        return exception.Message;
+      }
+
+      writer.WriteStartDocument();
+
+      writer.WriteComment("Slovoca program settings file");
+      writer.WriteComment("Created by Slovoca (C) 2019  Marek Felsoci");
+
+      writer.WriteStartElement("Locale");
+      writer.WriteString(locale);
+      writer.WriteEndElement();
+
+      writer.WriteEndDocument();
+      writer.Close();
+
+      return null;
+    }
+
     private void TriggerChangeUILanguageToEnglish(object sender, EventArgs e) {
       if(!this.tmiEnglish.Checked) {
-        try {
-          RegistryKey slovoca = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Slovoca", true);
-          slovoca.SetValue("Locale", "en");
-        } catch(Exception exception) {
-          MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE + "\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + exception.Message, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        string message = this.SaveProgramSettings("en");
+        if(message != null) {
+          MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE + "\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + message, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
           return;
         }
 
@@ -141,11 +172,9 @@ namespace Slovoca {
 
     private void TriggerChangeUILanguageToSlovak(object sender, EventArgs e) {
       if(!this.tmiSlovak.Checked) {
-        try {
-          RegistryKey slovoca = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Slovoca", true);
-          slovoca.SetValue("Locale", "sk");
-        } catch(Exception exception) {
-          MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE + "\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + exception.Message, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        string message = this.SaveProgramSettings("sk");
+        if(message != null) {
+          MessageBox.Show(this, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_MESSAGE + "\n" + Properties.Resources.MAIN_WINDOWS_ERROR_MESSAGE_PREFIX + " " + message, Properties.Resources.MAIN_WINDOWS_CHANGE_UI_LANGUAGE_ERROR_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
           return;
         }
 

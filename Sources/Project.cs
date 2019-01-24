@@ -131,7 +131,7 @@ namespace Slovoca {
       writer.WriteStartDocument();
 
       writer.WriteComment("Slovoca vocabulary project file");
-      writer.WriteComment("Created by Slovoca (C) 2018 Marek Felsoci (Feldev)");
+      writer.WriteComment("Created by Slovoca (C) 2019  Marek Felsoci");
 
       writer.WriteStartElement("Vocabulary");
 
