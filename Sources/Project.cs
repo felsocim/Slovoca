@@ -8,7 +8,7 @@ using System;
 
 namespace Slovoca {
   /// <summary>
-  /// Represents a vocabluary project.
+  /// This class represents a vocabluary project.
   /// </summary>
   public class Project {
     public Project() { }
@@ -29,6 +29,11 @@ namespace Slovoca {
 
     public EntrySet ForeignEntries { get; set; }
 
+    /// <summary>
+    /// Dumps the entries of the selected vocabulary part to the specified XML project file handler.
+    /// </summary>
+    /// <param name="writer">Target project file handler.</param>
+    /// <param name="target">Vocabulary part to dump the entries of.</param>
     private void WriteEntrySet(XmlTextWriter writer, ActiveVocabulary target) {
       EntrySet entries;
 
@@ -73,6 +78,11 @@ namespace Slovoca {
       writer.WriteEndElement();
     }
 
+    /// <summary>
+    /// Loads the entries of the selected vocabulary part from the specified XML project file handler.
+    /// </summary>
+    /// <param name="vocabulary">Source project file handler.</param>
+    /// <param name="target">Vocabulary part to fill.</param>
     private void LoadEntrySet(XElement vocabulary, ActiveVocabulary target) {
       EntrySet set = null;
       IEnumerable<XElement> entries = null;
@@ -113,6 +123,10 @@ namespace Slovoca {
       }
     }
 
+    /// <summary>
+    /// Saves all vocabulary entries into the project file.
+    /// </summary>
+    /// <returns>Error message or null if all went well.</returns>
     public string SaveToDisk() {
       FileStream file;
       XmlTextWriter writer;
@@ -155,6 +169,10 @@ namespace Slovoca {
       return null;
     }
 
+    /// <summary>
+    /// Loads vocabulary entries from the project file.
+    /// </summary>
+    /// <returns>Error message or null if all went well.</returns>
     public string ReadFromDisk() {
       try {
         FileStream file = new FileStream(this.Location, FileMode.Open, FileAccess.Read, FileShare.Read);

@@ -2,6 +2,9 @@
 using System.Globalization;
 
 namespace Slovoca {
+  /// <summary>
+  /// This class provides comparison method for objects of the Word class. The string comparison respects comparison rules associated with provided language.
+  /// </summary>
   class WordComparer : IComparer<string> {
     private readonly CultureInfo locale;
 

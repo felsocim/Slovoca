@@ -2,9 +2,18 @@ using System.Globalization;
 
 namespace Slovoca {
   /// <summary>
-  /// Represents a vocabulary entry.
+  /// This class represents a vocabulary entry defined by a meaning, a list of its translations and user notes. 
   /// </summary>
   public class Entry {
+    /// <summary>
+    /// Constructs an entry from provided information.
+    /// </summary>
+    /// <param name="meaning">Meaning of the entry.</param>
+    /// <param name="pronounciation">Pronunciation of the meaning.</param>
+    /// <param name="translations">Translations of the entry.</param>
+    /// <param name="pronounciations">Pronunciations of the translations.</param>
+    /// <param name="notes">User annotations.</param>
+    /// <param name="foreignLanguage">Language of the translations.</param>
     public Entry(string meaning, string pronounciation, string[] translations, string[] pronounciations, string[] notes, CultureInfo foreignLanguage) {
       this.Meaning = new Word(meaning, pronounciation);
       this.Translations = new WordSet(foreignLanguage);

@@ -19,14 +19,18 @@ namespace Slovoca {
     NATIVE_TO_FOREIGN
   }
 
+  /// <summary>
+  /// This class represents the main program window's interface.
+  /// 
+  /// HINTS:
+  /// Methods starting with 'Trigger' are associated to the events emitted by different controls of the main window's user interface.
+  /// Methods starting with 'Confirm' are associated to the events triggered by the user when confirming an action such as new project creation or an entry modification, etc.
+  /// </summary>
   public partial class MainWindow : Form {
     private NewProjectDialog createProjectDialog;
     private NewEntryDialog addEntryDialog;
     private AboutBox aboutDialog;
 
-    /// <summary>
-    /// Main application window.
-    /// </summary>
     public MainWindow() {
       // Dialogs
       this.createProjectDialog = new NewProjectDialog();
@@ -128,6 +132,11 @@ namespace Slovoca {
       }
     }
 
+    /// <summary>
+    /// Saves program's settings (display language only for the moment) to a file.
+    /// </summary>
+    /// <param name="locale">Display language selected by the user.</param>
+    /// <returns></returns>
     private string SaveProgramSettings(string locale) {
       FileStream file;
       XmlTextWriter writer;

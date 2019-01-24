@@ -13,6 +13,9 @@ namespace Slovoca {
     public const string SettingsFile = "settings.xml";
   }
 
+  /// <summary>
+  /// Main class of the program.
+  /// </summary>
   static class Program {
     /// <summary>
     /// The main entry point for the application.

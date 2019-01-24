@@ -4,6 +4,9 @@ using System.Windows.Forms;
 using System.Globalization;
 
 namespace Slovoca {
+  /// <summary>
+  /// Dialog allowing to create a new vocabulary project.
+  /// </summary>
   public partial class NewProjectDialog : Form {
     /// <summary>
     /// Function called when the user confirms the creation of a new vocabulary project.
@@ -20,6 +23,11 @@ namespace Slovoca {
 
     public string FileName { get; private set; }
 
+    /// <summary>
+    /// Loads the list of languages available for the user to define the new vocabulary with.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void LoadSystemSupportedCultures(object sender, EventArgs e) {
       CultureInfo[] cultures = CultureInfo.GetCultures(CultureTypes.NeutralCultures);
 
@@ -48,6 +56,11 @@ namespace Slovoca {
       this.Close();
     }
 
+    /// <summary>
+    /// Called when the user clicks on Create button.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void ConfirmProjectCreation(object sender, EventArgs e) {
       if(this.txbNewProjectFile.Text == "") {
         MessageBox.Show(this, Properties.Resources.NEW_PROJECT_DIALOG_UNSPECIFIED_LOCATION, Properties.Resources.NEW_PROJECT_DIALOG_UNSPECIFIED_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);

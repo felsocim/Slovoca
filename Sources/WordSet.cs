@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace Slovoca {
   /// <summary>
-  /// Represents a word set used to list all the translations of an entry.
+  /// This class represents a word set used to list all the translations of an entry.
   /// </summary>
   public class WordSet {
     private SortedDictionary<string, Word> wholeVocabulary;

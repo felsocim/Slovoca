@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Slovoca {
   /// <summary>
-  /// Dialog showing assembly information to the user in a human readable form together with the GPL license information.
+  /// Dialog showing information about the assembly and its license to the user.
   /// </summary>
   partial class AboutBox : Form {
     public AboutBox() {
@@ -22,6 +22,7 @@ namespace Slovoca {
       this.textBoxDescription.Text = Properties.Resources.ABOUT_BOX_GNU;
     }
 
+    // Auto-generated assembly information accessors
     #region Assembly Attribute Accessors
 
     public string AssemblyTitle {

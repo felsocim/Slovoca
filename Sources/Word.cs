@@ -1,6 +1,6 @@
 ﻿namespace Slovoca {
   /// <summary>
-  /// Represents either the meaning or one of the translations of a vocabulary entry.
+  /// This class represents either the meaning or one of the translations of a vocabulary entry.
   /// </summary>
   public class Word {
     public Word(string meaning, string pronounciation = null) {

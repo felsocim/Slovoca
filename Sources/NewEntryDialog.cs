@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace Slovoca {
   /// <summary>
-  /// Allows to add/edit an entry to a vocabulary.
+  /// Dialog allowing to add/edit an entry to/of a vocabulary.
   /// </summary>
   public partial class NewEntryDialog : Form {
     /// <summary>
@@ -23,6 +23,10 @@ namespace Slovoca {
 
     public bool EditMode { get; set; }
 
+    /// <summary>
+    /// Configures the dialog depending on the target vocabulary part.
+    /// </summary>
+    /// <param name="vocabulary">Target vocabulary part.</param>
     public void ConfigureEnvironment(ActiveVocabulary vocabulary) {
       this.lblNewEntryEntryPronounciation.Enabled = vocabulary == ActiveVocabulary.FOREIGN_TO_NATIVE;
       this.txbNewEntryEntryPronounciation.Enabled = vocabulary == ActiveVocabulary.FOREIGN_TO_NATIVE;
@@ -30,6 +34,9 @@ namespace Slovoca {
       this.txbNewEntryPronounciations.Enabled = vocabulary == ActiveVocabulary.NATIVE_TO_FOREIGN;
     }
 
+    /// <summary>
+    /// Configures the dialog for adding an entry.
+    /// </summary>
     public void PrepareForAdding() {
       this.Text = Properties.Resources.NEW_ENTRY_DIALOG_ADD_TITLE;
       this.btnNewEntryAdd.Text = Properties.Resources.NEW_ENTRY_DIALOG_ADD_BUTTON;
@@ -37,6 +44,10 @@ namespace Slovoca {
       this.EditMode = false;
     }
 
+    /// <summary>
+    /// Configures the dialog for editing the provided entry and fills it with associated data.
+    /// </summary>
+    /// <param name="entry">Entry to edit.</param>
     public void PrepareForEditing(Entry entry) {
       this.Text = Properties.Resources.NEW_ENTRY_DIALOG_EDIT_TITLE;
       this.btnNewEntryAdd.Text = Properties.Resources.NEW_ENTRY_DIALOG_EDIT_BUTTON;
@@ -73,6 +84,11 @@ namespace Slovoca {
       this.Close();
     }
 
+    /// <summary>
+    /// Triggers when the user clicks on the Add/Save button.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void TriggerNewEntryAdd(object sender, EventArgs e) {
       if(this.txbNewEntryEntry.Lines.Length < 1) {
         MessageBox.Show(this, Properties.Resources.NEW_ENTRY_DIALOG_MISSING_ENTRY_MEANING, Properties.Resources.NEW_ENTRY_DIALOG_MISSING_DATA_CAPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
